@@ -176,7 +176,7 @@ LF1.SetStringValue "HKEY_CLASSES_ROOT\ShockwaveFlash.ShockwaveFlash\DefaultIcon"
 If LF1.FileExists(LF1.GetWinPath + "\sndvol32.exe") = True Then LF1.SetStringValue "HKEY_CLASSES_ROOT\Snowman.Media\DefaultIcon", "", GetShortFileName(App.Path + "\SmM_Icons\002.ico")
 LF1.SetStringValue "HKEY_CLASSES_ROOT\ShockwaveFlash.ShockwaveFlash\Shell", "", "播放  "
 LF1.SetStringValue "HKEY_CLASSES_ROOT\ShockwaveFlash.ShockwaveFlash\Shell\播放", "", "播放(&P)  "
-LF1.SetStringValue "HKEY_CLASSES_ROOT\ShockwaveFlash.ShockwaveFlash\Shell\播放\command", "", App.Path + "\Snowman.exe %1                                        "
+LF1.SetStringValue "HKEY_CLASSES_ROOT\ShockwaveFlash.ShockwaveFlash\Shell\播放\command", "", App.Path + "\SmM_Flash.exe %1                                          "
 End If
 
 If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "SetMt_Aiff") = True Then

@@ -3,7 +3,7 @@ Object = "{7D8AD1A3-781D-11D2-8E34-B68BBB0AA34F}#11.0#0"; "SmM_Tools.ocx"
 Begin VB.Form Form1 
    BackColor       =   &H00FFFFFF&
    BorderStyle     =   1  'Fixed Single
-   Caption         =   "Snowman Media ilxz °ïÖú"
+   Caption         =   "Snowman Media 4se °ïÖú"
    ClientHeight    =   6495
    ClientLeft      =   45
    ClientTop       =   435
@@ -75,13 +75,13 @@ Begin VB.Form Form1
          Appearance      =   0  'Flat
          AutoSize        =   -1  'True
          BackStyle       =   0  'Transparent
-         Caption         =   "°æ±¾  ilxz 4.06.9142002"
+         Caption         =   "°æ±¾  se 4.5.3102003"
          ForeColor       =   &H00000000&
          Height          =   180
          Left            =   3375
          TabIndex        =   41
          Top             =   855
-         Width           =   2070
+         Width           =   1800
       End
       Begin VB.Label Label40 
          Appearance      =   0  'Flat
@@ -104,7 +104,7 @@ Begin VB.Form Form1
          Alignment       =   2  'Center
          Appearance      =   0  'Flat
          BackStyle       =   0  'Transparent
-         Caption         =   "Copyright (C) 2000-2002 H2O Networks"
+         Caption         =   "Copyright (C) 2000-2003 H2O Networks"
          ForeColor       =   &H00000000&
          Height          =   180
          Left            =   2160
@@ -792,7 +792,7 @@ Begin VB.Form Form1
          Appearance      =   0  'Flat
          AutoSize        =   -1  'True
          BackColor       =   &H80000005&
-         Caption         =   "http://fmxz.51.net"
+         Caption         =   "http://www.gznc.com/h2o"
          ForeColor       =   &H00FF0000&
          Height          =   180
          Left            =   2970
@@ -800,7 +800,7 @@ Begin VB.Form Form1
          MousePointer    =   99  'Custom
          TabIndex        =   62
          Top             =   1440
-         Width           =   1635
+         Width           =   2085
       End
       Begin VB.Image Image2 
          Height          =   3450
@@ -817,7 +817,7 @@ Begin VB.Form Form1
          Caption         =   "leask@21cn.com"
          ForeColor       =   &H00FF0000&
          Height          =   180
-         Left            =   7020
+         Left            =   7470
          MouseIcon       =   "Help2.frx":8E9A
          MousePointer    =   99  'Custom
          TabIndex        =   50
@@ -868,7 +868,7 @@ Begin VB.Form Form1
          MultiLine       =   -1  'True
          ScrollBars      =   2  'Vertical
          TabIndex        =   45
-         Text            =   "Help2.frx":9096
+         Text            =   "Help2.frx":909A
          Top             =   630
          Width           =   7980
       End
@@ -905,7 +905,7 @@ Begin VB.Form Form1
          MultiLine       =   -1  'True
          ScrollBars      =   2  'Vertical
          TabIndex        =   43
-         Text            =   "Help2.frx":98CD
+         Text            =   "Help2.frx":98D1
          Top             =   630
          Width           =   7980
       End
@@ -941,7 +941,7 @@ Begin VB.Form Form1
          ForeColor       =   &H00FF0000&
          Height          =   285
          Left            =   8010
-         MouseIcon       =   "Help2.frx":A33D
+         MouseIcon       =   "Help2.frx":A341
          MousePointer    =   99  'Custom
          TabIndex        =   61
          Top             =   5175
@@ -971,7 +971,7 @@ Begin VB.Form Form1
       Begin VB.Label Label55 
          Appearance      =   0  'Flat
          BackColor       =   &H80000005&
-         Caption         =   $"Help2.frx":A48F
+         Caption         =   $"Help2.frx":A493
          ForeColor       =   &H80000008&
          Height          =   3030
          Left            =   1620
@@ -994,7 +994,7 @@ Begin VB.Form Form1
       Begin VB.Label Label53 
          Appearance      =   0  'Flat
          BackColor       =   &H80000005&
-         Caption         =   $"Help2.frx":A539
+         Caption         =   $"Help2.frx":A53D
          ForeColor       =   &H80000008&
          Height          =   1860
          Left            =   5625
@@ -1028,7 +1028,7 @@ Begin VB.Form Form1
       Begin VB.Label Label47 
          Appearance      =   0  'Flat
          BackColor       =   &H80000005&
-         Caption         =   $"Help2.frx":A5E3
+         Caption         =   $"Help2.frx":A5E7
          ForeColor       =   &H80000008&
          Height          =   1590
          Left            =   1620
@@ -1045,7 +1045,7 @@ Begin VB.Form Form1
       ForeColor       =   &H00FF0000&
       Height          =   180
       Left            =   7965
-      MouseIcon       =   "Help2.frx":A6BB
+      MouseIcon       =   "Help2.frx":A6BF
       MousePointer    =   99  'Custom
       TabIndex        =   34
       Top             =   180
@@ -1059,7 +1059,7 @@ Begin VB.Form Form1
       ForeColor       =   &H00FF0000&
       Height          =   180
       Left            =   8910
-      MouseIcon       =   "Help2.frx":A80D
+      MouseIcon       =   "Help2.frx":A811
       MousePointer    =   99  'Custom
       TabIndex        =   32
       Top             =   180
@@ -1081,7 +1081,7 @@ Begin VB.Form Form1
       ForeColor       =   &H00FF0000&
       Height          =   285
       Left            =   3870
-      MouseIcon       =   "Help2.frx":A95F
+      MouseIcon       =   "Help2.frx":A963
       MousePointer    =   99  'Custom
       TabIndex        =   4
       Top             =   180
@@ -1096,7 +1096,7 @@ Begin VB.Form Form1
       ForeColor       =   &H00FF0000&
       Height          =   285
       Left            =   90
-      MouseIcon       =   "Help2.frx":AAB1
+      MouseIcon       =   "Help2.frx":AAB5
       MousePointer    =   99  'Custom
       TabIndex        =   3
       Top             =   180
@@ -1111,7 +1111,7 @@ Begin VB.Form Form1
       ForeColor       =   &H00FF0000&
       Height          =   285
       Left            =   2610
-      MouseIcon       =   "Help2.frx":AC03
+      MouseIcon       =   "Help2.frx":AC07
       MousePointer    =   99  'Custom
       TabIndex        =   2
       Top             =   180
@@ -1126,7 +1126,7 @@ Begin VB.Form Form1
       ForeColor       =   &H00FF0000&
       Height          =   285
       Left            =   5130
-      MouseIcon       =   "Help2.frx":AD55
+      MouseIcon       =   "Help2.frx":AD59
       MousePointer    =   99  'Custom
       TabIndex        =   1
       Top             =   180
@@ -1141,7 +1141,7 @@ Begin VB.Form Form1
       ForeColor       =   &H00FF0000&
       Height          =   285
       Left            =   1350
-      MouseIcon       =   "Help2.frx":AEA7
+      MouseIcon       =   "Help2.frx":AEAB
       MousePointer    =   99  'Custom
       TabIndex        =   0
       Top             =   180

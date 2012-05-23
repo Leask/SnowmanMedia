@@ -49,14 +49,14 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
-Dim a, b, c, d, e As Integer
-Dim j As Integer
-Dim ls As Integer
-Dim i As Integer
-Dim oldx As Integer
-Dim oldy As Integer
-Dim Coloury As Integer
-Dim Snow(1000, 2), Amounty As Integer
+Dim a As Long, b As Long, c As Long, d As Long, e As Long
+Dim j As Long
+Dim ls As Long
+Dim i As Long
+Dim oldx As Long
+Dim oldy As Long
+Dim Coloury As Long
+Dim Snow(1000, 2), Amounty As Long
 Sub SnowA()
 Call CheckExist(Me)
 form100.LyfTools1.EnableCursor False

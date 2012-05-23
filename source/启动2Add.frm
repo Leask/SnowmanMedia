@@ -35,8 +35,8 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
-Dim i As Integer
-Dim cli As Integer
+Dim i As Long
+Dim cli As Long
 Private Sub Form_Load()
 On Error Resume Next
 If App.PrevInstance = True Then End
@@ -71,7 +71,7 @@ Else:
    Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AddFile", False
 End If
 
-Dim DriveType As Integer
+Dim DriveType As Long
 Dim rtn As String
 Dim AllDrives As String
 Dim JustOneDrive As String

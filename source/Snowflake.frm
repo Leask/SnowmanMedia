@@ -148,10 +148,11 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
-Dim i As Integer
+Dim i As Long
 
 Private Sub czEe_Click()
 Unload Me
+Set Form3 = Nothing
 End Sub
 
 Private Sub dfgewa_Click()
@@ -167,10 +168,13 @@ Form1.Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media i
 Form1.juyjk.Checked = False
 Form1.juyjk_Click
 Unload Me
+Set Form3 = Nothing
+
 End Sub
 
 Private Sub dgrrevgdfg_Click()
 LF1_Click
+
 End Sub
 
 Private Sub Form_Load()
@@ -187,6 +191,7 @@ End Sub
 
 Private Sub Form_Unload(Cancel As Integer)
 If Form1.a00308.Checked = True Then Form1.Ly.MakeTop Form1, True
+Unload Me
 Set Form3 = Nothing
 End Sub
 

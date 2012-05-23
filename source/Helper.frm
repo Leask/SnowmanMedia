@@ -123,7 +123,7 @@ Option Explicit
 Dim CDRom As String
 
 Private Sub CD_Arrival(ByVal Drive As String)
-Dim i As Integer
+Dim i As Long
 If Ly.FileExists(CDRom + "MPEGAV\AVSEQ01.DAT") = True Or Ly.FileExists(CDRom + "MPEGAV\MUSIC01.DAT") = True Then
 File1.Path = CDRom + "MPEGAV"
 Open App.Path + "\SmM_List.sml" For Output As #1
@@ -165,7 +165,7 @@ Private Sub Form_Load()
 If App.PrevInstance = True Then End
 If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "StartUp") = True Then Ti.ShowIcon
 If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoMedia") = True Then Shell (App.Path + "\SmM_Types.exe")
-Dim DriveType As Integer
+Dim DriveType As Long
 Dim rtn As String
 Dim AllDrives As String
 Dim JustOneDrive As String

@@ -70,18 +70,12 @@ Dim ScrollText As String
 Public EndingFlag As Boolean
 
 Private Sub RunMain()
-ScrollText = "H2O Networks  Snowman Media ilxz" & vbCrLf & vbCrLf & "Edition   4.06.9142002" & vbCrLf & vbCrLf & vbCrLf & vbCrLf & "策划   黄思夏" & vbCrLf & vbCrLf & "制作   黄思夏" & vbCrLf & vbCrLf & "编程   黄思夏" & vbCrLf & vbCrLf & vbCrLf & vbCrLf & "启动音乐   梁  睿" & vbCrLf & vbCrLf & vbCrLf & "控件提供   微软(Microsoft)中国            " & vbCrLf & vbCrLf & "Macromedia          " & vbCrLf & vbCrLf & "RealNetworks        " & vbCrLf & vbCrLf & "activePower         " & vbCrLf & vbCrLf & "Gamesman            " & vbCrLf & vbCrLf & "           武汉华工力学硕士研究生 - 刘玉锋" & vbCrLf & vbCrLf & "热情软件屋 - 李  海 " & vbCrLf & vbCrLf & vbCrLf & _
-             "重点测试   清远市第一中学 - 信息科组" & vbCrLf & vbCrLf & _
-             "      清远市第一中学 - PCC" & vbCrLf & vbCrLf & _
-             "      清远市数码世界电脑城" & vbCrLf & vbCrLf & _
-             "清远市勇创电脑" & vbCrLf & vbCrLf & vbCrLf & _
-             "提供下载   太平洋电脑网" & vbCrLf & vbCrLf & "         华军软件园" & vbCrLf & vbCrLf & vbCrLf & _
-             "特别鸣谢   朱素瑶" & vbCrLf & vbCrLf & "           何芝韵" & vbCrLf & vbCrLf & "           梁  睿" & vbCrLf & vbCrLf & "           岳  校" & vbCrLf & vbCrLf & vbCrLf & vbCrLf & _
+ScrollText = "H2O Networks  Snowman Media 4se" & vbCrLf & vbCrLf & "Edition  4.5.3102003" & vbCrLf & vbCrLf & vbCrLf & vbCrLf & "Engineer   Leask" & vbCrLf & vbCrLf & vbCrLf & "Skin Support   Kevin" & vbCrLf & vbCrLf & vbCrLf & "Download Supporter   PC On Line" & vbCrLf & vbCrLf & "                     Newhua.com" & vbCrLf & vbCrLf & vbCrLf & vbCrLf & _
                   "Thanks for using!" & vbCrLf & vbCrLf & vbCrLf & _
-             "Copyright (C) 2000-2002 H2O Networks" & vbCrLf & vbCrLf & _
-                                   "mailto:leask@21cn.com" & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & _
+             "Copyright (C) 2000-2003 H2O Networks" & vbCrLf & vbCrLf & _
+                                  "http://www.gznc.com/h2o" & vbCrLf & vbCrLf & "mailto:leask@21cn.com" & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & _
                              "Professional by Leask" & vbCrLf & vbCrLf & _
-             "9.14.2002"
+             "3.10.2003"
 Dim LastFrameTime As Long
 Const IntervalTime As Long = 20
 Dim rt As Long
@@ -110,7 +104,7 @@ Do While Not EndingFlag
         DrawingRect.Top = DrawingRect.Top - 1
         DrawingRect.Bottom = DrawingRect.Bottom - 1
         'control the scolling and reset if it goes out of bounds
-        If DrawingRect.Top < -(RectHeight) + 165 Then 'time to reset
+        If DrawingRect.Top < -(RectHeight) + 120 Then 'time to reset
                Exit Sub
             'DrawingRect.Top = Picture1.ScaleHeight
             'DrawingRect.Bottom = RectHeight + Picture1.ScaleHeight

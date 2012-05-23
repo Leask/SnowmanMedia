@@ -1,15 +1,15 @@
 VERSION 5.00
 Object = "{22D6F304-B0F6-11D0-94AB-0080C74C7E95}#1.0#0"; "msdxm.ocx"
 Object = "{972DE6B5-8B09-11D2-B652-A1FD6CC34260}#1.0#0"; "SmM_Snowflake.ocx"
-Object = "{7D8AD1A3-781D-11D2-8E34-B68BBB0AA34F}#11.0#0"; "SmM_Tools.ocx"
 Object = "{244E6785-6684-11D2-943F-A976CFB4FC0C}#1.0#0"; "SmM_Lstbar.ocx"
+Object = "{7D8AD1A3-781D-11D2-8E34-B68BBB0AA34F}#11.0#0"; "SmM_Tools.ocx"
 Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "COMDLG32.OCX"
 Object = "{38943DFD-2C76-11D5-8FCF-A3B833033124}#1.0#0"; "SmM_SouCtrl.ocx"
 Object = "{CFB094A6-8FF0-4EF7-A644-ED122CC38E57}#1.0#0"; "SmM_Tray.ocx"
 Begin VB.Form Form1 
    Appearance      =   0  'Flat
    BackColor       =   &H80000005&
-   Caption         =   "Snowman Media ilxz"
+   Caption         =   "Snowman Media 4se"
    ClientHeight    =   4395
    ClientLeft      =   2025
    ClientTop       =   1815
@@ -21,8 +21,8 @@ Begin VB.Form Form1
    ScaleWidth      =   7485
    Begin HYZ声音控制控件.HYZVolBan HB 
       Height          =   465
-      Left            =   4095
-      TabIndex        =   23
+      Left            =   4635
+      TabIndex        =   20
       Top             =   6480
       Visible         =   0   'False
       Width           =   555
@@ -61,14 +61,14 @@ Begin VB.Form Form1
       Height          =   480
       Left            =   5895
       OleObjectBlob   =   "主窗口2.frx":3094
-      TabIndex        =   11
+      TabIndex        =   10
       Top             =   6480
       Width           =   480
    End
    Begin VB.FileListBox File1 
       Height          =   450
       Left            =   5940
-      TabIndex        =   10
+      TabIndex        =   9
       Top             =   7200
       Visible         =   0   'False
       Width           =   600
@@ -76,7 +76,7 @@ Begin VB.Form Form1
    Begin VB.DirListBox Dir1 
       Height          =   510
       Left            =   5265
-      TabIndex        =   9
+      TabIndex        =   8
       Top             =   7155
       Visible         =   0   'False
       Width           =   555
@@ -287,14 +287,14 @@ Begin VB.Form Form1
          ForeColor       =   &H80000008&
          Height          =   225
          Left            =   45
-         TabIndex        =   20
+         TabIndex        =   17
          Top             =   3690
          Width           =   4515
          Begin VB.CommandButton Command1 
             Appearance      =   0  'Flat
             Height          =   180
             Left            =   90
-            TabIndex        =   22
+            TabIndex        =   19
             Top             =   25
             Width           =   180
          End
@@ -307,7 +307,7 @@ Begin VB.Form Form1
             Left            =   80
             ScaleHeight     =   120
             ScaleWidth      =   4335
-            TabIndex        =   21
+            TabIndex        =   18
             Top             =   60
             Width           =   4335
          End
@@ -331,7 +331,7 @@ Begin VB.Form Form1
             Height          =   255
             Left            =   360
             OLEDropMode     =   1  'Manual
-            TabIndex        =   19
+            TabIndex        =   16
             Top             =   45
             Width           =   1545
          End
@@ -342,7 +342,7 @@ Begin VB.Form Form1
             Height          =   330
             Left            =   2430
             OLEDropMode     =   1  'Manual
-            TabIndex        =   18
+            TabIndex        =   15
             Top             =   45
             Width           =   1860
          End
@@ -356,7 +356,7 @@ Begin VB.Form Form1
          OLEDropMode     =   1  'Manual
          ScaleHeight     =   255
          ScaleWidth      =   5115
-         TabIndex        =   13
+         TabIndex        =   12
          Top             =   30
          Width           =   5145
          Begin VB.Frame Tinfo 
@@ -364,37 +364,10 @@ Begin VB.Form Form1
             BackColor       =   &H00C0FFC0&
             BorderStyle     =   0  'None
             ForeColor       =   &H80000008&
-            Height          =   330
-            Index           =   1
-            Left            =   2385
-            OLEDropMode     =   1  'Manual
-            TabIndex        =   15
-            Top             =   45
-            Width           =   915
-            Begin VB.Label Txinfo 
-               Appearance      =   0  'Flat
-               AutoSize        =   -1  'True
-               BackColor       =   &H00C0FFC0&
-               ForeColor       =   &H00C00000&
-               Height          =   180
-               Index           =   1
-               Left            =   0
-               OLEDropMode     =   1  'Manual
-               TabIndex        =   17
-               Top             =   0
-               Width           =   90
-            End
-         End
-         Begin VB.Frame Tinfo 
-            Appearance      =   0  'Flat
-            BackColor       =   &H00C0FFC0&
-            BorderStyle     =   0  'None
-            ForeColor       =   &H80000008&
             Height          =   285
-            Index           =   0
-            Left            =   45
+            Left            =   500
             OLEDropMode     =   1  'Manual
-            TabIndex        =   14
+            TabIndex        =   13
             Top             =   45
             Width           =   1680
             Begin VB.Label Txinfo 
@@ -403,10 +376,9 @@ Begin VB.Form Form1
                BackColor       =   &H00C0FFC0&
                ForeColor       =   &H00C00000&
                Height          =   180
-               Index           =   0
                Left            =   0
                OLEDropMode     =   1  'Manual
-               TabIndex        =   16
+               TabIndex        =   14
                Top             =   0
                Width           =   90
             End
@@ -421,7 +393,7 @@ Begin VB.Form Form1
          Left            =   4770
          ScaleHeight     =   30
          ScaleWidth      =   2610
-         TabIndex        =   12
+         TabIndex        =   11
          Top             =   1170
          Visible         =   0   'False
          Width           =   2610
@@ -460,7 +432,7 @@ Begin VB.Form Form1
             OLEDropMode     =   1  'Manual
             Picture         =   "主窗口2.frx":ADA0
             Stretch         =   -1  'True
-            ToolTipText     =   "上一首曲目"
+            ToolTipText     =   "上一首"
             Top             =   45
             Width           =   330
          End
@@ -508,7 +480,7 @@ Begin VB.Form Form1
             OLEDropMode     =   1  'Manual
             Picture         =   "主窗口2.frx":BAA4
             Stretch         =   -1  'True
-            ToolTipText     =   "快进 5 秒"
+            ToolTipText     =   "前进"
             Top             =   45
             Width           =   330
          End
@@ -520,7 +492,7 @@ Begin VB.Form Form1
             OLEDropMode     =   1  'Manual
             Picture         =   "主窗口2.frx":BDE5
             Stretch         =   -1  'True
-            ToolTipText     =   "下一首曲目"
+            ToolTipText     =   "下一首"
             Top             =   45
             Width           =   375
          End
@@ -544,7 +516,7 @@ Begin VB.Form Form1
             OLEDropMode     =   1  'Manual
             Picture         =   "主窗口2.frx":C467
             Stretch         =   -1  'True
-            ToolTipText     =   "倒退 5 秒"
+            ToolTipText     =   "后退"
             Top             =   45
             Width           =   330
          End
@@ -611,10 +583,8 @@ Begin VB.Form Form1
          Top             =   3330
          Width           =   7425
       End
-      Begin MediaPlayerCtl.MediaPlayer mp 
-         DragIcon        =   "主窗口2.frx":E518
+      Begin MediaPlayerCtl.MediaPlayer Mper 
          Height          =   4290
-         Index           =   0
          Left            =   45
          TabIndex        =   6
          Top             =   405
@@ -684,7 +654,7 @@ Begin VB.Form Form1
          Index           =   1
          Left            =   0
          OLEDropMode     =   1  'Manual
-         Picture         =   "主窗口2.frx":E66A
+         Picture         =   "主窗口2.frx":E518
          Stretch         =   -1  'True
          Top             =   3645
          Width           =   7590
@@ -725,80 +695,11 @@ Begin VB.Form Form1
          Index           =   0
          Left            =   0
          OLEDropMode     =   1  'Manual
-         Picture         =   "主窗口2.frx":E6FD
+         Picture         =   "主窗口2.frx":E5AB
          Stretch         =   -1  'True
          Top             =   0
          Width           =   7665
       End
-   End
-   Begin MediaPlayerCtl.MediaPlayer mp 
-      CausesValidation=   0   'False
-      Height          =   510
-      Index           =   1
-      Left            =   4680
-      TabIndex        =   8
-      TabStop         =   0   'False
-      Top             =   6480
-      Visible         =   0   'False
-      Width           =   555
-      AudioStream     =   -1
-      AutoSize        =   0   'False
-      AutoStart       =   0   'False
-      AnimationAtStart=   0   'False
-      AllowScan       =   0   'False
-      AllowChangeDisplaySize=   0   'False
-      AutoRewind      =   0   'False
-      Balance         =   0
-      BaseURL         =   ""
-      BufferingTime   =   5
-      CaptioningID    =   ""
-      ClickToPlay     =   0   'False
-      CursorType      =   0
-      CurrentPosition =   -1
-      CurrentMarker   =   0
-      DefaultFrame    =   ""
-      DisplayBackColor=   0
-      DisplayForeColor=   16777215
-      DisplayMode     =   0
-      DisplaySize     =   4
-      Enabled         =   0   'False
-      EnableContextMenu=   0   'False
-      EnablePositionControls=   0   'False
-      EnableFullScreenControls=   0   'False
-      EnableTracker   =   0   'False
-      Filename        =   ""
-      InvokeURLs      =   0   'False
-      Language        =   -1
-      Mute            =   0   'False
-      PlayCount       =   1
-      PreviewMode     =   0   'False
-      Rate            =   1
-      SAMILang        =   ""
-      SAMIStyle       =   ""
-      SAMIFileName    =   ""
-      SelectionStart  =   -1
-      SelectionEnd    =   -1
-      SendOpenStateChangeEvents=   0   'False
-      SendWarningEvents=   0   'False
-      SendErrorEvents =   -1  'True
-      SendKeyboardEvents=   0   'False
-      SendMouseClickEvents=   0   'False
-      SendMouseMoveEvents=   0   'False
-      SendPlayStateChangeEvents=   0   'False
-      ShowCaptioning  =   0   'False
-      ShowControls    =   0   'False
-      ShowAudioControls=   0   'False
-      ShowDisplay     =   0   'False
-      ShowGotoBar     =   0   'False
-      ShowPositionControls=   0   'False
-      ShowStatusBar   =   0   'False
-      ShowTracker     =   0   'False
-      TransparentAtStart=   0   'False
-      VideoBorderWidth=   0
-      VideoBorderColor=   0
-      VideoBorder3D   =   0   'False
-      Volume          =   0
-      WindowlessVideo =   0   'False
    End
    Begin VB.Menu sdgfregvcxv 
       Caption         =   "a"
@@ -843,7 +744,7 @@ Begin VB.Form Form1
          Caption         =   "HDTV (&H)"
       End
       Begin VB.Menu a001011 
-         Caption         =   "调谐收音机(&R)"
+         Caption         =   "在线调谐(&R)"
       End
       Begin VB.Menu a001012 
          Caption         =   "-"
@@ -881,18 +782,18 @@ Begin VB.Form Form1
          Caption         =   "-"
       End
       Begin VB.Menu ytu5gf 
-         Caption         =   "上一首曲目(&B)"
+         Caption         =   "上一首(&B)"
          Shortcut        =   ^B
       End
       Begin VB.Menu fgrgfrgrgrtg 
-         Caption         =   "下一首曲目(&F)"
+         Caption         =   "下一首(&F)"
          Shortcut        =   ^F
       End
       Begin VB.Menu greg 
-         Caption         =   "倒退 5 秒(&A)"
+         Caption         =   "后退(&A)"
       End
       Begin VB.Menu dfgr 
-         Caption         =   "快进 5 秒(&E)"
+         Caption         =   "前进(&E)"
       End
       Begin VB.Menu gdsrg 
          Caption         =   "-"
@@ -933,7 +834,7 @@ Begin VB.Form Form1
          Caption         =   "统计信息(&I)..."
       End
       Begin VB.Menu a00202 
-         Caption         =   "文件属性(&R)..."
+         Caption         =   "属性(&R)..."
       End
       Begin VB.Menu a00203 
          Caption         =   "-"
@@ -1058,13 +959,13 @@ Begin VB.Form Form1
          End
       End
       Begin VB.Menu a00201 
-         Caption         =   "显示字幕(&W)"
+         Caption         =   "字幕(&W)"
       End
    End
    Begin VB.Menu a004 
       Caption         =   "e"
       Begin VB.Menu s 
-         Caption         =   "退出时的曲目"
+         Caption         =   "记忆播放"
          Shortcut        =   {F5}
       End
       Begin VB.Menu a00402 
@@ -1127,19 +1028,16 @@ Begin VB.Form Form1
    Begin VB.Menu a005 
       Caption         =   "f"
       Begin VB.Menu a00001 
-         Caption         =   "播放所选(&P)"
+         Caption         =   "播放(&P)"
+      End
+      Begin VB.Menu dsfasdsafe 
+         Caption         =   "属性(&R)..."
       End
       Begin VB.Menu rgfdgwqr 
          Caption         =   "-"
       End
-      Begin VB.Menu sdfsdfsd 
-         Caption         =   "修改标签(&M)"
-      End
-      Begin VB.Menu dsfg 
-         Caption         =   "-"
-      End
       Begin VB.Menu dsgegd 
-         Caption         =   "重命名(&R)"
+         Caption         =   "重命名(&N)"
       End
       Begin VB.Menu gfdsgawe 
          Caption         =   "更改连接(&I)"
@@ -1162,7 +1060,7 @@ Begin VB.Form Form1
          Shortcut        =   ^{INSERT}
       End
       Begin VB.Menu a005021 
-         Caption         =   "添加地址(&R)..."
+         Caption         =   "添加地址(&E)..."
          Shortcut        =   +{INSERT}
       End
       Begin VB.Menu a005031 
@@ -1172,19 +1070,13 @@ Begin VB.Form Form1
       Begin VB.Menu dfasdfasdfw 
          Caption         =   "-"
       End
-      Begin VB.Menu a005052 
-         Caption         =   "整理(&C)"
-         Shortcut        =   ^K
-      End
       Begin VB.Menu a005074 
          Caption         =   "清空(&L)"
          Shortcut        =   +{DEL}
       End
-      Begin VB.Menu kk98 
-         Caption         =   "-"
-      End
       Begin VB.Menu a005063 
-         Caption         =   "导出(&E)..."
+         Caption         =   "导出(&X)..."
+         Shortcut        =   ^K
       End
    End
    Begin VB.Menu a006 
@@ -1245,10 +1137,6 @@ Begin VB.Form Form1
          Caption         =   "均衡(&E)"
          Enabled         =   0   'False
       End
-      Begin VB.Menu a 
-         Caption         =   "图形均衡(&V)"
-         Enabled         =   0   'False
-      End
       Begin VB.Menu d 
          Caption         =   "混合器(&M)"
       End
@@ -1286,11 +1174,11 @@ Begin VB.Form Form1
          Caption         =   "-"
       End
       Begin VB.Menu a00805 
-         Caption         =   "访问流动网络(&I)"
+         Caption         =   "流动网络(&I)"
          Shortcut        =   ^G
       End
       Begin VB.Menu a00806 
-         Caption         =   "交流和反馈(&O)"
+         Caption         =   "交流反馈(&O)"
       End
       Begin VB.Menu a00807 
          Caption         =   "-"
@@ -1299,13 +1187,13 @@ Begin VB.Form Form1
          Caption         =   "自述(&C)"
       End
       Begin VB.Menu a00809 
-         Caption         =   "许可协议(&L)"
+         Caption         =   "协议(&L)"
       End
       Begin VB.Menu a00810 
          Caption         =   "-"
       End
       Begin VB.Menu a00811 
-         Caption         =   "关于 Snomwan Media(&A)..."
+         Caption         =   "关于 Snomwan(&A)..."
          Shortcut        =   ^A
       End
    End
@@ -1315,7 +1203,7 @@ Begin VB.Form Form1
          Caption         =   "打开(&O)..."
       End
       Begin VB.Menu dfd 
-         Caption         =   "添加到列表(&T)..."
+         Caption         =   "加入列表(&T)..."
       End
       Begin VB.Menu kjhk 
          Caption         =   "-"
@@ -1330,10 +1218,10 @@ Begin VB.Form Form1
          Caption         =   "停止(&S)"
       End
       Begin VB.Menu jlk 
-         Caption         =   "上一首曲目(&B)"
+         Caption         =   "上一首(&B)"
       End
       Begin VB.Menu il 
-         Caption         =   "下一首曲目(&F)"
+         Caption         =   "下一首(&F)"
       End
       Begin VB.Menu sdf665y 
          Caption         =   "-"
@@ -1518,7 +1406,7 @@ Begin VB.Form Form1
          Caption         =   "统计信息(&I)..."
       End
       Begin VB.Menu juyjuk 
-         Caption         =   "文件属性(&R)..."
+         Caption         =   "属性(&R)..."
       End
       Begin VB.Menu juykik 
          Caption         =   "-"
@@ -1644,29 +1532,31 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
 Dim SinfoBo As Boolean
-Dim CDid As Integer
-Dim ReAdd As Integer
-Dim Oline As Long
-Dim nItemX As Integer
-Dim nItemY As Integer
-Dim MoveX As Integer
-Dim MoveY As Integer
+Dim CDid As Long
+Dim ReAdd As Long
+Dim TX As Long
+
+Dim Lor As Boolean
+Dim Oline  As Long
+Dim nItemX As Long
+Dim nItemY As Long
+Dim MoveX As Long
+Dim MoveY As Long
 Dim Stime As String
 Const WM_SETHOTKEY = &H32
-'Const HOTKEYF_SHIFT = &H1
 Const HOTKEYF_CONTROL = &H2
 Const HOTKEYF_ALT = &H4
 Dim Info As String
 Dim CDRom As String
 Dim i As Integer
-Public Pid As Integer
+Public Pid As Long
 Dim cd As Boolean
 Private Declare Function SendMessage Lib "user32" Alias "SendMessageA" (ByVal hwnd As Long, ByVal wMsg As Long, ByVal wParam As Long, lParam As Any) As Long
 Private Const LB_ITEMFROMPOINT = &H1A9
 Dim Playing As Boolean                ' true if CD is currently playing
-Dim Track As Integer                     ' current track
-Dim Minute As Integer                   ' current minute on track
-Dim Second As Integer                  ' current second on track
+Dim Track As Long                     ' current track
+Dim Minute As Long                   ' current minute on track
+Dim Second As Long                  ' current second on track
 Dim Command As String                 ' string to hold mci command strings
 Private Declare Function SHBrowseForFolder Lib "shell32.dll" Alias _
         "SHBrowseForFolderA" (lpBrowseInfo As BROWSEINFO) As Long
@@ -1714,14 +1604,14 @@ Dim NOERROR As Long
 Dim SHGFI_PIDL As Long
 Dim SHGFI_ICON As Long
 Dim SHGFI_SMALLICON As Long
-Dim SearchFlag As Integer    ' Used as flag for cancelling, etc.
+Dim SearchFlag As Long    ' Used as flag for cancelling, etc.
 Const SPI_SETSCREENSAVEACTIVE = 17
 Const SPI_SETSCREENSAVETIMEOUT = 15
 Const SPIF_SENDWININICHANGE = &H2
 Private Declare Function SystemParametersInfo Lib "user32" Alias _
     "SystemParametersInfoA" (ByVal uAction As Long, ByVal uParam As Long, _
      ByVal lpvParam As Long, ByVal fuWinIni As Long) As Long
-Dim LsTy As Integer
+Dim LsTy As Long
 Private Declare Function GetWindowLong Lib "user32" Alias "GetWindowLongA" (ByVal hwnd As Long, ByVal nIndex As Long) As Long
 
 Private Declare Function SetWindowLong Lib "user32" Alias "SetWindowLongA" (ByVal hwnd As Long, ByVal nIndex As Long, ByVal dwNewLong As Long) As Long
@@ -1737,7 +1627,7 @@ Private Sub DbSv()
   Call SystemParametersInfo(SPI_SETSCREENSAVEACTIVE, 0, 0, SPIF_SENDWININICHANGE)
 End Sub
 
-Private Function GetFolderValue(wIdx As Integer) As Long
+Private Function GetFolderValue(wIdx As Long) As Long
     If wIdx < 2 Then
         GetFolderValue = 0
     ElseIf wIdx < 12 Then
@@ -1757,7 +1647,7 @@ Private Sub a00002_Click()
 On Error Resume Next
 If LF2.ListCount > 0 And LF2.SelCount > 0 Then
 If Pid <= LF2.ListIndex Then Pid = Pid - 1
-LF1.RemoveItem (LF2.ListIndex)
+Lf1.RemoveItem (LF2.ListIndex)
 LF2.RemoveItem (LF2.ListIndex)
   LF2.ListIndex = Pid
 End If
@@ -1769,10 +1659,10 @@ End Sub
 
 Private Sub a001011_Click()
 File1.Path = App.Path + "\SmM_NetMedias"
-LF1.Clear
+Lf1.Clear
 LF2.Clear
 For i = 0 To File1.ListCount - 1
-LF1.AddItem App.Path + "\SmM_NetMedias\" + File1.List(i)
+Lf1.AddItem App.Path + "\SmM_NetMedias\" + File1.List(i)
 LF2.AddItem Left(File1.List(i), Len(File1.List(i)) - 4)
 Next
 End Sub
@@ -1780,22 +1670,17 @@ End Sub
 Private Sub a00102_Click()
 Dim SelectFileName As String
  SelectFileName = InputBox("请输入万维网地址 (URL) 或指定你要打开的本地媒体文件路径。", , SelectFileName)
-If SelectFileName = "思夏在想我吗？" Then
-SelectFileName = "小朱：" + vbCrLf + "    思夏此刻好想你！知道吗？" + vbCrLf + "    我真的希望 Snowman Media 可以真的普及起来。在电脑应用日趋多元化的今天，如果每台电脑都安装了 Snowman Media 的话无论何时何地、无论我俩分隔多遥远无论是否能联系上、无论已经发生过任何变故、就算我已经不在人世！只要有电脑的地方，只要打开 Snowman Media 它就可以告诉你，此刻思夏有在想你、好想好想你！希望立即就能抱着你就这样一辈子！我在自述文件中写到 Snowman Media 是我的半个梦，然而另一半个梦就是要永远和你在一起。我不是适合你的男孩，这我知道。我也许也不会说是最爱你的男孩，因为我已经用一贯的行动告诉你了。" + vbCrLf + "记得你说过你也会想我，然而此刻，你想我了吗？最后希望你会喜欢这一个版本的 Snowman Media。"
- MsgBox SelectFileName
-Exit Sub
-End If
 
 
 If Len(SelectFileName) > 0 Then
-        LF1.Clear
+        Lf1.Clear
              LF2.Clear
    
-      LF1.AddItem SelectFileName
-              AddFile LF1.List(LF1.ListCount - 1)
+      Lf1.AddItem SelectFileName
+              AddFile Lf1.List(Lf1.ListCount - 1)
 
       Pid = 0
-      LF1.ListIndex = Pid
+      Lf1.ListIndex = Pid
       LF2.ListIndex = Pid
       LF1_DblClick
      End If
@@ -1809,7 +1694,7 @@ Private Sub a00103_Click()
   Dim pIdl As Long
   Dim sPath As String
   Dim SHFI As SHFILEINFO
-  Dim m_wCurOptIdx As Integer
+  Dim m_wCurOptIdx As Long
   Dim txtPath As String
   Dim txtDisplayName As String
     With BI
@@ -1838,32 +1723,32 @@ txtPath = Left(sPath, InStr(sPath, vbNullChar) - 1)
   CoTaskMemFree pIdl
    If Len(txtPath) > 0 Then
                 Me.MousePointer = 11
-                   LF1.Clear
+                   Lf1.Clear
                     LF2.Clear
                 File1.Path = txtPath
   If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AllFiles") = True Then
-            Dim result As Integer
+            Dim result As Long
 Dim firstpath As String, dircount As Integer
 Dir1.Path = txtPath
 firstpath = Dir1.Path
 dircount = Dir1.ListCount
 result = DirDiver(firstpath, dircount, "")
 Pid = 0
-      LF1.ListIndex = Pid
+      Lf1.ListIndex = Pid
       LF2.ListIndex = Pid
-     If LF1.ListCount > 0 Then
+     If Lf1.ListCount > 0 Then
      LF1_DblClick
           End If
    Else
    For i = 0 To File1.ListCount - 1
-     LF1.AddItem File1.Path + "\" + File1.List(i), i
-             AddFile LF1.List(LF1.ListCount - 1)
+     Lf1.AddItem File1.Path + "\" + File1.List(i), i
+             AddFile Lf1.List(Lf1.ListCount - 1)
 
     Next
       Pid = 0
-      LF1.ListIndex = Pid
+      Lf1.ListIndex = Pid
       LF2.ListIndex = Pid
-     If LF1.ListCount > 0 Then
+     If Lf1.ListCount > 0 Then
      LF1_DblClick
           End If
      End If
@@ -1876,16 +1761,16 @@ Pid = 0
 End Sub
 
 Private Sub a00105_Click()
- LF1.Clear
+ Lf1.Clear
  LF2.Clear
  File1.Path = CDRom
           For i = 0 To File1.ListCount - 1
-      LF1.AddItem File1.Path + File1.List(i)
-         AddFile LF1.List(LF1.ListCount - 1)
+      Lf1.AddItem File1.Path + File1.List(i)
+         AddFile Lf1.List(Lf1.ListCount - 1)
             Next
- If LF1.ListCount > 0 Then
+ If Lf1.ListCount > 0 Then
       Pid = 0
-      LF1.ListIndex = Pid
+      Lf1.ListIndex = Pid
      LF2.ListIndex = Pid
      LF1_DblClick
    End If
@@ -1894,20 +1779,20 @@ End Sub
 Private Sub a00106_Click()
 On Error Resume Next
 Dim Text As String
-     LF1.Clear
+     Lf1.Clear
                   LF2.Clear
 File1.Path = CDRom + "MPEGAV"
  Text = File1.Pattern
  File1.Pattern = "*.dat"
  For i = 0 To File1.ListCount - 1
-      LF1.AddItem File1.Path + "\" + File1.List(i), i
-              AddFile LF1.List(LF1.ListCount - 1)
+      Lf1.AddItem File1.Path + "\" + File1.List(i), i
+              AddFile Lf1.List(Lf1.ListCount - 1)
 
 Next
 File1.Pattern = Text
- If LF1.ListCount > 0 Then
+ If Lf1.ListCount > 0 Then
       Pid = 0
-      LF1.ListIndex = Pid
+      Lf1.ListIndex = Pid
       LF2.ListIndex = Pid
      LF1_DblClick
    End If
@@ -1919,20 +1804,20 @@ Shell (App.Path + "\SmM_DVD.exe"), vbNormalFocus
 End Sub
 
 Private Sub a00201_Click()
-If mp(0).ShowCaptioning = False Then
-mp(0).ShowCaptioning = True
+If Mper.ShowCaptioning = False Then
+Mper.ShowCaptioning = True
 a00201.Checked = True
 Ig(8).Visible = False
 Form_Resize
 Else
- mp(0).ShowCaptioning = False
+ Mper.ShowCaptioning = False
 a00201.Checked = False
 Ig(8).Visible = True
 End If
 End Sub
 
 Private Sub a00202_Click()
-If Len(mp(0).Filename) > 0 Then Ly.ShowProp mp(0).Filename, Me
+If Len(Mper.Filename) > 0 Then Ly.ShowProp Mper.Filename, Me
 If Playing = True Then
  If Len(Str(Track)) = 2 Then Ly.ShowProp CDRom + "Track0" + Right(Str(Track), 1) + ".cda", Me
  If Len(Str(Track)) = 3 Then Ly.ShowProp CDRom + "Track" + Right(Str(Track), 2) + ".cda", Me
@@ -1940,7 +1825,7 @@ End If
 End Sub
 
 Private Sub a002020_Click()
-mp(0).ShowDialog mpShowDialogStatistics
+Mper.ShowDialog mpShowDialogStatistics
 End Sub
 
 Private Sub a00301_Click()
@@ -1980,7 +1865,7 @@ End If
 End Sub
 
 Private Sub a00306_Click()
-mp(0).DisplaySize = mpFullScreen
+Mper.DisplaySize = mpFullScreen
 mjjhjm.Checked = False
 cerde.Checked = False
 cbcxbf.Checked = False
@@ -1991,7 +1876,7 @@ End Sub
 
 Public Sub RushBm()
 On Error Resume Next
-Dim ii As Integer
+Dim ii As Long
 Dim nn As String
 If Ly.FileExists(myReadINI(App.Path + "\SmM_Start.dat", "BookMark", "Bm_X", "")) = True Then
 s.Enabled = True
@@ -2021,16 +1906,16 @@ Private Sub a00403_Click(Index As Integer)
 On Error Resume Next
        Static e As String * 30
 
-       LF1.Clear
+       Lf1.Clear
                     LF2.Clear
 
-        LF1.AddItem myReadINI(App.Path + "\SmM_Start.dat", "BookMark", "Bm_" + Str(Index), "")
-             AddFile LF1.List(LF1.ListCount - 1)
-                LF1.ListIndex = 0
+        Lf1.AddItem myReadINI(App.Path + "\SmM_Start.dat", "BookMark", "Bm_" + Str(Index), "")
+             AddFile Lf1.List(Lf1.ListCount - 1)
+                Lf1.ListIndex = 0
            LF1_DblClick
 
      
-     If UCase(Right(LF1.List(0), 4)) = ".CDA" Then
+     If UCase(Right(Lf1.List(0), 4)) = ".CDA" Then
                 SendMCIString "set cd time format milliseconds", True
                mciSendString "status cd position wait", e, Len(e), True
      
@@ -2041,7 +1926,7 @@ On Error Resume Next
 SendMCIString "set cd time format tmsf", True
 
     Else
-       mp(0).CurrentPosition = Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "BookMark_" + Str(Index)) - 1
+       Mper.CurrentPosition = Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "BookMark_" + Str(Index)) - 1
    End If
 End Sub
 
@@ -2052,13 +1937,13 @@ On Error Resume Next
 Static e As String * 30
 
 Dim Text As String
-If Len(mp(0).Filename) > 0 Then
-Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "BookMark_" + Str(Index), mp(0).CurrentPosition
-myWriteINI App.Path + "\SmM_Start.dat", "BookMark", "Bm_" + Str(Index), mp(0).Filename
-Text = SotPath(mp(0).Filename)
-If Len(mp(0).GetMediaInfoString(mpClipTitle)) > 0 Then Text = mp(0).GetMediaInfoString(mpClipTitle)
-If Len(mp(0).GetMediaInfoString(mpClipAuthor)) > 0 Then Text = Text + " - " + mp(0).GetMediaInfoString(mpClipAuthor)
-Text = Text + "  " + Gtime(mp(0).CurrentPosition) + " / " + Gtime(mp(0).Duration)
+If Len(Mper.Filename) > 0 Then
+Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "BookMark_" + Str(Index), Mper.CurrentPosition
+myWriteINI App.Path + "\SmM_Start.dat", "BookMark", "Bm_" + Str(Index), Mper.Filename
+Text = SotPath(Mper.Filename)
+If Len(Mper.GetMediaInfoString(mpClipTitle)) > 0 Then Text = Mper.GetMediaInfoString(mpClipTitle)
+If Len(Mper.GetMediaInfoString(mpClipAuthor)) > 0 Then Text = Text + " - " + Mper.GetMediaInfoString(mpClipAuthor)
+Text = Text + "  " + Gtime(Mper.CurrentPosition) + " / " + Gtime(Mper.Duration)
 myWriteINI App.Path + "\SmM_Start.dat", "BookMark", "Bm_" + Str(Index) + "_I", Text
 RushBm
 End If
@@ -2066,7 +1951,7 @@ If cd = True Then
           SendMCIString "set cd time format milliseconds", True
                mciSendString "status cd position wait", e, Len(e), 0
 Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "BookMark_" + Str(Index), CLng(e)
-myWriteINI App.Path + "\SmM_Start.dat", "BookMark", "Bm_" + Str(Index), LF1.List(Pid)
+myWriteINI App.Path + "\SmM_Start.dat", "BookMark", "Bm_" + Str(Index), Lf1.List(Pid)
 Text = LF2.List(Pid)
 Text = Text + "  " + Gtime(Int(e / 1000))
     myWriteINI App.Path + "\SmM_Start.dat", "BookMark", "Bm_" + Str(Index) + "_I", Text
@@ -2085,13 +1970,13 @@ On Error Resume Next
 Static e As String * 30
 
 Dim Text As String
-If Len(mp(0).Filename) > 0 Then
-Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "BookMark_X", mp(0).CurrentPosition
-myWriteINI App.Path + "\SmM_Start.dat", "BookMark", "Bm_X", mp(0).GetMediaInfoString(mpClipFilename)
-Text = SotPath(mp(0).Filename)
-If Len(mp(0).GetMediaInfoString(mpClipTitle)) > 0 Then Text = mp(0).GetMediaInfoString(mpClipTitle)
-If Len(mp(0).GetMediaInfoString(mpClipAuthor)) > 0 Then Text = Text + " - " + mp(0).GetMediaInfoString(mpClipAuthor)
-Text = Text + "  " + Gtime(mp(0).CurrentPosition) + " / " + Gtime(mp(0).Duration)
+If Len(Mper.Filename) > 0 Then
+Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "BookMark_X", Mper.CurrentPosition
+myWriteINI App.Path + "\SmM_Start.dat", "BookMark", "Bm_X", Mper.GetMediaInfoString(mpClipFilename)
+Text = SotPath(Mper.Filename)
+If Len(Mper.GetMediaInfoString(mpClipTitle)) > 0 Then Text = Mper.GetMediaInfoString(mpClipTitle)
+If Len(Mper.GetMediaInfoString(mpClipAuthor)) > 0 Then Text = Text + " - " + Mper.GetMediaInfoString(mpClipAuthor)
+Text = Text + "  " + Gtime(Mper.CurrentPosition) + " / " + Gtime(Mper.Duration)
 myWriteINI App.Path + "\SmM_Start.dat", "BookMark", "Bm_X_I", Text
 RushBm
 
@@ -2100,7 +1985,7 @@ Else
           SendMCIString "set cd time format milliseconds", True
                mciSendString "status cd position wait", e, Len(e), 0
 Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "BookMark_X", CLng(e)
-myWriteINI App.Path + "\SmM_Start.dat", "BookMark", "Bm_X", LF1.List(Pid)
+myWriteINI App.Path + "\SmM_Start.dat", "BookMark", "Bm_X", Lf1.List(Pid)
 Text = LF2.List(Pid)
 Text = Text + "  " + Gtime(Int(e / 1000))
     myWriteINI App.Path + "\SmM_Start.dat", "BookMark", "Bm_X_I", Text
@@ -2128,8 +2013,8 @@ Private Sub a005021_Click()
 Dim SelectFileName As String
  SelectFileName = InputBox("请输入万维网地址 (URL) 或指定你要添加的本地媒体文件路径。", , SelectFileName)
   If Len(SelectFileName) > 0 Then
-  LF1.AddItem SelectFileName, LF1.ListCount
-          AddFile LF1.List(LF1.ListCount - 1)
+  Lf1.AddItem SelectFileName, Lf1.ListCount
+          AddFile Lf1.List(Lf1.ListCount - 1)
 End If
 End Sub
 
@@ -2145,7 +2030,7 @@ Private Sub a005031_Click()
   Dim pIdl As Long
   Dim sPath As String
   Dim SHFI As SHFILEINFO
-  Dim m_wCurOptIdx As Integer
+  Dim m_wCurOptIdx As Long
   Dim txtPath As String
   Dim txtDisplayName As String
     With BI
@@ -2177,7 +2062,7 @@ txtPath = Left(sPath, InStr(sPath, vbNullChar) - 1)
                  File1.Path = txtPath
      If Dir1.ListCount <> 0 Or File1.ListCount <> 0 Then
      If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AllFiles") = True Then
-            Dim result As Integer
+            Dim result As Long
 Dim firstpath As String, dircount As Integer
 Dir1.Path = txtPath
 firstpath = Dir1.Path
@@ -2185,8 +2070,8 @@ dircount = Dir1.ListCount
 result = DirDiver(firstpath, dircount, "")
    Else
    For i = 0 To File1.ListCount - 1
-     LF1.AddItem File1.Path + "\" + File1.List(i), LF1.ListCount
-             AddFile LF1.List(LF1.ListCount - 1)
+     Lf1.AddItem File1.Path + "\" + File1.List(i), Lf1.ListCount
+             AddFile Lf1.List(Lf1.ListCount - 1)
 
     Next
      End If
@@ -2195,50 +2080,9 @@ result = DirDiver(firstpath, dircount, "")
    End If
 End Sub
 
-Private Sub a005052_Click()
-On Error Resume Next
-Me.MousePointer = 11
-Dim Text As String
-Dim Tid As Integer
-i = 0
-For i = 0 To LF1.ListCount - 1
-      Dir1.Path = App.Path
-      Dir1.Path = LF1.List(i)
-      If Len(LF1.List(i)) > 0 And Dir1.Path = App.Path And Ly.FileExists(LF1.List(i)) = False Then
-      LF1.RemoveItem (i)
-      i = i - 1
-      'If Len(LF1.List(i)) = 0 Then Exit Sub
-      End If
-Next
-
-For Tid = 0 To LF1.ListCount - 1
-    For i = Tid + 1 To LF1.ListCount - 1
-        If Len(LF1.List(i)) > 0 And LF1.List(i) = LF1.List(Tid) And Len(LF1.List(i)) > 0 Then
-         LF1.RemoveItem (i)
-      i = i - 1
-        End If
-      Next
-Next
-Pid = -1
-If Len(mp(0).Filename) > 0 Then
-For i = 0 To LF1.ListCount - 1
-  If LF1.List(i) = mp(0).Filename Then
-  Pid = i
-  Exit For
-  End If
-Next
-If Pid = -1 Then
-LF1.AddItem mp(0).Filename
-Pid = LF1.ListCount - 1
-End If
-End If
-ReName
-If Pid > LF1.ListCount - 1 Then Pid = 0
-Me.MousePointer = 0
-End Sub
 
 Private Sub a005063_Click()
-If LF1.ListCount > 0 Then
+If Lf1.ListCount > 0 Then
  Dim Text As String
       CommonDialog1.Filename = ""
         CommonDialog1.DialogTitle = "导出到文件"
@@ -2251,8 +2095,8 @@ If LF1.ListCount > 0 Then
                If Ly.FileExists(CommonDialog1.Filename) = True Then
                       If MsgBox("文件 """ + CommonDialog1.Filename + """ 已存在,要改写吗?", vbYesNo) = vbYes Then
                                    Open CommonDialog1.Filename For Output As #1
-                                    For i = 0 To LF1.ListCount - 1
-                                    Print #1, LF1.List(i)
+                                    For i = 0 To Lf1.ListCount - 1
+                                    Print #1, Lf1.List(i)
                                      Next i
                                     Close (1)
                                Else
@@ -2263,8 +2107,8 @@ If LF1.ListCount > 0 Then
                                End If
                         Else
                             Open CommonDialog1.Filename For Output As #1
-                                    For i = 0 To LF1.ListCount - 1
-                                    Print #1, LF1.List(i)
+                                    For i = 0 To Lf1.ListCount - 1
+                                    Print #1, Lf1.List(i)
                                      Next i
                                     Close (1)
                              End If
@@ -2280,7 +2124,7 @@ Shell (App.Path + "\SmM_Settings.exe"), vbNormalFocus
 End Sub
 
 Private Sub a00703_Click()
-mp(0).ShowDialog mpShowDialogOptions
+Mper.ShowDialog mpShowDialogOptions
 End Sub
 
 Private Sub a00801_Click()
@@ -2288,11 +2132,11 @@ Shell (App.Path + "\SmM_Help.exe")
 End Sub
 
 Private Sub a00803_Click()
-HttpTo "http://www.51.net/snowman/update/setup.exe"
+HttpTo "http://www.gznc.com/h2o/smmud/setup.exe"
 End Sub
 
 Private Sub a00805_Click()
-HttpTo "http://fmxz.51.net"
+HttpTo "http://www.gznc.com/h2o"
 End Sub
 
 Private Sub a00806_Click()
@@ -2328,6 +2172,7 @@ Private Sub asdfa_Click(Index As Integer)
 asdfawe_Click (Index)
 End Sub
 
+
 Private Sub asdfawe_Click(Index As Integer)
 If Index = 0 Then
   For i = 1 To 10
@@ -2348,7 +2193,7 @@ End If
 End Sub
 
 Private Sub bf6t5_Click()
-mp(0).Balance = 9640
+Mper.Balance = 9640
 xbcty.Checked = False
 dgv.Checked = False
 xbrth.Checked = False
@@ -2386,7 +2231,7 @@ Next
 End Sub
 
 Private Sub cbcxbf_Click()
-mp(0).DisplaySize = mpDefaultSize
+Mper.DisplaySize = mpDefaultSize
 mjjhjm.Checked = False
 cerde.Checked = False
 cbcxbf.Checked = True
@@ -2396,7 +2241,7 @@ erg.Checked = False
 End Sub
 
 Private Sub cerde_Click()
-mp(0).DisplaySize = mpHalfSize
+Mper.DisplaySize = mpHalfSize
 mjjhjm.Checked = False
 cerde.Checked = True
 cbcxbf.Checked = False
@@ -2435,8 +2280,8 @@ Select Case nItem
           Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "SmM_LH", Me.Height
 
           Sf1.SkinPath = Ly.GetStringValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "Snowflake_Path")
-          mp(0).ShowControls = False
-          mp(0).ShowStatusBar = False
+          Mper.ShowControls = False
+          Mper.ShowStatusBar = False
           Pinfo.Visible = False
           Ig(0).Visible = False
           Ig(1).Visible = False
@@ -2454,16 +2299,16 @@ Select Case nItem
           Me.Width = Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "Snowflake_w")
           Me.Height = Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "Snowflake_h")
           LF2.Visible = False
-          mp(0).Top = 0
-          mp(0).Left = 0
-          mp(0).Width = Fm0.Width
-          mp(0).Height = Fm0.Height
+          Mper.Top = 0
+          Mper.Left = 0
+          Mper.Width = Fm0.Width
+          Mper.Height = Fm0.Height
           Ig(7).Visible = False
           Ig(8).Top = 0
           Ig(8).Left = 0
           Ig(8).Picture = LoadPicture(Ly.GetStringValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "Snowflake_Bp"))
               Else
-           If mp(0).ImageSourceWidth > 0 Then GoTo aa
+           If Mper.ImageSourceWidth > 0 Then GoTo aa
             For i = 0 To 2
          If sdfewe(i).Enabled = True Then
                Ig(19).Picture = LoadPicture(App.Path + "\SmM_Icos\13.gif")
@@ -2471,7 +2316,7 @@ Select Case nItem
                 Exit For
               End If
               Next
-            If UCase(Left(mp(0).Filename, 2)) = "HT" Or UCase(Left(mp(0).Filename, 2)) = "MM" Then
+            If UCase(Left(Mper.Filename, 2)) = "HT" Or UCase(Left(Mper.Filename, 2)) = "MM" Then
            Ig(19).Picture = LoadPicture(App.Path + "\SmM_Icos\15.gif")
                   If juyjk.Checked = False Then Ig(19).Visible = True
 
@@ -2483,8 +2328,8 @@ Select Case nItem
 aa:
           juyjk.Checked = False
           Sf1.SkinPath = App.Path + "\SmM_Skin"
-          mp(0).ShowControls = True
-          mp(0).ShowStatusBar = True
+          Mper.ShowControls = True
+          Mper.ShowStatusBar = True
           Pinfo.Visible = True
           Ig(0).Visible = True
           Ig(1).Visible = True
@@ -2498,8 +2343,8 @@ aa:
           Fm0.Top = 0
           Fm0.Left = 0
           LF2.Visible = True
-          mp(0).Top = 405
-          mp(0).Left = 45
+          Mper.Top = 405
+          Mper.Left = 45
           Ig(7).Visible = True
           Ig(8).Picture = LoadPicture(App.Path + "\SmM_Skin\Snowman.gif")
           Me.Width = Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "SmM_LW")
@@ -2621,17 +2466,17 @@ End Sub
 
 Private Sub Ct_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single)
 Dim ThisFile As Variant
-LF1.Clear
+Lf1.Clear
              LF2.Clear
 
 For Each ThisFile In Data.Files
 
-LF1.AddItem ThisFile
-        AddFile LF1.List(LF1.ListCount - 1)
+Lf1.AddItem ThisFile
+        AddFile Lf1.List(Lf1.ListCount - 1)
 
 Next
 Pid = 0
-LF1.ListIndex = Pid
+Lf1.ListIndex = Pid
 LF2.ListIndex = Pid
 LF1_DblClick
 
@@ -2685,21 +2530,21 @@ End Sub
 
 Private Sub a00108_Click()
 On Error Resume Next
-Dim result As Integer
+Dim result As Long
 Me.MousePointer = 11
 Dim firstpath As String, dircount As Integer
 Dir1.Path = App.Path + "\SmM_DirCheck"
 File1.Path = Dir1.Path
 Dir1.Path = CDRom
-LF1.Clear
+Lf1.Clear
 LF2.Clear
 firstpath = Dir1.Path
 dircount = Dir1.ListCount
 result = DirDiver(firstpath, dircount, "")
 Me.MousePointer = 0
 Pid = 0
-  If LF1.ListCount > 0 Then
-      LF1.ListIndex = Pid
+  If Lf1.ListCount > 0 Then
+      Lf1.ListIndex = Pid
       LF2.ListIndex = Pid
      LF1_DblClick
    End If
@@ -2733,8 +2578,8 @@ Private Sub a00501_Click()
 CommonDialog1.Filename = ""
           CommonDialog1.ShowOpen
         If Len(CommonDialog1.Filename) > 0 Then
-        LF1.AddItem CommonDialog1.Filename, LF1.ListCount
-                AddFile LF1.List(LF1.ListCount - 1)
+        Lf1.AddItem CommonDialog1.Filename, Lf1.ListCount
+                AddFile Lf1.List(Lf1.ListCount - 1)
 End If
  End Sub
 
@@ -2742,14 +2587,14 @@ Private Sub a00101_Click()
 CommonDialog1.Filename = ""
           CommonDialog1.ShowOpen
           If Len(CommonDialog1.Filename) > 0 Then
-        LF1.Clear
+        Lf1.Clear
                      LF2.Clear
 
-      LF1.AddItem CommonDialog1.Filename
-              AddFile LF1.List(LF1.ListCount - 1)
+      Lf1.AddItem CommonDialog1.Filename
+              AddFile Lf1.List(Lf1.ListCount - 1)
 
       Pid = 0
-      LF1.ListIndex = Pid
+      Lf1.ListIndex = Pid
       LF2.ListIndex = Pid
       LF1_DblClick
      End If
@@ -2760,16 +2605,20 @@ Shell (App.Path + "\SmM_Capturer.exe"), vbNormalFocus
 End Sub
 
 Private Sub a005074_Click()
-LF1.Clear
+Lf1.Clear
              LF2.Clear
 
 End Sub
 
 
 
+Private Sub dsfasdsafe_Click()
+Ly.ShowProp Lf1.List(LF2.ListIndex), Me
+End Sub
+
 Private Sub dsgegd_Click()
 Dim SelectFileName As String
-Dim Index As Integer
+Dim Index As Long
 If LF2.ListIndex < 0 Then Exit Sub
  SelectFileName = InputBox("请输入该列表项目的新名称。", , LF2.List(LF2.ListIndex))
 If Len(SelectFileName) > 0 Then
@@ -2807,9 +2656,9 @@ End Sub
 Sub SetVw()
 On Error Resume Next
 If cerde.Checked = True Then mjjhjm_Click
-If mp(0).ImageSourceWidth = 0 Then Exit Sub
-Me.Width = mp(0).ImageSourceWidth * 15 + 3100
-Me.Height = mp(0).ImageSourceHeight * 15 + 2050
+If Mper.ImageSourceWidth = 0 Then Exit Sub
+Me.Width = Mper.ImageSourceWidth * 15 + 3100
+Me.Height = Mper.ImageSourceHeight * 15 + 2050
 End Sub
 
 Private Sub fghdrh_Click()
@@ -2840,17 +2689,17 @@ End Sub
 
 Private Sub Fm0_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single)
 Dim ThisFile As Variant
-LF1.Clear
+Lf1.Clear
              LF2.Clear
 
 For Each ThisFile In Data.Files
 
-LF1.AddItem ThisFile
-        AddFile LF1.List(LF1.ListCount - 1)
+Lf1.AddItem ThisFile
+        AddFile Lf1.List(Lf1.ListCount - 1)
 
 Next
 Pid = 0
-LF1.ListIndex = Pid
+Lf1.ListIndex = Pid
 LF2.ListIndex = Pid
 LF1_DblClick
 End Sub
@@ -2877,17 +2726,17 @@ End Sub
 
 Private Sub Fm10_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single)
 Dim ThisFile As Variant
-LF1.Clear
+Lf1.Clear
              LF2.Clear
 
 For Each ThisFile In Data.Files
 
-LF1.AddItem ThisFile
-        AddFile LF1.List(LF1.ListCount - 1)
+Lf1.AddItem ThisFile
+        AddFile Lf1.List(Lf1.ListCount - 1)
 
 Next
 Pid = 0
-LF1.ListIndex = Pid
+Lf1.ListIndex = Pid
 LF2.ListIndex = Pid
 LF1_DblClick
 End Sub
@@ -2900,17 +2749,17 @@ End Sub
 
 Private Sub Form_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single)
 Dim ThisFile As Variant
-LF1.Clear
+Lf1.Clear
              LF2.Clear
 
 For Each ThisFile In Data.Files
 
-LF1.AddItem ThisFile
-        AddFile LF1.List(LF1.ListCount - 1)
+Lf1.AddItem ThisFile
+        AddFile Lf1.List(Lf1.ListCount - 1)
 
 Next
 Pid = 0
-LF1.ListIndex = Pid
+Lf1.ListIndex = Pid
 LF2.ListIndex = Pid
 LF1_DblClick
 End Sub
@@ -2919,17 +2768,17 @@ End Sub
 
 Private Sub Frame1_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single)
 Dim ThisFile As Variant
-LF1.Clear
+Lf1.Clear
              LF2.Clear
 
 For Each ThisFile In Data.Files
 
-LF1.AddItem ThisFile
-        AddFile LF1.List(LF1.ListCount - 1)
+Lf1.AddItem ThisFile
+        AddFile Lf1.List(Lf1.ListCount - 1)
 
 Next
 Pid = 0
-LF1.ListIndex = Pid
+Lf1.ListIndex = Pid
 LF2.ListIndex = Pid
 LF1_DblClick
 End Sub
@@ -2992,13 +2841,13 @@ End Sub
 
 Private Sub gfdsgawe_Click()
 Dim SelectFileName As String
-Dim Index As Integer
+Dim Index As Long
 If LF2.ListIndex < 0 Then Exit Sub
- SelectFileName = InputBox("请重新输入该列表项目指向的媒体文件地址。", , LF1.List(LF2.ListIndex))
+ SelectFileName = InputBox("请重新输入该列表项目指向的媒体文件地址。", , Lf1.List(LF2.ListIndex))
 If Len(SelectFileName) > 0 Then
    Index = LF2.ListIndex
-   LF1.RemoveItem Index
-   LF1.AddItem SelectFileName, Index
+   Lf1.RemoveItem Index
+   Lf1.AddItem SelectFileName, Index
    ReNameB (Index)
    End If
 
@@ -3017,7 +2866,7 @@ Ig_MouseUp 13, 1, 0, 0, 0
 End Sub
 
 Private Sub hf6t_Click()
-Unload Me
+Set Form1 = Nothing
 End Sub
 
 
@@ -3050,40 +2899,40 @@ Private Sub Sinfo()
 On Error Resume Next
 Dim Info2 As String
 Info2 = ""
-If Len(mp(0).Filename) > 0 Then
-Info2 = "标题   : " + SotPath(mp(0).Filename) + vbCrLf
-If Len(mp(0).GetMediaInfoString(mpClipTitle)) > 0 Then Info2 = "标题   : " + mp(0).GetMediaInfoString(mpClipTitle) + vbCrLf
+If Len(Mper.Filename) > 0 Then
+Info2 = "标题   : " + SotPath(Mper.Filename) + vbCrLf
+If Len(Mper.GetMediaInfoString(mpClipTitle)) > 0 Then Info2 = "标题   : " + Mper.GetMediaInfoString(mpClipTitle) + vbCrLf
 
-If Len(mp(0).GetMediaInfoString(mpClipAuthor)) > 0 Then Info2 = Info2 + "艺术家 : " + mp(0).GetMediaInfoString(mpClipAuthor) + vbCrLf
-If Len(mp(0).GetMediaInfoString(mpClipRating)) = 0 Then
+If Len(Mper.GetMediaInfoString(mpClipAuthor)) > 0 Then Info2 = Info2 + "艺术家 : " + Mper.GetMediaInfoString(mpClipAuthor) + vbCrLf
+If Len(Mper.GetMediaInfoString(mpClipRating)) = 0 Then
  Info2 = Info2 + "评价   : ☆☆☆" + vbCrLf
  Else
 Info2 = Info2 + "评价   : "
-For i = 1 To Int(mp(0).GetMediaInfoString(mpClipRating))
+For i = 1 To Int(Mper.GetMediaInfoString(mpClipRating))
   Info2 = Info2 + "☆" '
 Next
 Info2 = Info2 + vbCrLf
 End If
-If Len(mp(0).GetMediaInfoString(mpClipCopyright)) > 0 Then Info2 = Info2 + "版权   : " + mp(0).GetMediaInfoString(mpClipCopyright) + vbCrLf
-If Len(mp(0).GetMediaInfoString(mpClipDescription)) > 0 Then Info2 = Info2 + "描述   : " + mp(0).GetMediaInfoString(mpClipDescription) + vbCrLf
-Info2 = Info2 + "时间   : " + Gtime(mp(0).Duration) + vbCrLf
-If mp(0).Bandwidth > 0 Then Info2 = Info2 + "质量   :" + Str(Int(mp(0).Bandwidth / 1000)) + " 千字节每秒" + vbCrLf
-If mp(0).ImageSourceWidth > 0 Then
-    Info2 = Info2 + "视频   :" + Str(mp(0).ImageSourceWidth) + " ×" + Str(mp(0).ImageSourceHeight) + vbCrLf
+If Len(Mper.GetMediaInfoString(mpClipCopyright)) > 0 Then Info2 = Info2 + "版权   : " + Mper.GetMediaInfoString(mpClipCopyright) + vbCrLf
+If Len(Mper.GetMediaInfoString(mpClipDescription)) > 0 Then Info2 = Info2 + "描述   : " + Mper.GetMediaInfoString(mpClipDescription) + vbCrLf
+Info2 = Info2 + "时间   : " + Gtime(Mper.Duration) + vbCrLf
+If Mper.Bandwidth > 0 Then Info2 = Info2 + "质量   :" + Str(Int(Mper.Bandwidth / 1000)) + " 千字节每秒" + vbCrLf
+If Mper.ImageSourceWidth > 0 Then
+    Info2 = Info2 + "视频   :" + Str(Mper.ImageSourceWidth) + " ×" + Str(Mper.ImageSourceHeight) + vbCrLf
 Else
     Info2 = Info2 + "类型   : 音频" + vbCrLf
 End If
-Info2 = Info2 + "地址   : " + LF1.List(Pid)
+Info2 = Info2 + "地址   : " + Lf1.List(Pid)
 End If
 
-If cd = True Then Info2 = "标题   : " + SotPath(LF1.List(Pid)) + vbCrLf + "艺术家 : 未知艺术家" + vbCrLf + "唱片集 : 未知唱片集" + vbCrLf + "流派   : 未知流派" + vbCrLf + "时间   : " + Stime + vbCrLf + "地址   : " + LF1.List(Pid)
+If cd = True Then Info2 = "标题   : " + SotPath(Lf1.List(Pid)) + vbCrLf + "艺术家 : 未知艺术家" + vbCrLf + "唱片集 : 未知唱片集" + vbCrLf + "流派   : 未知流派" + vbCrLf + "时间   : " + Stime + vbCrLf + "地址   : " + Lf1.List(Pid)
 
-If Playing = False And Len(mp(0).Filename) = 0 Then
-Info2 = "    欢迎使用 Snowman Media ilxz" + vbCrLf + "享受无限精彩的数字多媒体!" + vbCrLf + vbCrLf + "    想了解更多请或交流反馈你可以" + vbCrLf + "电邮到 leask@21cn.com。"
+If Playing = False And Len(Mper.Filename) = 0 Then
+Info2 = "    欢迎使用 Snowman Media 4se 享受无限精彩的数字媒体生活!" + vbCrLf + vbCrLf + "    想了解更多或交流反馈请登陆 流动网络： http://www.gznc.com/h2o 或电邮到 leask@21cn.com。"
 End If
 
 If Ly.FileExists(Ly.GetSysPath + "\sndvol32.exe") = True Then
-St1.ShowMsg Info2, ICON_INFO, "Snowman Media ilxz", 0
+St1.ShowMsg Info2, ICON_INFO, "Snowman Media 4se", 0
 Else
 MsgBox Info2, vbInformation
 End If
@@ -3112,24 +2961,24 @@ End Sub
 
 Private Sub Ig_OLEDragDrop(Index As Integer, Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single)
 Dim ThisFile As Variant
-LF1.Clear
+Lf1.Clear
              LF2.Clear
 
 For Each ThisFile In Data.Files
 
-LF1.AddItem ThisFile
-        AddFile LF1.List(LF1.ListCount - 1)
+Lf1.AddItem ThisFile
+        AddFile Lf1.List(Lf1.ListCount - 1)
 
 Next
 Pid = 0
-LF1.ListIndex = Pid
+Lf1.ListIndex = Pid
 LF2.ListIndex = Pid
 LF1_DblClick
 
 End Sub
 
 Private Sub il_Click()
-Ig_MouseUp 8, 1, 0, 0, 0
+Ig_MouseUp 12, 1, 0, 0, 0
 End Sub
 Private Sub ShowRight(X As Single, Y As Single)
 
@@ -3193,7 +3042,7 @@ End If
 
 If Index = 10 Then
 If Button = 1 Then
-If UCase(Left(mp(0).Filename, 3)) = "G:\" Or cd = True Then
+If UCase(Left(Mper.Filename, 3)) = "G:\" Or cd = True Then
 Ig_MouseUp 16, 1, 0, 0, 0
 End If
 SendMCIString "Set cd door open", True
@@ -3203,10 +3052,10 @@ End If
 
 If Index = 11 Then
    If Button = 1 Then
-      If LF1.ListCount > 0 Then
+      If Lf1.ListCount > 0 Then
         Pid = Pid - 1
-  If Pid < 0 Then Pid = LF1.ListCount - 1
-LF1.ListIndex = Pid
+  If Pid < 0 Then Pid = Lf1.ListCount - 1
+Lf1.ListIndex = Pid
 LF2.ListIndex = Pid
 LF1_DblClick
 End If
@@ -3229,7 +3078,7 @@ mciSendString Command, 0, 0, 0
 SendMCIString "set cd time format tmsf", True
 'Update
 Else
-If Len(mp(0).Filename) > 0 Then mp(0).CurrentPosition = mp(0).CurrentPosition + 5
+If Len(Mper.Filename) > 0 Then Mper.CurrentPosition = Mper.CurrentPosition + 5
 End If
 End If
 If Button = 2 Then ShowRight X + Ig(13).Left, Y + Fm10.Top
@@ -3247,13 +3096,13 @@ Ig(2).Picture = LoadPicture(App.Path + "\SmM_Icos\05.gif")
 Exit Sub
 End If
 
-If Len(mp(0).Filename) > 0 Then
-mp(0).Play
+If Len(Mper.Filename) > 0 Then
+Mper.Play
 Exit Sub
 End If
 
 
-If Len(mp(0).Filename) = 0 And Playing = False Then
+If Len(Mper.Filename) = 0 And Playing = False Then
 If LF2.ListCount > 0 Then
 Pid = 0
 LF2.ListIndex = Pid
@@ -3281,11 +3130,11 @@ Else
 
 End If
 Else
-If Len(mp(0).Filename) > 0 Then
-If mp(0).PlayState = mpPlaying Then
-mp(0).Pause
+If Len(Mper.Filename) > 0 Then
+If Mper.PlayState = mpPlaying Then
+Mper.Pause
 Else
-mp(0).Play
+Mper.Play
 End If
 End If
 End If
@@ -3315,8 +3164,8 @@ Update
 
 cd = False
 Else
- If Len(mp(0).Filename) > 0 Then
- mp(0).Filename = "ilxz"
+ If Len(Mper.Filename) > 0 Then
+ Mper.Filename = "ilxz"
 
 End If
 End If
@@ -3341,7 +3190,7 @@ mciSendString Command, 0, 0, 0
 SendMCIString "set cd time format tmsf", True
 'Update
         Else
-                   If Len(mp(0).Filename) > 0 Then mp(0).CurrentPosition = mp(0).CurrentPosition + 5
+                   If Len(Mper.Filename) > 0 Then Mper.CurrentPosition = Mper.CurrentPosition + 5
         End If
    End If
 If Button = 2 Then ShowRight X + Ig(17).Left, Y + Fm10.Top
@@ -3350,10 +3199,10 @@ End If
 
 If Index = 12 Then
      If Button = 1 Then
-         If LF1.ListCount > 0 Then
+         If Lf1.ListCount > 0 Then
     Pid = Pid + 1
-           If Pid > LF1.ListCount - 1 Then Pid = 0
-        LF1.ListIndex = Pid
+           If Pid > Lf1.ListCount - 1 Then Pid = 0
+        Lf1.ListIndex = Pid
         LF2.ListIndex = Pid
         LF1_DblClick
           End If
@@ -3372,12 +3221,12 @@ End If
 
 If Index = 19 Then
  If Button <> 1 Then Exit Sub
-  Dim ConII
- If UCase(Left(LF1.List(Pid), 2)) = "HT" Or UCase(Left(LF1.List(Pid), 2)) = "MM" Then
-       For i = 1 To Len(LF1.List(Pid))
-             If Mid(LF1.List(Pid), i, 1) = "/" Then ConII = ConII + 1
+  Dim ConII As Long
+ If UCase(Left(Lf1.List(Pid), 2)) = "HT" Or UCase(Left(Lf1.List(Pid), 2)) = "MM" Then
+       For i = 1 To Len(Lf1.List(Pid))
+             If Mid(Lf1.List(Pid), i, 1) = "/" Then ConII = ConII + 1
              If ConII = 3 Then
-                 HttpTo Left(LF1.List(Pid), i - 1)
+                 HttpTo Left(Lf1.List(Pid), i - 1)
                  Exit Sub
              End If
         Next
@@ -3406,7 +3255,7 @@ Ig_MouseUp 14, 1, 0, 0, 0
 End Sub
 
 Private Sub jlk_Click()
-Ig_MouseUp 14, 1, 0, 0, 0
+Ig_MouseUp 11, 1, 0, 0, 0
 End Sub
 
 Private Sub jlkl_Click()
@@ -3429,27 +3278,26 @@ End Sub
 
 
 Private Sub LF2_DblClick()
-'On Error Resume Next
 If LF2.List(LF2.ListIndex) = "<<== 上一级搜索" Then
 a001011_Click
 Exit Sub
 End If
-If Len(LF1.List(LF2.ListIndex)) = 0 Then
-LF1.RemoveItem (LF2.ListIndex)
+If Len(Lf1.List(LF2.ListIndex)) = 0 Then
+Lf1.RemoveItem (LF2.ListIndex)
 LF2.RemoveItem (LF2.ListIndex)
 
 End If
 
-LF1.ListIndex = LF2.ListIndex
+Lf1.ListIndex = LF2.ListIndex
 LF1_DblClick
 End Sub
 
 
 Sub LoadSet()
 If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "MousePu") = True Then
-mp(0).ClickToPlay = True
+Mper.ClickToPlay = True
 Else
-mp(0).ClickToPlay = False
+Mper.ClickToPlay = False
 End If
 BSv
 Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "Change", False
@@ -3457,7 +3305,7 @@ End Sub
 Sub BSv()
 If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "ScSave") = True Then
        If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "OnlyVideo") = True Then
-             If mp(0).ImageSourceWidth > 0 Then
+             If Mper.ImageSourceWidth > 0 Then
                       DbSv
                   Else:
                       EbSv
@@ -3471,15 +3319,15 @@ End If
 End Sub
 
 Private Sub ReLmp()
-mp(0).SendMouseClickEvents = True
-mp(0).SendMouseMoveEvents = True
-mp(0).AnimationAtStart = False
-mp(0).ClickToPlay = False
-mp(0).EnableContextMenu = False
-mp(0).ShowStatusBar = True
-mp(0).VideoBorder3D = False
-mp(0).DisplayBackColor = &HFFFFFF
-mp(0).DisplayForeColor = &HFF0000
+Mper.SendMouseClickEvents = True
+Mper.SendMouseMoveEvents = True
+Mper.AnimationAtStart = False
+Mper.ClickToPlay = False
+Mper.EnableContextMenu = False
+Mper.ShowStatusBar = True
+Mper.VideoBorder3D = False
+Mper.DisplayBackColor = &HFFFFFF
+Mper.DisplayForeColor = &HFF0000
 End Sub
 
 Private Sub Form_Load()
@@ -3499,20 +3347,20 @@ SendMCIString "stop cd wait", True
     Open App.Path + "\SmM_Start.dat" For Input As #1
     While Not EOF(1)
     Line Input #1, Text
-    LF1.AddItem RTrim(Text)
+    Lf1.AddItem RTrim(Text)
     Wend
     Close #1
    Open App.Path + "\SmM_Start.dat" For Output As #1
-    For i = 0 To LF1.ListCount - 1
-     Print #1, LeftB(LF1.List(i), 2000)
+    For i = 0 To Lf1.ListCount - 1
+     Print #1, LeftB(Lf1.List(i), 2000)
     Next i
    Close (1)
- LF1.Clear
+ Lf1.Clear
 
  Open App.Path + "\SmM_List.sml" For Input As #1
     While Not EOF(1)
     Line Input #1, Text
-    LF1.AddItem RTrim(Text)
+    Lf1.AddItem RTrim(Text)
 
     Wend
     Close #1
@@ -3527,8 +3375,8 @@ SendMCIString "stop cd wait", True
     
     
     Pid = 0
-   If LF1.ListCount > 0 Then
-   LF1.ListIndex = Pid
+   If Lf1.ListCount > 0 Then
+   Lf1.ListIndex = Pid
    LF2.ListIndex = Pid
    End If
 Sf1.SkinPath = App.Path + "\SmM_Skin"
@@ -3598,13 +3446,11 @@ If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz
 LoadSet
 If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoMedia") = True Then Shell (App.Path + "\SmM_Types.exe")
 If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "PlayFile") <> True Then
+If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoStart") = True Then Ly.PlayWav App.Path + "\SmM_Medias\Wellcome.wav", False
 If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoCnt") = True Then s_Click
-If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoStart") = True Then
-mp(1).Filename = App.Path + "\SmM_Medias\Wellcome.wav"
-mp(1).Play
+
+
 End If
-End If
-If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "StrCln") = True Then a005052_Click
 
 Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "Sting", True
 If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "RunTime") = False Then
@@ -3613,15 +3459,14 @@ Form2.Show
 Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "RunTime", True
 End If
 If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "SmM_Mt") = 1 Then a00308_Click
-
 End Sub
 
 
 
 Private Sub LF2_MouseDown(Button As Integer, Shift As Integer, X As Single, Y As Single)
 On Error Resume Next
-If Len(LF1.List(LF2.ListIndex)) = 0 And LF2.List(LF2.ListIndex) <> "<<== 上一级搜索" Then
-LF1.RemoveItem (LF2.ListIndex)
+If Len(Lf1.List(LF2.ListIndex)) = 0 And LF2.List(LF2.ListIndex) <> "<<== 上一级搜索" Then
+Lf1.RemoveItem (LF2.ListIndex)
 LF2.RemoveItem (LF2.ListIndex)
 
 End If
@@ -3633,7 +3478,7 @@ End Sub
 Private Sub LF2_MouseMove(Button As Integer, Shift As Integer, X As Single, Y As Single)
 On Error Resume Next
 Dim lind  As Long
-Dim tem As Integer
+Dim tem As Long
 Dim lXPoint As Long
 Dim lYPoint As Long
 If Y = 0 Then Exit Sub
@@ -3653,17 +3498,7 @@ If Button <> 1 Then
 Picture2.Visible = False
 Exit Sub
 End If
-'If LF2.ListCount < 2 Then Exit Sub
 Picture2.Visible = True
-'If Y + LF2.Top < LF2.Top - 5 Then
-'Picture2.Top = LF2.Top - 5
-'Exit Sub
-'End If
-'If Y + LF2.Top > LF2.Height + LF2.Top - 30 Then
-'Picture2.Top = LF2.Height + LF2.Top - 30
-'Exit Sub
-'End If
-'Me.Caption = lind
 tem = Int(Y / TextHeight("x"))
 If tem < 0 Then tem = 0
 If tem > LF2.Height / TextHeight("x") Then tem = Int(LF2.Height / TextHeight("x"))
@@ -3688,9 +3523,9 @@ If ReAdd = LF2.ListIndex Then Exit Sub
 
 If (Picture2.Top <> LF2.Top - 7 And Oline > LF2.ListCount) = True Or Picture2.Top >= LF2.Top - 7 + Int(LF2.Height / TextHeight("x")) * TextHeight("x") Then
 If ReAdd < 0 Then Exit Sub
-LF1.AddItem LF1.List(ReAdd)
+Lf1.AddItem Lf1.List(ReAdd)
 LF2.AddItem LF2.List(ReAdd)
-LF1.RemoveItem ReAdd
+Lf1.RemoveItem ReAdd
 LF2.RemoveItem ReAdd
 Exit Sub
 End If
@@ -3701,13 +3536,13 @@ AbbW = True
 Else
 AbbW = False
 End If
-LF1.AddItem LF1.List(ReAdd), LF2.ListIndex
+Lf1.AddItem Lf1.List(ReAdd), LF2.ListIndex
 LF2.AddItem LF2.List(ReAdd), LF2.ListIndex
 If AbbW = True Then
-LF1.RemoveItem ReAdd + 1
+Lf1.RemoveItem ReAdd + 1
 LF2.RemoveItem ReAdd + 1
 Else
-LF1.RemoveItem ReAdd
+Lf1.RemoveItem ReAdd
 LF2.RemoveItem ReAdd
 End If
 End If
@@ -3717,12 +3552,11 @@ End Sub
 
 
 Private Sub LF2_OLEDragOver(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single, State As Integer)
-'On Error Resume Next
  LF2_MouseMove 1, 0, X, Y
 End Sub
 
 Private Sub mjjhjm_Click()
-mp(0).DisplaySize = mpFitToSize
+Mper.DisplaySize = mpFitToSize
 mjjhjm.Checked = True
 cerde.Checked = False
 cbcxbf.Checked = False
@@ -3731,49 +3565,44 @@ xfg.Checked = False
 erg.Checked = False
 End Sub
 
-Private Sub mp_DblClick(Index As Integer, Button As Integer, ShiftState As Integer, X As Single, Y As Single)
-If Index = 0 Then erg_Click
-End Sub
 Private Sub ReName()
  LF2.Clear
-For i = 0 To LF1.ListCount - 1
-   AddFile LF1.List(i)
+For i = 0 To Lf1.ListCount - 1
+   AddFile Lf1.List(i)
 Next
 
 End Sub
-Public Sub ReNameB(PiN As Integer)
+Public Sub ReNameB(PiN As Long)
 Dim Text As String
    Dim File As String
-    File = LF1.List(PiN)
-        If Len(File) = 0 Then Exit Sub
+ 
+    File = Lf1.List(PiN)
+       Dim Jd As Long, File2 As String
+       If Len(File) = 0 Then Exit Sub
 
    Me.MousePointer = 11
     LF2.RemoveItem PiN
 
-     File = LF1.List(PiN)
-      mp(1).Filename = File
+     File = Lf1.List(PiN)
+     If Len(Mper.Filename) > 0 Then
+         File2 = Mper.Filename
+      Jd = Mper.CurrentPosition
+      Else: File2 = "None"
+      End If
+      Mper.Filename = File
       If (UCase(Right(File, 4)) = ".DAT" And UCase(Left(File, 3)) = CDRom) Or UCase(Right(File, 4)) = ".CDA" Then
          Text = SotPath(File) + " - 未知艺术家"
       GoTo bb
        End If
      Text = SotPath(File)
-    If Len(mp(1).GetMediaInfoString(mpClipTitle)) > 0 Then Text = mp(1).GetMediaInfoString(mpClipTitle)
-    If Len(mp(1).GetMediaInfoString(mpClipAuthor)) > 0 Then Text = Text + " - " + mp(1).GetMediaInfoString(mpClipAuthor)
-    'If Gtime(mp(1).Duration) <> "00:00" Then Text = Text + "  " + Gtime(mp(1).Duration)
-    'If LenB(Text) > 52 Then
-    'LF2.AddItem LeftB(Text, 44) + "..."
-    'Else
-    'LF2.AddItem Text
-    ' End If
-      mp(1).Filename = "ilxz"
+    If Len(Mper.GetMediaInfoString(mpClipTitle)) > 0 Then Text = Mper.GetMediaInfoString(mpClipTitle)
+    If Len(Mper.GetMediaInfoString(mpClipAuthor)) > 0 Then Text = Text + " - " + Mper.GetMediaInfoString(mpClipAuthor)
+
+   
 bb:
- 
-'If TextWidth(Text) > 2669 Then
-'  For i = 10 To Len(Text)
-'    If TextWidth(Left(Text, i) + "...") > 2669 Then Exit For
-'Next
-'    Text = Left(Text, i - 1) + "..."
-'  End If
+    Mper.Filename = File2
+       Mper.CurrentPosition = Jd
+
   
   LF2.AddItem Text, PiN
 File = ""
@@ -3785,34 +3614,31 @@ End Sub
 
 
 
-Private Sub mp_MouseUp(Index As Integer, Button As Integer, ShiftState As Integer, X As Single, Y As Single)
-If Index <> 0 Then Exit Sub
-If Button = 2 Then PopupMenu Me.b002, 0, X + mp(0).Left + Fm0.Left, Y + mp(0).Top + Fm0.Top
+
+Private Sub Mper_MouseUp(Button As Integer, ShiftState As Integer, X As Single, Y As Single)
+If Button = 2 Then PopupMenu Me.b002, 0, X + Mper.Left + Fm0.Left, Y + Mper.Top + Fm0.Top
+
 End Sub
 
-Private Sub mp_NewStream(Index As Integer)
+Private Sub Mper_NewStream()
 On Error Resume Next
-If Index <> 0 Then Exit Sub
 If Playing = True Then
 SendMCIString "stop cd wait", True
-'Update
 Playing = False
 cd = False
 End If
-If UCase(Left(mp(0).Filename, 2)) = "HT" Or UCase(Left(mp(0).Filename, 2)) = "MM" Then
+If UCase(Left(Mper.Filename, 2)) = "HT" Or UCase(Left(Mper.Filename, 2)) = "MM" Then
       Ig(2).Picture = LoadPicture(App.Path + "\SmM_Icos\09.gif")
-     ' Ig(8).Picture = LoadPicture(App.Path + "\SmM_Pictures\002.gif")
 Else
-If mp(0).ImageSourceHeight = 0 Then
+If Mper.ImageSourceHeight = 0 Then
      Ig(2).Picture = LoadPicture(App.Path + "\SmM_Icos\01.gif")
-      ' Ig(8).Picture = LoadPicture(App.Path + "\SmM_Pictures\001.gif")
   Else
      If fghgt.Checked = True Then SetVw
     
-         If UCase(Right(mp(0).Filename, 4)) = ".BMP" Or UCase(Right(mp(0).Filename, 4)) = ".JPG" Or UCase(Right(mp(0).Filename, 4)) = ".GIF" Or UCase(Right(mp(0).Filename, 4)) = ".WMF" Or UCase(Right(mp(0).Filename, 4)) = ".EMF" Or UCase(Right(mp(0).Filename, 4)) = ".DIB" Then
+         If UCase(Right(Mper.Filename, 4)) = ".BMP" Or UCase(Right(Mper.Filename, 4)) = ".JPG" Or UCase(Right(Mper.Filename, 4)) = ".GIF" Or UCase(Right(Mper.Filename, 4)) = ".WMF" Or UCase(Right(Mper.Filename, 4)) = ".EMF" Or UCase(Right(Mper.Filename, 4)) = ".DIB" Then
                Ig(2).Picture = LoadPicture(App.Path + "\SmM_Icos\04.gif")
           Else
-                If UCase(Left(mp(0).Filename, 3)) = CDRom And UCase(Right(mp(0).Filename, 4)) = ".DAT" Then
+                If UCase(Left(Mper.Filename, 3)) = CDRom And UCase(Right(Mper.Filename, 4)) = ".DAT" Then
                     Ig(2).Picture = LoadPicture(App.Path + "\SmM_Icos\12.gif")
                         Else
                         Ig(2).Picture = LoadPicture(App.Path + "\SmM_Icos\06.gif")
@@ -3821,54 +3647,54 @@ If mp(0).ImageSourceHeight = 0 Then
 End If
 End If
 BSv
-'If Len(Mp(0).Filename) > 0 Then
 sdfewe(0).Enabled = True
 dfdfvv(0).Enabled = True
-Ig(19).Visible = True
-Info = "[" + Str(Pid + 1) + " -" + Str(LF1.ListCount) + " ]  " + "标题:" + SotPath(mp(0).Filename) + "  "
-If Len(mp(0).GetMediaInfoString(mpClipTitle)) > 0 Then Info = "[" + Str(Pid + 1) + " -" + Str(LF1.ListCount) + " ]  " + "标题:" + mp(0).GetMediaInfoString(mpClipTitle) + "  "
-If Len(mp(0).GetMediaInfoString(mpClipAuthor)) > 0 Then
-Info = Info + "艺术家:" + mp(0).GetMediaInfoString(mpClipAuthor) + "  "
+Info = "[" + Str(Pid + 1) + " -" + Str(Lf1.ListCount) + " ]  " + "标题:" + SotPath(Mper.Filename) + "  "
+If Len(Mper.GetMediaInfoString(mpClipTitle)) > 0 Then Info = "[" + Str(Pid + 1) + " -" + Str(Lf1.ListCount) + " ]  " + "标题:" + Mper.GetMediaInfoString(mpClipTitle) + "  "
+If Len(Mper.GetMediaInfoString(mpClipAuthor)) > 0 Then
+Info = Info + "艺术家:" + Mper.GetMediaInfoString(mpClipAuthor) + "  "
 sdfewe(1).Enabled = True
 dfdfvv(1).Enabled = True
 End If
 
 
-If Len(mp(0).GetMediaInfoString(mpClipRating)) = 0 Then
+If Len(Mper.GetMediaInfoString(mpClipRating)) = 0 Then
  Info = Info + "评价:☆☆☆  "
  Else
 Info = Info + "评价:"
-For i = 1 To Int(mp(0).GetMediaInfoString(mpClipRating))
+For i = 1 To Int(Mper.GetMediaInfoString(mpClipRating))
   Info = Info + "☆" '
 Next
 Info = Info + "  "
 End If
 
 
-If Len(mp(0).GetMediaInfoString(mpClipCopyright)) > 0 Then Info = Info + "版权:" + mp(0).GetMediaInfoString(mpClipCopyright) + "  "
-If Len(mp(0).GetMediaInfoString(mpClipDescription)) > 0 Then
- Info = Info + "描述:" + mp(0).GetMediaInfoString(mpClipDescription) + "  "
+If Len(Mper.GetMediaInfoString(mpClipCopyright)) > 0 Then Info = Info + "版权:" + Mper.GetMediaInfoString(mpClipCopyright) + "  "
+If Len(Mper.GetMediaInfoString(mpClipDescription)) > 0 Then
+ Info = Info + "描述:" + Mper.GetMediaInfoString(mpClipDescription) + "  "
 sdfewe(2).Enabled = True
 dfdfvv(2).Enabled = True
 
 End If
-Info = Info + "时间: " + Gtime(mp(0).Duration) + "  "
-If mp(0).Bandwidth > 0 Then Info = Info + "质量:" + Str(Int(mp(0).Bandwidth / 1000)) + " 千字节每秒  "
-If mp(0).ImageSourceWidth > 0 Then
-    Info = Info + "视频:" + Str(mp(0).ImageSourceWidth) + " ×" + Str(mp(0).ImageSourceHeight) + "  " '+ " @" +left( Ly.GetDisplay,4)+""+right(ly.GetDisplay,3)) + "  "
+Info = Info + "时间: " + Gtime(Mper.Duration) + "  "
+If Mper.Bandwidth > 0 Then Info = Info + "质量:" + Str(Int(Mper.Bandwidth / 1000)) + " 千字节每秒  "
+If Mper.ImageSourceWidth > 0 Then
+    Info = Info + "视频:" + Str(Mper.ImageSourceWidth) + " ×" + Str(Mper.ImageSourceHeight) + "  " '+ " @" +left( Ly.GetDisplay,4)+""+right(ly.GetDisplay,3)) + "  "
 Else
+    Ig(19).Visible = True
+
     Info = Info + "类型:音频  "
 End If
-Info = Info + "地址:" + LF1.List(Pid)
+Info = Info + "地址:" + Lf1.List(Pid)
 For i = 0 To 2
- If mp(0).ImageSourceWidth > 0 Then Exit Sub
+ If Mper.ImageSourceWidth > 0 Then Exit Sub
 If sdfewe(i).Enabled = True Then
    Ig(19).Picture = LoadPicture(App.Path + "\SmM_Icos\13.gif")
    If juyjk.Checked = False Then Ig(19).Visible = True
    Exit For
 End If
 Next
- If UCase(Left(mp(0).Filename, 2)) = "HT" Or UCase(Left(mp(0).Filename, 2)) = "MM" Then
+ If UCase(Left(Mper.Filename, 2)) = "HT" Or UCase(Left(Mper.Filename, 2)) = "MM" Then
  Ig(19).Picture = LoadPicture(App.Path + "\SmM_Icos\15.gif")
     If juyjk.Checked = False Then Ig(19).Visible = True
 
@@ -3876,8 +3702,7 @@ Next
 'End If
 
  Ig(19).Left = Me.Width - 3100 - Ig(19).Width
- Tinfo(0).Left = Pinfo.Width
-  Tinfo(1).Left = Pinfo.Width
+ 'Tinfo.Left = 100
 
 If Ly.FileExists(Ly.GetSysPath + "\sndvol32.exe") = True Then
 SinfoBo = True
@@ -3947,17 +3772,17 @@ End Sub
 
 Private Sub PInfo_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single)
 Dim ThisFile As Variant
-LF1.Clear
+Lf1.Clear
              LF2.Clear
 
 For Each ThisFile In Data.Files
 
-LF1.AddItem ThisFile
-        AddFile LF1.List(LF1.ListCount - 1)
+Lf1.AddItem ThisFile
+        AddFile Lf1.List(Lf1.ListCount - 1)
 
 Next
 Pid = 0
-LF1.ListIndex = Pid
+Lf1.ListIndex = Pid
 LF2.ListIndex = Pid
 LF1_DblClick
 
@@ -3980,8 +3805,8 @@ Private Sub s_Click()
        Static e As String * 30
     If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "BookMark_X") = 0 Then Exit Sub
           Pid = -1
-     For i = 0 To LF1.ListCount - 1
-      If LF1.List(i) = Left(myReadINI(App.Path + "\SmM_Start.dat", "BookMark", "Bm_X", ""), Len(LF1.List(i))) Then
+     For i = 0 To Lf1.ListCount - 1
+      If Lf1.List(i) = Left(myReadINI(App.Path + "\SmM_Start.dat", "BookMark", "Bm_X", ""), Len(Lf1.List(i))) Then
       Pid = i
       LF2.ListIndex = i
       LF2_DblClick
@@ -3989,15 +3814,15 @@ Private Sub s_Click()
       End If
       Next
       If Pid = -1 Then
-      LF1.Clear
+      Lf1.Clear
           LF2.Clear
          Pid = 0
-        LF1.AddItem myReadINI(App.Path + "\SmM_Start.dat", "BookMark", "Bm_X", "")
-             AddFile LF1.List(0)
+        Lf1.AddItem myReadINI(App.Path + "\SmM_Start.dat", "BookMark", "Bm_X", "")
+             AddFile Lf1.List(0)
                   LF2.ListIndex = Pid
                   LF2_DblClick
      End If
-  If UCase(Right(LF1.List(0), 4)) = ".CDA" Then
+  If UCase(Right(Lf1.List(0), 4)) = ".CDA" Then
           SendMCIString "set cd time format milliseconds", True
                mciSendString "status cd position wait", e, Len(e), True
      
@@ -4008,7 +3833,7 @@ Private Sub s_Click()
 SendMCIString "set cd time format tmsf", True
 
      Else
-      mp(0).CurrentPosition = Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "BookMark_X") - 1
+      Mper.CurrentPosition = Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "BookMark_X") - 1
     End If
 End Sub
 
@@ -4021,17 +3846,17 @@ End Sub
 Private Sub sdfewe_Click(Index As Integer)
 Dim Tfor As String
 On Error Resume Next
-If Len(mp(0).Filename) = 0 Then Exit Sub
+If Len(Mper.Filename) = 0 Then Exit Sub
 If Index = 0 Then
 Tfor = "http://www.gracenote.com/php/search2.php3?f=track&q="
-Tfor = Tfor + SotPath(mp(0).Filename)
-If Len(mp(0).GetMediaInfoString(mpClipTitle)) > 0 Then Tfor = "http://www.gracenote.com/php/search2.php3?f=track&q=" + mp(0).GetMediaInfoString(mpClipTitle)
+Tfor = Tfor + SotPath(Mper.Filename)
+If Len(Mper.GetMediaInfoString(mpClipTitle)) > 0 Then Tfor = "http://www.gracenote.com/php/search2.php3?f=track&q=" + Mper.GetMediaInfoString(mpClipTitle)
 
 End If
 
-If Index = 1 Then Tfor = "http://www.gracenote.com/php/search2.php3?f=artist&q=" + mp(0).GetMediaInfoString(mpClipAuthor)
+If Index = 1 Then Tfor = "http://www.gracenote.com/php/search2.php3?f=artist&q=" + Mper.GetMediaInfoString(mpClipAuthor)
 
-If Index = 3 Then Tfor = "http://www.gracenote.com/php/search2.php3?f=disc&q=" + mp(0).GetMediaInfoString(mpClipDescription)
+If Index = 3 Then Tfor = "http://www.gracenote.com/php/search2.php3?f=disc&q=" + Mper.GetMediaInfoString(mpClipDescription)
 
 
 HttpTo Tfor
@@ -4064,15 +3889,6 @@ cLT1_ItemClick 1, 1
 End Sub
 
 
-Private Sub sdfsdfsd_Click()
-On Error Resume Next
-    Dim AboutWnd As Form4
-    Set AboutWnd = New Form4
-    
-    AboutWnd.Show vbModal, Me
-    
-    Set AboutWnd = Nothing
-End Sub
 
 
 Private Sub SF1_OnSkinNotify(ByVal SkinClass As String, ByVal SkinEvent As String)
@@ -4152,8 +3968,8 @@ Ig(0).Width = Me.Width
 Ig(1).Width = Me.Width
 Ig(5).Width = Me.Width
 Fm10.Width = Me.Width
-'mp(0).Width = Me.Width - 3180
-mp(0).Width = Me.Width - 3100
+'mper.Width = Me.Width - 3180
+Mper.Width = Me.Width - 3100
 Ig(19).Left = Me.Width - 3050 - Ig(19).Width
 
 LF2.Left = Me.Width - 3010
@@ -4171,7 +3987,7 @@ cLT1.Left = Me.Width - 3060
 
 Fm5.Left = Me.Width - 3110
 LF2.Height = Me.Height - 2115
-mp(0).Height = Me.Height - 915
+Mper.Height = Me.Height - 915
 Ig(7).Width = Me.Width - 3150
 Ig(7).Height = Me.Height - 2550
 'PInfo.Width = Me.Width - 2500
@@ -4209,14 +4025,13 @@ Ig_MouseUp 16, 1, 0, 0, 0
  Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "RealPlay", False
 
 If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "Clean") = True Then
-LF1.Clear
+Lf1.Clear
              LF2.Clear
 End If
-If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "OvrCln") = True And Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoCln") = True Then a005052_Click
 
 Open App.Path + "\SmM_List.sml" For Output As #1
-    For i = 0 To LF1.ListCount - 1
-     Print #1, LF1.List(i)
+    For i = 0 To Lf1.ListCount - 1
+     Print #1, Lf1.List(i)
     Next i
    Close (1)
 Open App.Path + "\SmM_NameList.dat" For Output As #1
@@ -4227,8 +4042,8 @@ Open App.Path + "\SmM_NameList.dat" For Output As #1
 
 Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "Sting", False
 If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "StartUp") = True Then Shell (App.Path + "\SmM_Helper.exe")
- Dim xx As Integer
- Dim yy As Integer
+ Dim xx As Long
+ Dim yy As Long
 
 If Me.WindowState = 2 Then
 Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "SmM_LM", 1
@@ -4307,30 +4122,30 @@ On Error Resume Next
  Ig(19).Visible = False
 
 If a002045.Checked = False Then
-   If Pid >= LF1.ListCount - 1 Then
+   If Pid >= Lf1.ListCount - 1 Then
     Pid = 0
-         LF1.ListIndex = Pid
+         Lf1.ListIndex = Pid
          LF2.ListIndex = Pid
          
         If a00205.Checked = False Then
-      mp(0).Filename = "ilxz"
+      Mper.Filename = "ilxz"
  
           Else
-          LF1.ListIndex = Pid
+          Lf1.ListIndex = Pid
           LF2.ListIndex = Pid
           
               LF1_DblClick
            End If
     Else
-LF1.ListIndex = Pid + 1
+Lf1.ListIndex = Pid + 1
 LF2.ListIndex = Pid + 1
 
 LF1_DblClick
  End If
 Else
-i = Int((LF1.ListCount - 1) * Rnd)
+i = Int((Lf1.ListCount - 1) * Rnd)
 Pid = i
-LF1.ListIndex = Pid
+Lf1.ListIndex = Pid
 LF2.ListIndex = Pid
 
 LF1_DblClick
@@ -4339,7 +4154,7 @@ End If
 End Sub
 Function SotPath(T$) As String
 On Error Resume Next
-Dim ii As Integer
+Dim ii As Long
 'Dim TeFo As String
   '  Dir1.Path = App.Path
   '    Dir1.Path = T$
@@ -4382,32 +4197,24 @@ End Function
 Public Sub AddFile(File As String)
 On Error Resume Next
     Dim Text As String
+           Dim Jd As Long, File2 As String
      If Len(File) = 0 Then Exit Sub
         Me.MousePointer = 11
-      mp(1).Filename = File
+    If Len(Mper.Filename) > 0 Then
+         File2 = Mper.Filename
+      Jd = Mper.CurrentPosition
+      Else: File2 = "None"
+      End If
       If (UCase(Right(File, 4)) = ".DAT" And UCase(Left(File, 3)) = CDRom) Or UCase(Right(File, 4)) = ".CDA" Then
          Text = SotPath(File) + " - 未知艺术家"
       GoTo bb
        End If
      Text = SotPath(File)
-    If Len(mp(1).GetMediaInfoString(mpClipTitle)) > 0 Then Text = mp(1).GetMediaInfoString(mpClipTitle)
-    If Len(mp(1).GetMediaInfoString(mpClipAuthor)) > 0 Then Text = Text + " - " + mp(1).GetMediaInfoString(mpClipAuthor)
-   ' If Gtime(mp(1).Duration) <> "00:00" Then Text = Text + "  " + Gtime(mp(1).Duration)
-    'If LenB(Text) > 52 Then
-    'LF2.AddItem LeftB(Text, 44) + "..."
-    'Else
-    'LF2.AddItem Text
-    ' End If
-      mp(1).Filename = "ilxz"
+    If Len(Mper.GetMediaInfoString(mpClipTitle)) > 0 Then Text = Mper.GetMediaInfoString(mpClipTitle)
+    If Len(Mper.GetMediaInfoString(mpClipAuthor)) > 0 Then Text = Text + " - " + Mper.GetMediaInfoString(mpClipAuthor)
 bb:
-
-'If TextWidth(Text) > 2669 Then
- ' For i = 10 To Len(Text)
-  '  If TextWidth(Left(Text, i) + "...") > 2669 Then Exit For
-'Next
- '   Text = Left(Text, i - 1) + "..."
-  'End If
-
+     Mper.Filename = File2
+       Mper.CurrentPosition = Jd
  LF2.AddItem Text
 File = ""
 Me.MousePointer = 0
@@ -4416,17 +4223,17 @@ End Sub
 
 Private Sub Lf2_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single)
   On Error Resume Next
- Dim tem As Integer
-  tem = Int(Y / TextHeight("x"))
+ Dim tem As Long
+  tem = Int(Y / TextHeight("I"))
 If tem < 0 Then tem = 0
-If tem > LF2.Height / TextHeight("x") Then tem = LF2.Height / TextHeight("x")
+If tem > LF2.Height / TextHeight("I") Then tem = LF2.Height / TextHeight("I")
 If tem > LF2.ListCount Then tem = LF2.ListCount
      Dim ThisFile As Variant
     For Each ThisFile In Data.Files
-        LF1.AddItem ThisFile, tem
+        Lf1.AddItem ThisFile, tem
            LF2.AddItem ThisFile, tem
             ReNameB tem
-         tem = tem + 1
+         'tem = tem + 1
     Next
 End Sub
 
@@ -4468,35 +4275,35 @@ Me.MousePointer = 11
      Rf(27) = "RMS"
   
   
-    Pid = LF1.ListIndex
+    Pid = Lf1.ListIndex
     Dir1.Path = App.Path
-      Dir1.Path = LF1.List(Pid)
+      Dir1.Path = Lf1.List(Pid)
      
       
       If Dir1.Path <> App.Path Then
    If Dir1.ListCount <> 0 Or File1.ListCount <> 0 Then
   If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AllFiles") = True Then
-            Dim result As Integer
+            Dim result As Long
 Dim firstpath As String, dircount As Integer
 dircount = Dir1.ListCount
 result = DirDiver(firstpath, dircount, "")
-    LF1.RemoveItem (Pid)
+    Lf1.RemoveItem (Pid)
       LF2.RemoveItem (Pid)
-      LF1.ListIndex = Pid
+      Lf1.ListIndex = Pid
       LF2.ListIndex = Pid
-If LF1.ListCount > 0 Then
+If Lf1.ListCount > 0 Then
    LF1_DblClick
  End If
    Else
    For i = 0 To File1.ListCount - 1
-     LF1.AddItem File1.Path + "\" + File1.List(i), i
+     Lf1.AddItem File1.Path + "\" + File1.List(i), i
     Next
-    LF1.RemoveItem (Pid)
+    Lf1.RemoveItem (Pid)
           LF2.RemoveItem (Pid)
 
-     LF1.ListIndex = Pid
+     Lf1.ListIndex = Pid
      LF2.ListIndex = Pid
-     If LF1.ListCount > 0 Then
+     If Lf1.ListCount > 0 Then
      LF1_DblClick
      ReName
     End If
@@ -4509,13 +4316,13 @@ If LF1.ListCount > 0 Then
  Exit Sub
  End If
   
-  If UCase(Right(LF1.List(Pid), 4)) = ".SMR" Then
-  Filename = LF1.List(Pid)
-   LF1.Clear
+  If UCase(Right(Lf1.List(Pid), 4)) = ".SMR" Then
+  Filename = Lf1.List(Pid)
+   Lf1.Clear
   Open Filename For Input As #1
     While Not EOF(1)
     Line Input #1, Text
-    LF1.AddItem RTrim(Text)
+    Lf1.AddItem RTrim(Text)
 
     Wend
     Close #1
@@ -4535,20 +4342,20 @@ Me.MousePointer = 0
 Exit Sub
  End If
 
- If UCase(Right(LF1.List(Pid), 4)) = ".SML" Then
-   Open LF1.List(Pid) For Input As #1
+ If UCase(Right(Lf1.List(Pid), 4)) = ".SML" Then
+   Open Lf1.List(Pid) For Input As #1
     While Not EOF(1)
     Line Input #1, Text
-    LF1.AddItem RTrim(Text)
+    Lf1.AddItem RTrim(Text)
 
     Wend
     Close #1
- LF1.RemoveItem (Pid)
+ Lf1.RemoveItem (Pid)
        LF2.RemoveItem (Pid)
-       LF1.ListIndex = Pid
+       Lf1.ListIndex = Pid
 
        LF2.ListIndex = Pid
-     If LF1.ListCount > 0 Then
+     If Lf1.ListCount > 0 Then
 LF1_DblClick
 ReName
  End If
@@ -4559,20 +4366,20 @@ Exit Sub
  
  
  
- If UCase(Right(LF1.List(Pid), 4)) = ".SWF" Then
- mp(0).Filename = "ilxz"
- Shell (App.Path + "\SmM_Flash.exe " + LF1.List(Pid)), vbNormalFocus
+ If UCase(Right(Lf1.List(Pid), 4)) = ".SWF" Then
+ Mper.Filename = "ilxz"
+ Shell (App.Path + "\SmM_Flash.exe " + Lf1.List(Pid)), vbNormalFocus
  Me.MousePointer = 0
  Exit Sub
  End If
   
  For i = 0 To 27
-   If UCase(Right(LF1.List(Pid), 3)) = Rf(i) Then
+   If UCase(Right(Lf1.List(Pid), 3)) = Rf(i) Then
    Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "RealPlay", True
-  mp(0).Filename = "ilxz"
+  Mper.Filename = "ilxz"
 
-   myWriteINI Ly.GetSysPath + "\SmM_RealMedia.dat", "Real", "Filename", LF1.List(Pid)
-  If Ly.FileExists(Ly.GetSysPath + "\SmM_RealMedia.exe") = True Then Shell Ly.GetSysPath + "\SmM_RealMedia.exe ", vbNormalFocus
+   myWriteINI Ly.GetSysPath + "\SmM_RealMedia.dat", "Real", "Filename", Lf1.List(Pid)
+  If Ly.FileExists(Ly.GetSysPath + "\rmoc3260.dll") = True Then Shell Ly.GetSysPath + "\SmM_RealMedia.exe ", vbNormalFocus
  Me.MousePointer = 0
  Exit Sub
  End If
@@ -4580,7 +4387,7 @@ Exit Sub
  Next
   
   
-  If UCase(Right(LF1.List(Pid), 4)) = ".CDA" And Ly.FileExists(LF1.List(Pid)) = True Then
+  If UCase(Right(Lf1.List(Pid), 4)) = ".CDA" And Ly.FileExists(Lf1.List(Pid)) = True Then
              Ig(19).Picture = LoadPicture(App.Path + "\SmM_Icos\14.gif")
               Ig(19).Left = Me.Width - 3050 - Ig(19).Width
 
@@ -4593,25 +4400,24 @@ Exit Sub
                    Playing = True
                 Ig(2).Picture = LoadPicture(App.Path + "\SmM_Icos\05.gif")
                       cd = True
-                CDid = Val(Left(Right(LF1.List(Pid), 6), 2))
+                CDid = Val(Left(Right(Lf1.List(Pid), 6), 2))
                         Command = "status cd length track " & CDid
              mciSendString Command, e, Len(e), 0
              Stime = Left(e, 5)
-       Info = "[" + Str(Pid + 1) + " -" + Str(LF1.ListCount) + "]  标题:" + SotPath(LF1.List(Pid)) + "  艺术家:未知艺术家  唱片集:未知唱片集  流派:未知流派  时间:" + Stime + "  地址:" + LF1.List(Pid)
+       Info = "[" + Str(Pid + 1) + " -" + Str(Lf1.ListCount) + "]  标题:" + SotPath(Lf1.List(Pid)) + "  艺术家:未知艺术家  唱片集:未知唱片集  流派:未知流派  时间:" + Stime + "  地址:" + Lf1.List(Pid)
         
             If (Playing) Then
-                Command = "play cd from " & Val(Left(Right(LF1.List(Pid), 6), 2))
+                Command = "play cd from " & Val(Left(Right(Lf1.List(Pid), 6), 2))
                 SendMCIString Command, True
              Else
-                Command = "seek cd to " & Val(Left(Right(LF1.List(Pid), 6), 2))
+                Command = "seek cd to " & Val(Left(Right(Lf1.List(Pid), 6), 2))
                 SendMCIString Command, True
                 SendMCIString "play cd", True
      End If
-           mp(0).Filename = "ilxz"
+           Mper.Filename = "ilxz"
       
                 Playing = True
-           Tinfo(0).Left = Pinfo.Width
-           Tinfo(1).Left = Pinfo.Width
+           Tinfo.Left = Pinfo.Width
            
                 cd = True
 
@@ -4624,15 +4430,15 @@ End If
  Me.MousePointer = 0
 Exit Sub
 End If
-mp(0).Filename = LF1.List(Pid)
+Ig(19).Visible = False
+Mper.Filename = Lf1.List(Pid)
+
 Me.MousePointer = 0
 
 End Sub
 
-Private Sub mp_EndOfStream(Index As Integer, ByVal result As Long)
+Private Sub Mper_EndOfStream(ByVal result As Long)
 On Error Resume Next
-If Index = 1 Then mp(1).Filename = "ilxz"
-If Index <> 0 Then Exit Sub
 Ig(19).Visible = False
 Ig(2).Picture = LoadPicture(App.Path + "\SmM_Icos\08.gif")
 dfdfvv(0).Enabled = False
@@ -4665,25 +4471,48 @@ End If
 End Sub
 Private Sub Timer1_Timer()
 On Error Resume Next
-If mp(0).AnimationAtStart = True Then ReLmp
-If SinfoBo = True And Tinfo(0).Left < Pinfo.Width - 1000 Then
+If Mper.AnimationAtStart = True Then ReLmp
+TX = TX + 1
+If SinfoBo = True And TX >= 100 Then
 SinfoBo = False
+TX = 0
 St1.Hidden = True
 St1.Hidden = False
 End If
-If Tinfo(0).Left < 0 - Tinfo(0).Width Then Tinfo(0).Left = Tinfo(1).Left + Tinfo(1).Width + Pinfo.Width - 1500
-If Tinfo(1).Left < 0 - Tinfo(1).Width Then Tinfo(1).Left = Tinfo(0).Left + Tinfo(0).Width + Pinfo.Width - 1500
-If Ly.FileExists(Ly.GetWinPath + "\sndvol32.exe") = False Then
-Tinfo(0).Left = Tinfo(0).Left - 15
-Tinfo(1).Left = Tinfo(1).Left - 15
+If Tinfo.Width > Pinfo.Width Then
+
+If Lor = False Then
+
+  If Ly.FileExists(Ly.GetWinPath + "\sndvol32.exe") = False Then
+   Tinfo.Left = Tinfo.Left - 15
+  Else
+   Tinfo.Left = Tinfo.Left - 30
+  End If
+
+   If Tinfo.Left < Pinfo.Width - Tinfo.Width - 500 Then Lor = True
+
+
+
 Else
-Tinfo(0).Left = Tinfo(0).Left - 30
-Tinfo(1).Left = Tinfo(1).Left - 30
+  If Ly.FileExists(Ly.GetWinPath + "\sndvol32.exe") = False Then
+   Tinfo.Left = Tinfo.Left + 15
+  Else
+   Tinfo.Left = Tinfo.Left + 30
+  End If
+If Tinfo.Left > 500 Then Lor = False
+
+
+
 
 End If
 
 
-If Len(mp(0).Filename) > 0 Then
+
+Else
+Tinfo.Left = (Pinfo.Width - Tinfo.Width) / 2
+
+End If
+If Len(Mper.Filename) > 0 Then
 Frame1.Visible = False
 Else:
 Frame1.Visible = True
@@ -4698,40 +4527,36 @@ End If
 
 If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "Change") = True Then LoadSet
 If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AddFile") = True Then
-LF1.AddItem myReadINI(App.Path + "\SmM_Start.dat", "Start", "AddFile", ""), LF1.ListCount
-AddFile LF1.List(LF1.ListCount - 1)
+Lf1.AddItem myReadINI(App.Path + "\SmM_Start.dat", "Start", "AddFile", ""), Lf1.ListCount
+AddFile Lf1.List(Lf1.ListCount - 1)
 
 Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AddFile", False
 End If
 If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "PlayFile") = True Then
-   LF1.Clear
+   Lf1.Clear
                 LF2.Clear
 
-   LF1.AddItem myReadINI(App.Path + "\SmM_Start.dat", "Start", "PlayFile", ""), 0
-           AddFile LF1.List(LF1.ListCount - 1)
+   Lf1.AddItem myReadINI(App.Path + "\SmM_Start.dat", "Start", "PlayFile", ""), 0
+           AddFile Lf1.List(Lf1.ListCount - 1)
 
    Ly.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "PlayFile", False
-   LF1.ListIndex = 0
+   Lf1.ListIndex = 0
    LF2.ListIndex = 0
    
    LF1_DblClick
   End If
-If mp(0).DisplaySize = mpFitToSize Then
+If Mper.DisplaySize = mpFitToSize Then
 mjjhjm.Checked = True
 a00306.Checked = False
 erg.Checked = False
 End If
 
 
-If Len(mp(0).Filename) = 0 And cd = False Then Info = "Wellcome to enjoy your digital multimedia with H2O Networks Snowman Media ilxz 4!"
-If Txinfo(0).Caption <> Info Then
-Txinfo(0).Caption = Info
-Txinfo(1).Caption = Info
-Tinfo(0).Width = Txinfo(0).Width
-Tinfo(1).Width = Txinfo(1).Width
-Tinfo(0).Left = Pinfo.Width
-Tinfo(1).Left = Tinfo(0).Width + Pinfo.Width * 2 - 1500
-
+If Len(Mper.Filename) = 0 And cd = False Then Info = "Wellcome to enjoy your digital multimedia with H2O Networks Snowman Media 4se!"
+If Txinfo.Caption <> Info Then
+Txinfo.Caption = Info
+Tinfo.Width = Txinfo.Width
+Tinfo.Left = 500
 'If Ly.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "ShowSys") = True Then
 'St1.Hidden = True
 'St1.Hidden = False
@@ -4745,9 +4570,9 @@ End Sub
 Private Function DirDiver(NewPath As String, dircount As Integer, BackUp As String) As Integer
 On Error Resume Next
 Static FirstErr As Integer
-Dim DirsToPeek As Integer, AbandonSearch As Integer, INd As Integer
+Dim DirsToPeek As Long, AbandonSearch As Long, INd As Long
 Dim OldPath As String, ThePath As String, entry As String
-Dim retval As Integer
+Dim retval As Long
   SearchFlag = True             ' Set flag so user can interrupt.
   DirDiver = False              ' Set to TRUE if there is an error.
   retval = DoEvents()           ' check for events (i.e. user Cancels).
@@ -4778,8 +4603,8 @@ Dim retval As Integer
     End If
     For INd = 0 To File1.ListCount - 1        ' Add conforming files in
         entry = ThePath + File1.List(INd) ' this directory to listbox.
-        LF1.AddItem entry
-             AddFile LF1.List(LF1.ListCount - 1)
+        Lf1.AddItem entry
+             AddFile Lf1.List(Lf1.ListCount - 1)
     Next INd
   End If
   If BackUp <> "" Then         ' If there is a superior
@@ -4803,36 +4628,36 @@ End Function
 
 Private Sub Times_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single)
 Dim ThisFile As Variant
-LF1.Clear
+Lf1.Clear
              LF2.Clear
 
 For Each ThisFile In Data.Files
 
-LF1.AddItem ThisFile
-        AddFile LF1.List(LF1.ListCount - 1)
+Lf1.AddItem ThisFile
+        AddFile Lf1.List(Lf1.ListCount - 1)
 
 Next
 Pid = 0
-LF1.ListIndex = Pid
+Lf1.ListIndex = Pid
 LF2.ListIndex = Pid
 LF1_DblClick
 
 End Sub
 
 
-Private Sub Tinfo_OLEDragDrop(Index As Integer, Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single)
+Private Sub Tinfo_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single)
 Dim ThisFile As Variant
-LF1.Clear
+Lf1.Clear
              LF2.Clear
 
 For Each ThisFile In Data.Files
 
-LF1.AddItem ThisFile
-        AddFile LF1.List(LF1.ListCount - 1)
+Lf1.AddItem ThisFile
+        AddFile Lf1.List(Lf1.ListCount - 1)
 
 Next
 Pid = 0
-LF1.ListIndex = Pid
+Lf1.ListIndex = Pid
 LF2.ListIndex = Pid
 LF1_DblClick
 
@@ -4840,19 +4665,19 @@ LF1_DblClick
 End Sub
 
 
-Private Sub Txinfo_OLEDragDrop(Index As Integer, Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single)
+Private Sub Txinfo_OLEDragDrop(Data As DataObject, Effect As Long, Button As Integer, Shift As Integer, X As Single, Y As Single)
 Dim ThisFile As Variant
-LF1.Clear
+Lf1.Clear
              LF2.Clear
 
 For Each ThisFile In Data.Files
 
-LF1.AddItem ThisFile
-        AddFile LF1.List(LF1.ListCount - 1)
+Lf1.AddItem ThisFile
+        AddFile Lf1.List(Lf1.ListCount - 1)
 
 Next
 Pid = 0
-LF1.ListIndex = Pid
+Lf1.ListIndex = Pid
 LF2.ListIndex = Pid
 LF1_DblClick
 
@@ -4865,23 +4690,23 @@ sdfewer_Click
 End Sub
 
 Private Sub werewr_Click()
-If LF1.ListCount > 0 And LF1.SelCount > 0 Then
-If mp(0).Filename = LF1.List(LF1.ListIndex) Then
-mp(0).Filename = "ilxz"
+If Lf1.ListCount > 0 And Lf1.SelCount > 0 Then
+If Mper.Filename = Lf1.List(Lf1.ListIndex) Then
+Mper.Filename = "ilxz"
 End If
-Ly.DelFile LF1.List(LF1.ListIndex)
-If Ly.FileExists(LF1.List(LF1.ListIndex)) = False Then
-LF1.RemoveItem (LF1.ListIndex)
-LF2.RemoveItem (LF1.ListIndex)
+Ly.DelFile Lf1.List(Lf1.ListIndex)
+If Ly.FileExists(Lf1.List(Lf1.ListIndex)) = False Then
+Lf1.RemoveItem (Lf1.ListIndex)
+LF2.RemoveItem (Lf1.ListIndex)
   LF2.ListIndex = Pid
-If Pid <= LF1.ListIndex Then Pid = Pid - 1
+If Pid <= Lf1.ListIndex Then Pid = Pid - 1
 
 End If
 End If
 End Sub
 
 Private Sub xbcty_Click()
-mp(0).Balance = 0
+Mper.Balance = 0
 xbcty.Checked = True
 dgv.Checked = True
 xbrth.Checked = False
@@ -4891,7 +4716,7 @@ zxvrs.Checked = False
 End Sub
 
 Private Sub xbrth_Click()
-mp(0).Balance = -9640
+Mper.Balance = -9640
 xbcty.Checked = False
 dgv.Checked = False
 xbrth.Checked = True
@@ -4902,7 +4727,7 @@ zxvrs.Checked = False
 End Sub
 
 Private Sub xfg_Click()
-mp(0).DisplaySize = mpDoubleSize
+Mper.DisplaySize = mpDoubleSize
 mjjhjm.Checked = False
 cerde.Checked = False
 cbcxbf.Checked = False
@@ -4946,9 +4771,6 @@ Private Sub ytjuytjkuy_Click()
 Ig_MouseUp 16, 1, 0, 0, 0
 End Sub
 
-Private Sub ytu5gf_Click()
-Ig_MouseUp 11, 1, 0, 0, 0
-End Sub
 Private Sub Update()
 On Error Resume Next
 Static e As String * 30
@@ -4973,7 +4795,7 @@ If cd = True Then
      'If (CDLoad = True) Then
       '  CDLoad = False
        ' Playing = False
-       ' TrackTime.Caption = """不要关闭！！！！！！！！！！！！！！！！"
+       ' TrackTime.Caption = ""
        ' TimeWindow.Text = ""
    ' End If
 End If
@@ -4990,6 +4812,11 @@ CDid = 0
 GoNext
 End If
 End If
+End Sub
+
+Private Sub ytu5gf_Click()
+Ig_MouseUp 11, 1, 0, 0, 0
+
 End Sub
 
 Private Sub zxvreg_Click()

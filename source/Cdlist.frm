@@ -42,8 +42,8 @@ Option Explicit
 Private Sub Form_Load()
 On Error Resume Next
 If App.PrevInstance = True Then End
-Dim i As Integer
-Dim DriveType As Integer
+Dim i As Long
+Dim DriveType As Long
 Dim rtn As String
 Dim AllDrives As String
 Dim JustOneDrive As String

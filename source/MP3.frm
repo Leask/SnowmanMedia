@@ -301,9 +301,9 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
 Dim strFileName As String
-Private Function GetGenraComboIdx(ByVal nIndex As Byte) As Integer
+Private Function GetGenraComboIdx(ByVal nIndex As Byte) As Long
     
-    Dim i As Integer
+    Dim i As Long
     Dim GenraNameStr As String
     
     GenraNameStr = SetGenra(nIndex)
@@ -489,7 +489,8 @@ End Function
 
 
 Private Sub Command1_Click()
-Unload Me
+Set Form4 = Nothing
+
 End Sub
 
 Private Sub Form_Load()
@@ -501,26 +502,32 @@ Dim strYear As String
 Dim strComment As String
 Dim ByteGenra As Byte
 Dim i As Byte
-
+     Dim Jd As Long, File2 As String
 
 Form1.Ly.MakeTop Form1, False
 
-         strFileName = Form1.LF1.List(Form1.LF2.ListIndex)
-
-Form1.Mp(1).Filename = strFileName
+         strFileName = Form1.Lf1.List(Form1.LF2.ListIndex)
+    If Len(Form1.Mper.Filename) > 0 Then
+         File2 = Form1.Mper.Filename
+      Jd = Form1.Mper.CurrentPosition
+      Else: File2 = "None"
+      End If
+Form1.Mper.Filename = strFileName
 Text1.Text = Form1.SotPath(strFileName)
-If Len(Form1.Mp(1).GetMediaInfoString(mpClipTitle)) > 0 Then Text1.Text = Form1.Mp(1).GetMediaInfoString(mpClipTitle)
-If Len(Form1.Mp(1).GetMediaInfoString(mpClipAuthor)) > 0 Then Text2.Text = Form1.Mp(1).GetMediaInfoString(mpClipAuthor)
-If Len(Form1.Mp(1).GetMediaInfoString(mpClipCopyright)) > 0 Then Label1(11).Caption = Form1.Mp(1).GetMediaInfoString(mpClipCopyright)
-If Len(Form1.Mp(1).GetMediaInfoString(mpClipDescription)) > 0 Then Text5.Text = Form1.Mp(1).GetMediaInfoString(mpClipDescription)
-Label1(8).Caption = Form1.Gtime(Form1.Mp(1).Duration)
-If Form1.Mp(1).Bandwidth > 0 Then Label1(9).Caption = Str(Int(Form1.Mp(1).Bandwidth / 1000)) + " «ß◊÷Ω⁄√ø√Î"
-If Form1.Mp(1).ImageSourceWidth > 0 Then
-    Me.Caption = "[" + Str(Form1.Mp(1).ImageSourceWidth) + " °¡" + Str(Form1.Mp(1).ImageSourceHeight) + "  ”∆µ ] " + strFileName
+If Len(Form1.Mper.GetMediaInfoString(mpClipTitle)) > 0 Then Text1.Text = Form1.Mper.GetMediaInfoString(mpClipTitle)
+If Len(Form1.Mper.GetMediaInfoString(mpClipAuthor)) > 0 Then Text2.Text = Form1.Mper.GetMediaInfoString(mpClipAuthor)
+If Len(Form1.Mper.GetMediaInfoString(mpClipCopyright)) > 0 Then Label1(11).Caption = Form1.Mper.GetMediaInfoString(mpClipCopyright)
+If Len(Form1.Mper.GetMediaInfoString(mpClipDescription)) > 0 Then Text5.Text = Form1.Mper.GetMediaInfoString(mpClipDescription)
+Label1(8).Caption = Form1.Gtime(Form1.Mper.Duration)
+If Form1.Mper.Bandwidth > 0 Then Label1(9).Caption = Str(Int(Form1.Mper.Bandwidth / 1000)) + " «ß◊÷Ω⁄√ø√Î"
+If Form1.Mper.ImageSourceWidth > 0 Then
+    Me.Caption = "[" + Str(Form1.Mper.ImageSourceWidth) + " °¡" + Str(Form1.Mper.ImageSourceHeight) + "  ”∆µ ] " + strFileName
 Else
      Me.Caption = "[ “Ù∆µ ] " + strFileName
 End If
 
+  Form1.Mper.Filename = File2
+       Form1.Mper.CurrentPosition = Jd
 If UCase(Right(strFileName, 4)) = ".MP3" Then
         For i = 0 To 147
             CmbGenra.AddItem SetGenra(i)
@@ -563,18 +570,18 @@ Private Sub Form_Unload(Cancel As Integer)
     Dim strYear As String
     Dim strComment As String
     Dim ByteGenra As Byte
-    Dim Id As Integer
+    Dim Id As Long
     Id = Form1.LF2.ListIndex
-     Form1.Mp(1).Filename = "ilxz"
- If UCase(Right(strFileName, 4)) = ".MP3" Then
+     
+   If UCase(Right(strFileName, 4)) = ".MP3" Then
 
-    If Form1.Mp(0).Filename = strFileName Then
-       Jd = Form1.Mp(0).CurrentPosition
-    Form1.Mp(0).Filename = "ilxz"
+    If Form1.Mper.Filename = strFileName Then
+       Jd = Form1.Mper.CurrentPosition
+    Form1.Mper.Filename = "ilxz"
      GetTag1.WriteMP3Tag strFileName, Text1.Text, Text2.Text, Text3.Text, Text4.Text, Text5.Text, GetGenraCode(CmbGenra.Text)
       Form1.ReNameB Id
-      Form1.Mp(0).Filename = strFileName
-           Form1.Mp(0).CurrentPosition = Jd
+      Form1.Mper.Filename = strFileName
+           Form1.Mper.CurrentPosition = Jd
   Else
         GetTag1.WriteMP3Tag strFileName, Text1.Text, Text2.Text, Text3.Text, Text4.Text, Text5.Text, GetGenraCode(CmbGenra.Text)
       Form1.ReNameB Id

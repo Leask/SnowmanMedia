@@ -35,8 +35,8 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
-Dim i As Integer
-Dim cli As Integer
+Dim i As Long
+Dim cli As Long
 Private Sub Form_Load()
 On Error Resume Next
 If App.PrevInstance = True Then End

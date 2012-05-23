@@ -16,6 +16,461 @@ Begin VB.Form Form4
    ScaleHeight     =   6375
    ScaleWidth      =   5580
    StartUpPosition =   2  '屏幕中心
+   Begin API控制大全.LyfTools LF1 
+      Left            =   2160
+      Top             =   7605
+      _ExtentX        =   847
+      _ExtentY        =   847
+   End
+   Begin VB.Frame Frame3 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      BorderStyle     =   0  'None
+      Caption         =   "Frame3"
+      ForeColor       =   &H80000008&
+      Height          =   5820
+      Left            =   0
+      TabIndex        =   4
+      Top             =   540
+      Width           =   5550
+      Begin VB.Frame Frame1 
+         Appearance      =   0  'Flat
+         BackColor       =   &H00FFFFFF&
+         Caption         =   " 显示 "
+         ForeColor       =   &H00000000&
+         Height          =   645
+         Left            =   135
+         TabIndex        =   68
+         Top             =   2790
+         Width           =   5325
+         Begin VB.CheckBox Check10 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "在系统托盘显示(&S)"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   180
+            TabIndex        =   74
+            Top             =   225
+            Value           =   1  'Checked
+            Width           =   2175
+         End
+         Begin VB.CheckBox Check9 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "最小化时隐藏(&S)"
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   2520
+            TabIndex        =   73
+            Top             =   225
+            Width           =   1995
+         End
+      End
+      Begin VB.Frame Frame12 
+         Appearance      =   0  'Flat
+         BackColor       =   &H00FFFFFF&
+         Caption         =   " 组件 "
+         ForeColor       =   &H00000000&
+         Height          =   2130
+         Left            =   135
+         TabIndex        =   41
+         Top             =   3555
+         Width           =   5325
+         Begin VB.ListBox List1 
+            Appearance      =   0  'Flat
+            BackColor       =   &H00E0E0E0&
+            Height          =   1650
+            IntegralHeight  =   0   'False
+            ItemData        =   "设置.frx":2CFA
+            Left            =   180
+            List            =   "设置.frx":2D49
+            Style           =   1  'Checkbox
+            TabIndex        =   42
+            Top             =   270
+            Width           =   4965
+         End
+      End
+      Begin VB.Frame Frame5 
+         Appearance      =   0  'Flat
+         BackColor       =   &H00FFFFFF&
+         Caption         =   " 启动 "
+         ForeColor       =   &H00000000&
+         Height          =   645
+         Left            =   135
+         TabIndex        =   11
+         Top             =   2025
+         Width           =   5325
+         Begin VB.CheckBox Check19 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "显示欢迎画面(&W)"
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   180
+            TabIndex        =   75
+            Top             =   225
+            Width           =   2175
+         End
+      End
+      Begin VB.Frame Frame2 
+         Appearance      =   0  'Flat
+         BackColor       =   &H00FFFFFF&
+         Caption         =   " 播放机 "
+         ForeColor       =   &H00000000&
+         Height          =   1455
+         Left            =   2115
+         TabIndex        =   5
+         Top             =   450
+         Width           =   3345
+         Begin VB.CheckBox Check5 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "允许网络唯一识别你的播放机(&N)"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   180
+            TabIndex        =   9
+            Top             =   1035
+            Width           =   3030
+         End
+         Begin VB.CheckBox Check1 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "允许启动时播放启动剪辑(&M)"
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   180
+            TabIndex        =   8
+            Top             =   225
+            Width           =   2985
+         End
+         Begin VB.CheckBox Check2 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "启动后自动继续未听完的曲目(&L)"
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   180
+            TabIndex        =   7
+            Top             =   495
+            Width           =   3030
+         End
+         Begin VB.CheckBox Check3 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "允许播放机自动更新(&U)"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   180
+            TabIndex        =   6
+            Top             =   765
+            Width           =   2490
+         End
+      End
+      Begin VB.Label Label9 
+         Appearance      =   0  'Flat
+         BackColor       =   &H80000005&
+         BackStyle       =   0  'Transparent
+         Caption         =   "使用本选项卡配置 Snowman Media 的常规选项。"
+         ForeColor       =   &H00C00000&
+         Height          =   285
+         Left            =   225
+         TabIndex        =   10
+         Top             =   90
+         Width           =   4110
+      End
+      Begin VB.Image Image1 
+         Appearance      =   0  'Flat
+         Height          =   2325
+         Left            =   135
+         Picture         =   "设置.frx":2FC9
+         Top             =   -135
+         Width           =   1965
+      End
+   End
+   Begin VB.Frame Frame6 
+      Appearance      =   0  'Flat
+      BackColor       =   &H80000005&
+      BorderStyle     =   0  'None
+      Caption         =   "Frame3"
+      ForeColor       =   &H80000008&
+      Height          =   5820
+      Left            =   6255
+      TabIndex        =   12
+      Top             =   540
+      Width           =   5550
+      Begin VB.Frame Frame11 
+         Appearance      =   0  'Flat
+         BackColor       =   &H00FFFFFF&
+         Caption         =   " DVD 功能 "
+         Enabled         =   0   'False
+         ForeColor       =   &H00000000&
+         Height          =   1815
+         Left            =   135
+         TabIndex        =   31
+         Top             =   3870
+         Width           =   5325
+         Begin VB.ComboBox Combo1 
+            Appearance      =   0  'Flat
+            Enabled         =   0   'False
+            Height          =   300
+            ItemData        =   "设置.frx":4DF7
+            Left            =   765
+            List            =   "设置.frx":4DF9
+            TabIndex        =   40
+            Text            =   "系统默认区域"
+            Top             =   1395
+            Width           =   2760
+         End
+         Begin VB.OptionButton Option14 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "无标识"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   450
+            TabIndex        =   38
+            Top             =   765
+            Value           =   -1  'True
+            Width           =   1050
+         End
+         Begin VB.OptionButton Option13 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "NC-17"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   4050
+            TabIndex        =   37
+            Top             =   495
+            Width           =   960
+         End
+         Begin VB.OptionButton Option12 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "R"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   3285
+            TabIndex        =   36
+            Top             =   495
+            Width           =   825
+         End
+         Begin VB.OptionButton Option11 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "PG-13"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   2250
+            TabIndex        =   35
+            Top             =   495
+            Width           =   915
+         End
+         Begin VB.OptionButton Option6 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "PG"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   1305
+            TabIndex        =   34
+            Top             =   495
+            Width           =   915
+         End
+         Begin VB.CheckBox Check17 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "家长控制(&H)"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   180
+            TabIndex        =   32
+            Top             =   225
+            Width           =   2985
+         End
+         Begin VB.OptionButton Option5 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "P"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   450
+            TabIndex        =   33
+            Top             =   495
+            Width           =   915
+         End
+         Begin VB.Label Label7 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "区域和语言(&P):"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   180
+            TabIndex        =   39
+            Top             =   1125
+            Width           =   1860
+         End
+      End
+      Begin VB.Frame Frame9 
+         Appearance      =   0  'Flat
+         BackColor       =   &H00FFFFFF&
+         Caption         =   " 视频 "
+         ForeColor       =   &H00000000&
+         Height          =   1455
+         Left            =   2115
+         TabIndex        =   18
+         Top             =   450
+         Width           =   3345
+         Begin VB.CheckBox Check16 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "自动禁止屏幕保护(&S)"
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   180
+            TabIndex        =   22
+            Top             =   765
+            Width           =   2490
+         End
+         Begin VB.CheckBox Check15 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "最大化窗口时自动进入全屏模式(&M)"
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   180
+            TabIndex        =   21
+            Top             =   495
+            Width           =   3120
+         End
+         Begin VB.CheckBox Check14 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "单击鼠标控制暂停视频(&C)"
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   180
+            TabIndex        =   20
+            Top             =   225
+            Width           =   2985
+         End
+         Begin VB.CheckBox Check13 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "仅在视频播放时生效(&O)"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   495
+            TabIndex        =   19
+            Top             =   1035
+            Width           =   2580
+         End
+      End
+      Begin VB.Frame Frame8 
+         Appearance      =   0  'Flat
+         BackColor       =   &H00FFFFFF&
+         Caption         =   " 列表 "
+         ForeColor       =   &H00000000&
+         Height          =   1725
+         Left            =   135
+         TabIndex        =   13
+         Top             =   2025
+         Width           =   5325
+         Begin VB.CheckBox Check18 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "指定文件时包括子文件夹(&N)"
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   180
+            TabIndex        =   69
+            Top             =   1305
+            Width           =   3795
+         End
+         Begin VB.CheckBox Check12 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "退出时清空列表(&A)"
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   180
+            TabIndex        =   17
+            Top             =   225
+            Width           =   2985
+         End
+         Begin VB.CheckBox Check11 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "允许自动整理(L)"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   180
+            TabIndex        =   16
+            Top             =   495
+            Width           =   3030
+         End
+         Begin VB.OptionButton Option8 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "启动时运行智能整理(&I)"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   450
+            TabIndex        =   15
+            Top             =   765
+            Width           =   2355
+         End
+         Begin VB.OptionButton Option7 
+            Appearance      =   0  'Flat
+            BackColor       =   &H80000005&
+            Caption         =   "退出时运行智能整理(&X)"
+            Enabled         =   0   'False
+            ForeColor       =   &H80000008&
+            Height          =   285
+            Left            =   450
+            TabIndex        =   14
+            Top             =   1035
+            Value           =   -1  'True
+            Width           =   2310
+         End
+      End
+      Begin VB.Label Label4 
+         Appearance      =   0  'Flat
+         BackColor       =   &H80000005&
+         BackStyle       =   0  'Transparent
+         Caption         =   "使用本选项卡定制 Snowma Media 的性能特点。"
+         ForeColor       =   &H00C00000&
+         Height          =   285
+         Left            =   225
+         TabIndex        =   23
+         Top             =   90
+         Width           =   4110
+      End
+      Begin VB.Image Image2 
+         Appearance      =   0  'Flat
+         Height          =   2325
+         Left            =   135
+         Picture         =   "设置.frx":4DFB
+         Top             =   -135
+         Width           =   1965
+      End
+   End
    Begin VB.Frame Frame4 
       Appearance      =   0  'Flat
       BackColor       =   &H80000005&
@@ -137,9 +592,9 @@ Begin VB.Form Form4
             BackColor       =   &H00E0E0E0&
             Height          =   2430
             IntegralHeight  =   0   'False
-            ItemData        =   "设置.frx":2CFA
+            ItemData        =   "设置.frx":6F04
             Left            =   180
-            List            =   "设置.frx":2D2B
+            List            =   "设置.frx":6F35
             Style           =   1  'Checkbox
             TabIndex        =   56
             Top             =   270
@@ -164,183 +619,7 @@ Begin VB.Form Form4
          Height          =   2325
          Index           =   1
          Left            =   135
-         Picture         =   "设置.frx":3106
-         Top             =   -135
-         Width           =   1965
-      End
-   End
-   Begin API控制大全.LyfTools LF1 
-      Left            =   2160
-      Top             =   7605
-      _ExtentX        =   847
-      _ExtentY        =   847
-   End
-   Begin VB.Frame Frame3 
-      Appearance      =   0  'Flat
-      BackColor       =   &H80000005&
-      BorderStyle     =   0  'None
-      Caption         =   "Frame3"
-      ForeColor       =   &H80000008&
-      Height          =   5820
-      Left            =   0
-      TabIndex        =   4
-      Top             =   540
-      Width           =   5550
-      Begin VB.Frame Frame1 
-         Appearance      =   0  'Flat
-         BackColor       =   &H00FFFFFF&
-         Caption         =   " 显示 "
-         ForeColor       =   &H00000000&
-         Height          =   645
-         Left            =   135
-         TabIndex        =   68
-         Top             =   2790
-         Width           =   5325
-         Begin VB.CheckBox Check10 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "在系统托盘显示(&S)"
-            Enabled         =   0   'False
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   180
-            TabIndex        =   74
-            Top             =   225
-            Value           =   1  'Checked
-            Width           =   2175
-         End
-         Begin VB.CheckBox Check9 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "最小化时隐藏(&S)"
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   2520
-            TabIndex        =   73
-            Top             =   225
-            Width           =   1995
-         End
-      End
-      Begin VB.Frame Frame12 
-         Appearance      =   0  'Flat
-         BackColor       =   &H00FFFFFF&
-         Caption         =   " 组件 "
-         ForeColor       =   &H00000000&
-         Height          =   2130
-         Left            =   135
-         TabIndex        =   41
-         Top             =   3555
-         Width           =   5325
-         Begin VB.ListBox List1 
-            Appearance      =   0  'Flat
-            BackColor       =   &H00E0E0E0&
-            Height          =   1650
-            IntegralHeight  =   0   'False
-            ItemData        =   "设置.frx":52AB
-            Left            =   180
-            List            =   "设置.frx":52FA
-            Style           =   1  'Checkbox
-            TabIndex        =   42
-            Top             =   270
-            Width           =   4965
-         End
-      End
-      Begin VB.Frame Frame5 
-         Appearance      =   0  'Flat
-         BackColor       =   &H00FFFFFF&
-         Caption         =   " 启动 "
-         ForeColor       =   &H00000000&
-         Height          =   645
-         Left            =   135
-         TabIndex        =   11
-         Top             =   2025
-         Width           =   5325
-         Begin VB.CheckBox Check19 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "显示欢迎画面(&W)"
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   180
-            TabIndex        =   75
-            Top             =   225
-            Width           =   2175
-         End
-      End
-      Begin VB.Frame Frame2 
-         Appearance      =   0  'Flat
-         BackColor       =   &H00FFFFFF&
-         Caption         =   " 播放机 "
-         ForeColor       =   &H00000000&
-         Height          =   1455
-         Left            =   2115
-         TabIndex        =   5
-         Top             =   450
-         Width           =   3345
-         Begin VB.CheckBox Check5 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "允许网络唯一识别你的播放机(&N)"
-            Enabled         =   0   'False
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   180
-            TabIndex        =   9
-            Top             =   1035
-            Width           =   3030
-         End
-         Begin VB.CheckBox Check1 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "允许启动时播放启动剪辑(&M)"
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   180
-            TabIndex        =   8
-            Top             =   225
-            Width           =   2985
-         End
-         Begin VB.CheckBox Check2 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "启动后自动继续未听完的曲目(&L)"
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   180
-            TabIndex        =   7
-            Top             =   495
-            Width           =   3030
-         End
-         Begin VB.CheckBox Check3 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "允许播放机自动更新(&U)"
-            Enabled         =   0   'False
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   180
-            TabIndex        =   6
-            Top             =   765
-            Width           =   2490
-         End
-      End
-      Begin VB.Label Label9 
-         Appearance      =   0  'Flat
-         BackColor       =   &H80000005&
-         BackStyle       =   0  'Transparent
-         Caption         =   "使用本选项卡配置 Snowman Media 的常规选项。"
-         ForeColor       =   &H00C00000&
-         Height          =   285
-         Left            =   225
-         TabIndex        =   10
-         Top             =   90
-         Width           =   4110
-      End
-      Begin VB.Image Image1 
-         Appearance      =   0  'Flat
-         Height          =   2325
-         Left            =   135
-         Picture         =   "设置.frx":557A
+         Picture         =   "设置.frx":7310
          Top             =   -135
          Width           =   1965
       End
@@ -354,7 +633,7 @@ Begin VB.Form Form4
       ForeColor       =   &H80000008&
       Height          =   5820
       Index           =   0
-      Left            =   6300
+      Left            =   6255
       TabIndex        =   24
       Top             =   540
       Width           =   5550
@@ -632,285 +911,7 @@ Begin VB.Form Form4
          Height          =   2325
          Index           =   0
          Left            =   135
-         Picture         =   "设置.frx":73A8
-         Top             =   -135
-         Width           =   1965
-      End
-   End
-   Begin VB.Frame Frame6 
-      Appearance      =   0  'Flat
-      BackColor       =   &H80000005&
-      BorderStyle     =   0  'None
-      Caption         =   "Frame3"
-      ForeColor       =   &H80000008&
-      Height          =   5820
-      Left            =   6255
-      TabIndex        =   12
-      Top             =   540
-      Width           =   5550
-      Begin VB.Frame Frame11 
-         Appearance      =   0  'Flat
-         BackColor       =   &H00FFFFFF&
-         Caption         =   " DVD 功能 "
-         Enabled         =   0   'False
-         ForeColor       =   &H00000000&
-         Height          =   1815
-         Left            =   135
-         TabIndex        =   31
-         Top             =   3870
-         Width           =   5325
-         Begin VB.ComboBox Combo1 
-            Appearance      =   0  'Flat
-            Enabled         =   0   'False
-            Height          =   300
-            ItemData        =   "设置.frx":9034
-            Left            =   765
-            List            =   "设置.frx":9036
-            TabIndex        =   40
-            Text            =   "系统默认区域"
-            Top             =   1395
-            Width           =   2760
-         End
-         Begin VB.OptionButton Option14 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "无标识"
-            Enabled         =   0   'False
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   450
-            TabIndex        =   38
-            Top             =   765
-            Value           =   -1  'True
-            Width           =   1050
-         End
-         Begin VB.OptionButton Option13 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "NC-17"
-            Enabled         =   0   'False
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   4050
-            TabIndex        =   37
-            Top             =   495
-            Width           =   960
-         End
-         Begin VB.OptionButton Option12 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "R"
-            Enabled         =   0   'False
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   3285
-            TabIndex        =   36
-            Top             =   495
-            Width           =   825
-         End
-         Begin VB.OptionButton Option11 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "PG-13"
-            Enabled         =   0   'False
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   2250
-            TabIndex        =   35
-            Top             =   495
-            Width           =   915
-         End
-         Begin VB.OptionButton Option6 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "PG"
-            Enabled         =   0   'False
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   1305
-            TabIndex        =   34
-            Top             =   495
-            Width           =   915
-         End
-         Begin VB.CheckBox Check17 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "家长控制(&H)"
-            Enabled         =   0   'False
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   180
-            TabIndex        =   32
-            Top             =   225
-            Width           =   2985
-         End
-         Begin VB.OptionButton Option5 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "P"
-            Enabled         =   0   'False
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   450
-            TabIndex        =   33
-            Top             =   495
-            Width           =   915
-         End
-         Begin VB.Label Label7 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "区域和语言(&P):"
-            Enabled         =   0   'False
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   180
-            TabIndex        =   39
-            Top             =   1125
-            Width           =   1860
-         End
-      End
-      Begin VB.Frame Frame9 
-         Appearance      =   0  'Flat
-         BackColor       =   &H00FFFFFF&
-         Caption         =   " 视频 "
-         ForeColor       =   &H00000000&
-         Height          =   1455
-         Left            =   2115
-         TabIndex        =   18
-         Top             =   450
-         Width           =   3345
-         Begin VB.CheckBox Check16 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "自动禁止屏幕保护(&S)"
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   180
-            TabIndex        =   22
-            Top             =   765
-            Width           =   2490
-         End
-         Begin VB.CheckBox Check15 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "最大化窗口时自动进入全屏模式(&M)"
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   180
-            TabIndex        =   21
-            Top             =   495
-            Width           =   3120
-         End
-         Begin VB.CheckBox Check14 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "单击鼠标控制暂停视频(&C)"
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   180
-            TabIndex        =   20
-            Top             =   225
-            Width           =   2985
-         End
-         Begin VB.CheckBox Check13 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "仅在视频播放时生效(&O)"
-            Enabled         =   0   'False
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   495
-            TabIndex        =   19
-            Top             =   1035
-            Width           =   2580
-         End
-      End
-      Begin VB.Frame Frame8 
-         Appearance      =   0  'Flat
-         BackColor       =   &H00FFFFFF&
-         Caption         =   " 列表 "
-         ForeColor       =   &H00000000&
-         Height          =   1725
-         Left            =   135
-         TabIndex        =   13
-         Top             =   2025
-         Width           =   5325
-         Begin VB.CheckBox Check18 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "指定文件时包括子文件夹(&N)"
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   180
-            TabIndex        =   69
-            Top             =   1305
-            Width           =   3795
-         End
-         Begin VB.CheckBox Check12 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "退出时清空列表(&A)"
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   180
-            TabIndex        =   17
-            Top             =   225
-            Width           =   2985
-         End
-         Begin VB.CheckBox Check11 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "允许自动整理(L)"
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   450
-            TabIndex        =   16
-            Top             =   495
-            Width           =   3030
-         End
-         Begin VB.OptionButton Option8 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "启动时运行智能整理(&I)"
-            Enabled         =   0   'False
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   450
-            TabIndex        =   15
-            Top             =   765
-            Width           =   2355
-         End
-         Begin VB.OptionButton Option7 
-            Appearance      =   0  'Flat
-            BackColor       =   &H80000005&
-            Caption         =   "退出时运行智能整理(&X)"
-            Enabled         =   0   'False
-            ForeColor       =   &H80000008&
-            Height          =   285
-            Left            =   450
-            TabIndex        =   14
-            Top             =   1035
-            Value           =   -1  'True
-            Width           =   2310
-         End
-      End
-      Begin VB.Label Label4 
-         Appearance      =   0  'Flat
-         BackColor       =   &H80000005&
-         BackStyle       =   0  'Transparent
-         Caption         =   "使用本选项卡定制 Snowma Media 的性能特点。"
-         ForeColor       =   &H00C00000&
-         Height          =   285
-         Left            =   225
-         TabIndex        =   23
-         Top             =   90
-         Width           =   4110
-      End
-      Begin VB.Image Image2 
-         Appearance      =   0  'Flat
-         Height          =   2325
-         Left            =   135
-         Picture         =   "设置.frx":9038
+         Picture         =   "设置.frx":94B5
          Top             =   -135
          Width           =   1965
       End
@@ -1079,33 +1080,12 @@ End If
 End Sub
 
 
-Private Sub Check11_Click()
-If Check11.Value = 1 Then
-LF1.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoCln", True
-Option7.Enabled = True
-Option8.Enabled = True
-Else
-LF1.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoCln", False
-Option7.Enabled = False
-Option8.Enabled = False
-End If
-End Sub
 
 Private Sub Check12_Click()
 If Check12.Value = 1 Then
 LF1.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "Clean", True
-Check11.Enabled = False
-Check11.Value = 0
-LF1.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoCln", False
-Option7.Enabled = False
-Option8.Enabled = False
 Else
 LF1.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "Clean", False
-Check11.Enabled = True
-If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoCln") = True Then
-Option7.Enabled = True
-Option8.Enabled = True
-End If
 End If
 End Sub
 
@@ -1251,21 +1231,12 @@ If Check16.Value = 1 Then Check13.Enabled = True
 If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "OnlyVideo") = True Then Check13.Value = 1
 If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "Clean") = True Then Check12.Value = 1
 If Check12.Value = 1 Then
-Check11.Enabled = False
-Check11.Value = 0
 LF1.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoCln", False
-Option7.Enabled = False
-Option8.Enabled = False
 Else
 LF1.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "Clean", False
-Check11.Enabled = True
-If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoCln") = True Then
-Option7.Enabled = True
-Option8.Enabled = True
 End If
-End If
-If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoCln") = True Then Check11.Value = 1
-If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "StrCln") = True Then Option8.Value = True
+
+
 If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoMedia") = True Then Check7(1).Value = 1
 If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "CVD") = True Then Check6(1).Value = 1
 If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "DATVOB") = True Then Check4(1).Value = 1
@@ -1284,7 +1255,6 @@ If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilx
 If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "ShowRw") = True Then Check9.Value = 1
 If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AllFiles") = True Then Check18.Value = 1
 If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "StartUp") = True Then Check20.Value = 1
-'If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "AutoDir") = True Then Check7(2).Value = 1
 
 If LF1.GetDWORDValue("HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "ShowPic") = True Then Check19.Value = 1
 
@@ -1550,15 +1520,5 @@ End Sub
 
 
 
-Private Sub Option7_Click()
-LF1.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "StrCln", False
-LF1.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "OvrCln", True
-
-End Sub
-
-Private Sub Option8_Click()
-LF1.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "StrCln", True
-LF1.SetDWORDValue "HKEY_LOCAL_MACHINE\SOFTWARE\H2O Networks\Snowman Media ilxz 4", "OvrCln", False
-End Sub
 
 

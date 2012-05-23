@@ -1,4 +1,10 @@
+行 25: 控件 CooLine1 的类 CooLinePrj.CooLine 不是一个已加载的控件类。
+行 538: 控件 MediaPlayer1 的类 MediaPlayerCtl.MediaPlayer 不是一个已加载的控件类。
 行 18:属性 Icon 在 Form102 中的文件引用无效。
+行 32: 属性名 _ExtentX 在 CooLine1 中是无效的。
+行 33: 属性名 _ExtentY 在 CooLine1 中是无效的。
+行 34: 属性名 InsChr 在 CooLine1 中是无效的。
+行 35: 属性名 Display 在 CooLine1 中是无效的。
 行 51:属性 OleObjectBlob 在 SkinForm1 中的文件引用无效。
 行 48:不能加载控件 SkinForm1。
 行 93:属性 BackImage 在 ctListBar1 中的文件引用无效。
@@ -126,6 +132,62 @@
 行 500:属性 Picture 在 Image2 中的文件引用无效。
 行 510:属性 Picture 在 Image15 中的文件引用无效。
 行 539:属性 DragIcon 在 MediaPlayer1 中的文件引用无效。
+行 545: 属性名 AudioStream 在 MediaPlayer1 中是无效的。
+行 547: 属性名 AutoStart 在 MediaPlayer1 中是无效的。
+行 548: 属性名 AnimationAtStart 在 MediaPlayer1 中是无效的。
+行 549: 属性名 AllowScan 在 MediaPlayer1 中是无效的。
+行 550: 属性名 AllowChangeDisplaySize 在 MediaPlayer1 中是无效的。
+行 551: 属性名 AutoRewind 在 MediaPlayer1 中是无效的。
+行 552: 属性名 Balance 在 MediaPlayer1 中是无效的。
+行 553: 属性名 BaseURL 在 MediaPlayer1 中是无效的。
+行 554: 属性名 BufferingTime 在 MediaPlayer1 中是无效的。
+行 555: 属性名 CaptioningID 在 MediaPlayer1 中是无效的。
+行 556: 属性名 ClickToPlay 在 MediaPlayer1 中是无效的。
+行 557: 属性名 CursorType 在 MediaPlayer1 中是无效的。
+行 558: 属性名 CurrentPosition 在 MediaPlayer1 中是无效的。
+行 559: 属性名 CurrentMarker 在 MediaPlayer1 中是无效的。
+行 560: 属性名 DefaultFrame 在 MediaPlayer1 中是无效的。
+行 561: 属性名 DisplayBackColor 在 MediaPlayer1 中是无效的。
+行 562: 属性名 DisplayForeColor 在 MediaPlayer1 中是无效的。
+行 563: 属性名 DisplayMode 在 MediaPlayer1 中是无效的。
+行 564: 属性名 DisplaySize 在 MediaPlayer1 中是无效的。
+行 566: 属性名 EnableContextMenu 在 MediaPlayer1 中是无效的。
+行 567: 属性名 EnablePositionControls 在 MediaPlayer1 中是无效的。
+行 568: 属性名 EnableFullScreenControls 在 MediaPlayer1 中是无效的。
+行 569: 属性名 EnableTracker 在 MediaPlayer1 中是无效的。
+行 570: 属性名 Filename 在 MediaPlayer1 中是无效的。
+行 571: 属性名 InvokeURLs 在 MediaPlayer1 中是无效的。
+行 572: 属性名 Language 在 MediaPlayer1 中是无效的。
+行 573: 属性名 Mute 在 MediaPlayer1 中是无效的。
+行 574: 属性名 PlayCount 在 MediaPlayer1 中是无效的。
+行 575: 属性名 PreviewMode 在 MediaPlayer1 中是无效的。
+行 576: 属性名 Rate 在 MediaPlayer1 中是无效的。
+行 577: 属性名 SAMILang 在 MediaPlayer1 中是无效的。
+行 578: 属性名 SAMIStyle 在 MediaPlayer1 中是无效的。
+行 579: 属性名 SAMIFileName 在 MediaPlayer1 中是无效的。
+行 580: 属性名 SelectionStart 在 MediaPlayer1 中是无效的。
+行 581: 属性名 SelectionEnd 在 MediaPlayer1 中是无效的。
+行 582: 属性名 SendOpenStateChangeEvents 在 MediaPlayer1 中是无效的。
+行 583: 属性名 SendWarningEvents 在 MediaPlayer1 中是无效的。
+行 584: 属性名 SendErrorEvents 在 MediaPlayer1 中是无效的。
+行 585: 属性名 SendKeyboardEvents 在 MediaPlayer1 中是无效的。
+行 586: 属性名 SendMouseClickEvents 在 MediaPlayer1 中是无效的。
+行 587: 属性名 SendMouseMoveEvents 在 MediaPlayer1 中是无效的。
+行 588: 属性名 SendPlayStateChangeEvents 在 MediaPlayer1 中是无效的。
+行 589: 属性名 ShowCaptioning 在 MediaPlayer1 中是无效的。
+行 590: 属性名 ShowControls 在 MediaPlayer1 中是无效的。
+行 591: 属性名 ShowAudioControls 在 MediaPlayer1 中是无效的。
+行 592: 属性名 ShowDisplay 在 MediaPlayer1 中是无效的。
+行 593: 属性名 ShowGotoBar 在 MediaPlayer1 中是无效的。
+行 594: 属性名 ShowPositionControls 在 MediaPlayer1 中是无效的。
+行 595: 属性名 ShowStatusBar 在 MediaPlayer1 中是无效的。
+行 596: 属性名 ShowTracker 在 MediaPlayer1 中是无效的。
+行 597: 属性名 TransparentAtStart 在 MediaPlayer1 中是无效的。
+行 598: 属性名 VideoBorderWidth 在 MediaPlayer1 中是无效的。
+行 599: 属性名 VideoBorderColor 在 MediaPlayer1 中是无效的。
+行 600: 属性名 VideoBorder3D 在 MediaPlayer1 中是无效的。
+行 601: 属性名 Volume 在 MediaPlayer1 中是无效的。
+行 602: 属性名 WindowlessVideo 在 MediaPlayer1 中是无效的。
 行 1053: 属性 Pattern 在 File1 中必须为引号括起来的串
 行 1065:属性 ItemData 在 List1 中的文件引用无效。
 行 1067:属性 List 在 List1 中的文件引用无效。
