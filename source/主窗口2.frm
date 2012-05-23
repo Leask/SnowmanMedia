@@ -1670,6 +1670,11 @@ End Sub
 Private Sub a00102_Click()
 Dim SelectFileName As String
  SelectFileName = InputBox("请输入万维网地址 (URL) 或指定你要打开的本地媒体文件路径。", , SelectFileName)
+If SelectFileName = "猪头在想我吗？" Then
+SelectFileName = "小朱：" + vbCrLf + "    思夏此刻好想你，好爱你，你呢？" + vbCrLf + "    时间过得很快呀！这一年我们又经历了很多很多。记得上一版本中我说过我希望 Snowman 可以发展起来，透过它你可以随时随地感受到我思念、我无处不在地牵挂。如今 Snowman 下载虽不算火红但也有一定成绩了。然而不知道你是否还能感受到当初的那份感动？我的心就时常为着我们的一切而感动，感动上天赐我一个温柔的你，一个可爱的你。" + vbCrLf + "    你对我的改变我都记在心里，你的付出我也深深感动。在新版本发布之际我希望我们的幸福会变得永恒，希望在你打开 Snowman 的每一刻温馨快乐。"
+ MsgBox SelectFileName
+Exit Sub
+End If
 
 
 If Len(SelectFileName) > 0 Then
