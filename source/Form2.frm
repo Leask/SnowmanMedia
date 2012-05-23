@@ -1,7 +1,7 @@
 VERSION 5.00
 Object = "{22D6F304-B0F6-11D0-94AB-0080C74C7E95}#1.0#0"; "MSDXM.OCX"
 Begin VB.Form Form2 
-   Caption         =   "Form2"
+   Caption         =   "Playing  - Snowman Media  2.0"
    ClientHeight    =   3630
    ClientLeft      =   6150
    ClientTop       =   165
@@ -10,10 +10,15 @@ Begin VB.Form Form2
    LinkTopic       =   "Form2"
    ScaleHeight     =   3630
    ScaleWidth      =   4500
+   Begin VB.Timer Timer1 
+      Interval        =   500
+      Left            =   1620
+      Top             =   5625
+   End
    Begin VB.Image Image1 
       Height          =   3375
       Left            =   0
-      Picture         =   "Form2.frx":0442
+      Picture         =   "Form2.frx":1582
       Stretch         =   -1  'True
       Top             =   0
       Width           =   4500
@@ -90,32 +95,32 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
-Private Declare Function SetWindowPos Lib "user32" (ByVal hwnd As Long, ByVal hWndInsertAfter As Long, ByVal X As Long, ByVal Y As Long, ByVal cx As Long, ByVal cy As Long, ByVal wFlags As Long) As Long
+Private Declare Function SetWindowPos Lib "user32" (ByVal hWnd As Long, ByVal hWndInsertAfter As Long, ByVal x As Long, ByVal y As Long, ByVal cx As Long, ByVal cy As Long, ByVal wFlags As Long) As Long
 Dim intpos As Integer
 Dim ingreturnvalue As Long
 Const HWND_TOPMOST = -1
+Const hwnd_top = 0
 Const SWP_SHOWWINDOW = &H40
-Private Sub Form_Load()
- ingreturnvalue = SetWindowPos(Me.hwnd, HWND_TOPMOST, Val(10), Val(10), Val(10), Val(10), SWP_SHOWWINDOW)
-    Form2.Width = 4620
-    Form2.Height = 4035
-
-
-Form2.MediaPlayer1.filename = Form1.MediaPlayer1.filename
-Form2.Caption = Form1.MediaPlayer1.filename & " - Snowman Media  Video Window"
-Form1.MediaPlayer1.filename = "Open.wav"
-'Form2.Image1.Height = Me.ScaleHeight - 660
-'Form2.Image1.Width = Me.ScaleWidth
-End Sub
 Private Sub form_resize()
 Form2.MediaPlayer1.Height = Form2.Height
 Form2.MediaPlayer1.Width = Me.ScaleWidth
-'Form2.Image1.Height = Form2.Height - 400
-'Form2.Image1.Width = Me.ScaleWidth
 Image1.Top = Form2.Height / 2 - Form2.Image1.Height / 2 - 350
 Image1.Left = Form2.Width / 2 - Form2.Image1.Width / 2 - 80
 End Sub
+Private Sub Form_Load()
+    Timer1.Enabled = False
+End Sub
 
-Private Sub Image1_Click()
-
+Private Sub Timer1_Timer()
+If outlook.Label1.Caption = "0" Then
+ingreturnvalue = SetWindowPos(Me.hWnd, HWND_TOPMOST, Val(10), Val(10), Val(10), Val(10), SWP_SHOWWINDOW)
+    Form2.Width = 4620
+    Form2.Height = 4035
+    Timer1.Enabled = False
+'Else
+ ' ingreturnvalue = SetWindowPos(Me.hWnd, hwnd_top, Val(10), Val(10), Val(10), Val(10), SWP_SHOWWINDOW)
+  '  Form2.Width = 4620
+   ' Form2.Height = 4035
+    'Timer1.Enabled = False
+   End If
 End Sub

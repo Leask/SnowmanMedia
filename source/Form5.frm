@@ -1,7 +1,7 @@
 VERSION 5.00
 Begin VB.Form Form5 
    BorderStyle     =   4  'Fixed ToolWindow
-   Caption         =   "Snowman Media  Internet Medias Opening Window"
+   Caption         =   "Medias Opening Window  - Snowman Media  2.0"
    ClientHeight    =   1080
    ClientLeft      =   45
    ClientTop       =   270
@@ -79,14 +79,10 @@ Attribute VB_Exposed = False
 Option Explicit
 Private Sub Command1_Click()
 Dim filename As String
-
 filename = Form5.Text1.Text
 If Len(filename) > 0 Then
-
-'Form1.CommonDialog1.filename = filename
-'Form1.CommonDialog1.ShowOpen
-Form1.MediaPlayer1.filename = filename
-'Form1.CommonDialog1
+Form2.MediaPlayer1.filename = filename
+Form2.Show
 Unload Me
 End If
 End Sub
@@ -94,7 +90,7 @@ Private Sub Form_Load()
 Form5.Command1.Caption = "打开该媒体(&O)"
 Form5.Command2.Caption = "取消该操作(&Q)"
 End Sub
-
-Private Sub command2_Click()
+Private Sub Command2_Click()
 Unload Me
 End Sub
+

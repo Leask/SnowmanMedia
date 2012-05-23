@@ -1,5 +1,4 @@
 VERSION 5.00
-Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "COMDLG32.OCX"
 Object = "{C1A8AF28-1257-101B-8FB0-0020AF039CA3}#1.1#0"; "MCI32.OCX"
 Begin VB.Form Form10 
    BorderStyle     =   4  'Fixed ToolWindow
@@ -18,7 +17,7 @@ Begin VB.Form Form10
    Begin MCI.MMControl MMControl1 
       Height          =   300
       Left            =   0
-      TabIndex        =   6
+      TabIndex        =   2
       Top             =   0
       Width           =   3120
       _ExtentX        =   5503
@@ -38,66 +37,22 @@ Begin VB.Form Form10
       DeviceType      =   ""
       FileName        =   ""
    End
-   Begin MSComDlg.CommonDialog CommonDialog1 
-      Left            =   3150
-      Top             =   45
-      _ExtentX        =   847
-      _ExtentY        =   847
-      _Version        =   393216
-   End
-   Begin VB.CommandButton Command2 
-      Caption         =   "打开VCD文件"
-      Height          =   285
-      Left            =   3690
-      TabIndex        =   0
-      Top             =   270
-      Width           =   1590
-   End
-   Begin VB.CommandButton Command1 
-      Caption         =   "VCD"
-      Height          =   240
-      Left            =   0
-      TabIndex        =   5
-      Top             =   315
-      Width           =   465
-   End
-   Begin VB.PictureBox Picture1 
-      Appearance      =   0  'Flat
-      AutoSize        =   -1  'True
-      BackColor       =   &H80000005&
-      ForeColor       =   &H80000008&
-      Height          =   3645
-      Left            =   0
-      Picture         =   "Form10.frx":0000
-      ScaleHeight     =   3615
-      ScaleWidth      =   5280
-      TabIndex        =   4
-      Top             =   585
-      Width           =   5310
-   End
-   Begin VB.HScrollBar HScroll1 
-      Height          =   645
-      Left            =   1395
-      TabIndex        =   3
-      Top             =   1260
-      Width           =   1320
-   End
    Begin VB.Label Label1 
       AutoSize        =   -1  'True
       Caption         =   "媒体信息"
       Height          =   180
-      Left            =   495
-      TabIndex        =   2
+      Left            =   90
+      TabIndex        =   1
       Top             =   360
       Width           =   720
    End
    Begin VB.Label Label2 
       AutoSize        =   -1  'True
       Height          =   180
-      Left            =   315
-      TabIndex        =   1
-      Top             =   1620
-      Width           =   90
+      Left            =   270
+      TabIndex        =   0
+      Top             =   855
+      Width           =   810
    End
 End
 Attribute VB_Name = "Form10"
@@ -180,6 +135,10 @@ End Sub
 
         End Sub
 
+
+Private Sub Label1_Click()
+
+End Sub
 
 Private Sub MMControl1_EjectClick(Cancel As Integer)
 ''c = MMControl1.DeviceType

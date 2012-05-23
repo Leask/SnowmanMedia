@@ -1,7 +1,7 @@
 VERSION 5.00
 Object = "{D27CDB6B-AE6D-11CF-96B8-444553540000}#1.0#0"; "SWFLASH.OCX"
 Begin VB.Form Form7 
-   Caption         =   "Snowman Media  Flash Playing Window"
+   Caption         =   "Flash Playing Window  - Snowman Media  2.0"
    ClientHeight    =   3390
    ClientLeft      =   3540
    ClientTop       =   3285
@@ -43,7 +43,6 @@ Private Sub Form_Load()
 ShockwaveFlash1.Height = Form7.Height
 ShockwaveFlash1.Width = Form7.Width
 End Sub
-
 Private Sub form_resize()
 ShockwaveFlash1.Height = Form7.Height
 ShockwaveFlash1.Width = Form7.Width - 110
