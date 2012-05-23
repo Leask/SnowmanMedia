@@ -1,0 +1,111 @@
+1．打开一应用，打开一个Form（brower）；
+
+    2．在Brower里加入Toolbar控件toolbar1，增加常用的命令按钮（如back、next、stop、refresh、home、Search、open、exit等），同时加入Imagelist控件imagelist1，并加入自己喜欢的图形，然后和toolbar1中的命令按钮对应起来。
+
+    3．加入定时器Timer控件timer1，并设置好；
+
+    4．加入Label控件label1，Caption设为“Web地址”，加入Combobox控件combo1，加入Statusbar控件statusbar1．加入Webbrowser控件browser1
+
+
+
+
+
+
+
+
+
+
+Public StartingAddress As String
+Dim flag As Boolean
+
+Private Sub Form_Load()
+On Error Resume Next
+Me.Show
+Toolbar1.Refresh
+Open "d:\vb5\brow.ini" For Input As #2
+
+Input #2, StartingAddress
+Close #2
+If Len(StartingAddress) > 0 Then
+Combo1.Text = StartingAddress
+Combo1.AddItem StartingAddress
+webbrowser1.NavigateStartingAddress
+End If
+End Sub
+Private Sub webbrowser1_DownloadComplete()
+On Error Resume Next
+Me.Caption = webbrowser1.LocationName
+End Sub
+Private Sub webbrowser1—NavigateComplete(ByValURLAsString)
+ 
+End Sub
+DimiAsInteger
+DimbFoundAsBoolean
+Me.Caption = webbrowser1.LocationName
+For i = 0 To Combo1.ListCount - 1
+If Combo1.List(i) = webbrowser1.LocationURL Then
+bFound = True
+ExitFor
+End If
+Nexti
+flag = True
+IfbFoundThen
+Combo1.RemoveItemi
+End If
+Combo1.AddItemwebbrowser1.LocationURL , 0
+Combo1.ListIndex = 0
+MousePointer = 0
+webbrowser1.Navigatecombo1.Text
+StatusBar1.Panels(1).Text = ″当前页面″ + Combo1.Text
+flag = False
+EndSub
+Private Sub combo1_Click()
+IfflagThenExitSub
+Timer1.Enabled = True
+MousePointer = 11
+StatusBar1.Panels(1).Text = "正在连接" + Combo1.Text + "......"
+webbrowser1.Navigatecombo1.Text
+EndSub
+PrivateSubcombo1—KeyPress (KeyAsciiAsInteger)
+OnErrorResumeNext
+IfKeyAscii = vbKeyReturnThen
+combo1—Click
+End If
+End Sub
+PrivateSubTimer1 -Timer()
+Ifwebbrowser1.Busy = FalseThen
+Timer1.Enabled = False
+Me.Caption = webbrowser1.LocationName
+Else
+Me.Caption = "Working..."
+End If
+EndSub
+PrivateSubToolBar1 -ButtonClick(ByValButtonAsButton)
+OnErrorResumeNext
+Timer1.Enabled = True
+SelectCaseButton.Key
+Case″exit″
+UnloadMe
+Case″Back″
+webbrowser1.GoBack
+Case″Forward″
+webbrowser1.GoForward
+Case″Refresh″
+webbrowser1.Refresh
+Case″Home″
+webbrowser1.GoHome
+Case″Search″
+webbrowser1.GoSearch
+Case″open″
+CommonDialog1.ShowOpen
+Combo1.Text = CommonDialog1.FileName
+Case″Stop″
+Timer1.Enabled = False
+MousePointer = 0
+webbrowser1.Stop
+Me.Caption = webbrowser1.LocationName
+EndSelect
+EndSub
+
+    
+

@@ -1,0 +1,112 @@
+             About  Snowman Media  1.0
+
+                       ——关于 "雪人"
+                           Snowman Media 1.0  自述文件
+    
+
+
+
+    首先非常感谢大家使用Snowman Media.
+
+
+______________________    
+What's  Snowman Media?
+
+    Snowman Media是一个多功能的Windows媒体播放软件。
+
+_____________________
+What's the Functions?
+
+    Snowman Media能播放现在PC和Mac两种硬件架构以及Windows,
+Unix及Linus上的共约50种视频，音频文件及图像文件；有着强大的
+媒体兼容性；方便简洁美观的操作界面；高度的自动化和实用性；
+具有任意大小的拖放窗口和总在最前面功能可以让你一边工作学习
+一边享受多姿多彩的多媒体世界；在播放多种视屏时都提供了全屏
+视窗和自动鼠标消隐功能是你重拾用电视看电影的感觉；除此以外，
+雪人还提供了一个方便实用的播放列表编辑程序；可以用它方便地
+做出自己个性化的播放列表。所生成的"*.m3u"文件格式标准和
+Windows的Media Player,RealnetWork的RealPlayer及Winamp等各
+种专业播放气兼容性极好，可以交互使用；相信大家对Micromedia
+的flash并不陌生，使用Snowman Media就可以轻松播放Flash格式
+的动画及电影；至于图像现在网上流行的图象格式不下十多种，使
+用Snowman Media就可以不用对这些格式作太大了解它能自动识别
+10多种位图和图元文件甚至压缩过的Jpeg和GIF它都能识别并显示出
+来。
+
+_______________
+About Internet!
+
+    在现今国际互联网飞速发展的时代，各种软件部纷纷标榜自己
+强大的网络功能。Snowman Media在设计时也有涉及这方面，他支
+持包括Windows的Media player,Apple的QuitTime及RealnetWork的
+RealPlayer等十多网络媒体文件实现实时的网络视频和音频的播放；
+另外Snowman Media还支持网络升级有兴趣的朋友可以到
+"www.h2ont.com"上看看或者给我发E-mail。
+    
+____________________
+What's Insufficient?
+
+    上述的是Snowman Media的多媒体功能，相信大家看了对它也有一
+定了解了吧。做Snowman Media是第一次用Visual Basic开发的软件因
+为本人水平及开发资源有限，它还存在这样那样的很多不足，如：它
+没有Media player的媒体库等方便的收藏功能，没有超级解霸和东方影
+都优秀的VCD支持功能，没有Realplayer，QuitTime的强大网络功能；
+没有Winamp的占用资源及“体积”小的优势。也没有它们专业稳定性
+和可换肤的漂亮界面，和各种各样的个性化播放器比较真有不少逊色。
+希望在大家支持和使用的同时给我反馈一些忠实的意见和建议让我可以
+把Snowman Media做的更好，更出色。我相信Snowman Media的"2.0"会
+更加优秀的，因为有着你们的支持。
+
+______________
+Why I Made It?
+
+    为什么会做Snowman Media？
+    这要从我的第一个软件Dreamseeker讲起。在前不久我的一个好友
+生日，我知道她对互联网特别感兴趣。但认识不太多，所以我决定给她
+买一个金山公司的Iwps帮助她了解多点精彩的互联网。但可惜我找遍清
+城区的软件店都找不到，有的只有质量奇差的盗版，一气之下我放弃了
+这个念头，决定自己写一个多功能的多媒体网络平台Dearmseeker（寻
+梦者）它包括Dreamseeker浏览器，邮件系统，Snowman Media媒体播
+放器和各种日记本，系统维护等工具。但在我做好浏览器时，她的生日
+已过去，也正巧学校的第十四届艺术节要举行了。在艺术界完了后会有
+精品回顾，把艺术节的精华刻成CD－R正需要一个媒体播放器。所以我
+加紧完成了Snowman Media以放在纪念CD－R中献献丑让大家批评指点一
+下。就这样，Snowman Media经过6了个Bata测试版，到今天，第一个正
+式版1.0终于面世。
+
+_____________________
+About the Copy Right!
+
+    Snowman Media 1.0艺术特别版是Copyleft有版权的自由，免费软
+件，可以任意使用，复制，传播，下载，修改和开发升级包，有兴趣的
+朋友可以和我联系，我将免费向大家提供全部的源代码，原VB 6.0工程
+文件和控件文件。为了兼容Microsoft的"*.wmv","*.wma"等媒体文件本
+软件使用了Media Player的控件,并保留关于和帮助等有关微软的版权
+标识（可在右键菜单中兑现）。本软件由黄思夏（Leask）拥有除
+Media Player，MCI，Flash三个控件处的全部版权，（而上述各控件的
+版权分别归Microsoft，和MicroMedia公司所有）对本软件的改动有义
+务保留本页，不经本人同意不得将Snowman Media的任何部分以任何形
+式用于商业用途。
+ 
+
+__________
+At Last...
+    希望你们能够喜欢Snowman Media这是我身为作者的一个心愿，也是
+我继续努力的方向和目标。虽然Snowman Media是免费软件但希望用户们
+能够尽一个小小的义务就是及时把你得名字，意见和使用情况等及时返
+回给我作统计和改进的依据。
+    最后再一次感谢你们的使用，感谢一直给我无限支持的苏小宁，朱
+素瑶，梁睿。希望Snowman Media能带给你们无限开怀和丰富的多媒体
+体验。
+                      
+
+
+
+
+
+
+                            黄思夏 Leask
+                            Copyleft 2000－2001 流动网络H2ont
+                            www.h2ont.com
+                            leask@chian.com
+                            4-28-2001

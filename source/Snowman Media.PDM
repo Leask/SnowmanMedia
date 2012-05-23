@@ -1,0 +1,351 @@
+[Root]
+Most Recent Package=Smm 完全版
+
+
+[Package|Smm 简化版|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\成品\简化版
+
+[Package|Smm 简化版|Configure DAO ISAMs]
+Applicable=Yes
+Lotus=No
+Exchange=No
+Text=No
+Paradox=No
+Excel=No
+Xbase=No
+Jet 2.x=No
+
+[Package|Smm 简化版|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Smm 简化版|Files Found]
+
+[Package|Smm 简化版|Files Released]
+
+[Package|Smm 简化版|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\SWFLASH.OCX=
+C:\WINDOWS\SYSTEM\MSDXM.OCX=
+C:\WINDOWS\SYSTEM\SWFLASH.OCX=
+
+[Package|Smm 简化版|Out-of-Date Dependency Information]
+
+[Package|Smm 简化版|Files Added]
+e:\my documents\my softs\snowman media\snowman media  1.0\texts\about  snowman media.txt=
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\联系雪人.exe=
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\流动网络H2ont.exe=
+
+[Package|Smm 简化版|Files Removed]
+
+[Package|Smm 简化版|Files In Project]
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Smmmedia.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6CHS.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\Dao350.dll=Yes
+C:\WINDOWS\SYSTEM\Msjet35.dll=Yes
+C:\WINDOWS\SYSTEM\Msjter35.dll=Yes
+C:\WINDOWS\SYSTEM\Msjint35.dll=Yes
+C:\WINDOWS\SYSTEM\Vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\Msrd2x35.dll=Yes
+C:\WINDOWS\SYSTEM\Msrepl35.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\Vb5db.dll=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\CMDLGCHS.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDXM.OCX=Yes
+C:\WINDOWS\SYSTEM\MCI32.OCX=Yes
+C:\WINDOWS\SYSTEM\MCICHS.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Texts\About  Snowman Media.txt=Yes
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\SWFLASH.OCX=Yes
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\联系雪人.exe=Yes
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\流动网络H2ont.exe=Yes
+
+[Package|Smm 简化版|Configure Registry Files]
+Applicable=No
+
+[Package|Smm 简化版|Configure Remote Servers]
+Applicable=No
+
+[Package|Smm 简化版|Install Locations]
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Smmmedia.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6CHS.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\Dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\Msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msrepl35.dll=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Vb5db.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGCHS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDXM.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\SWFLASH.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MCICHS.DLL=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Texts\About  Snowman Media.txt=$(AppPath)
+C:\WINDOWS\SYSTEM\SWFLASH.OCX=$(WinSysPath)
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\联系雪人.exe=$(AppPath)
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\流动网络H2ont.exe=$(AppPath)
+
+[Package|Smm 简化版|Configure Shared Files]
+Applicable=Yes
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Smmmedia.exe=No
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Texts\About  Snowman Media.txt=No
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\联系雪人.exe=No
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\流动网络H2ont.exe=No
+
+[Package|Smm 简化版|Distribution]
+Type=single
+Size=1.2 MB
+Title=Snowman Media  1.0
+
+[Package|Smm 简化版|IconGroups]
+Group0=$(Start Menu)
+PrivateGroup0=True
+Parent0=
+Group1=Snowman Media  1.0
+PrivateGroup1=True
+Parent1=$(Programs)
+
+[Package|Smm 简化版|$(Start Menu)]
+Icon1=Smmmedia.exe
+Title1=Snowman Media
+StartIn1=$(AppPath)
+Key1=Icon4
+
+[Package|Smm 简化版|Snowman Media  1.0]
+Icon1=Smmmedia.exe
+Title1=Snowman Media
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2="About  Snowman Media.txt"
+Title2=About  Snowman Media
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3=联系雪人.exe
+Title3=联系雪人
+StartIn3=$(AppPath)
+Key3=Icon5
+Icon4=流动网络H2ont.exe
+Title4=流动网络H2ont
+StartIn4=$(AppPath)
+Key4=Icon6
+
+[Package|Smm 简化版|Package]
+PackageFolder=E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\成品\简化版
+ProjectFolder=E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0
+ServerSideCab=
+File1=E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\成品\简化版\setup.exe
+File2=E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\成品\简化版\Setup.Lst
+File3=E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\成品\简化版\Smmmedia.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Smm 完全版|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\成品\完全版
+
+[Package|Smm 完全版|Configure DAO ISAMs]
+Applicable=Yes
+Lotus=Yes
+Exchange=Yes
+Text=Yes
+Paradox=Yes
+Excel=Yes
+Xbase=Yes
+Jet 2.x=Yes
+
+[Package|Smm 完全版|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Smm 完全版|Files Found]
+
+[Package|Smm 完全版|Files Released]
+
+[Package|Smm 完全版|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MSEXCH35.DLL=
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\SWFLASH.OCX=
+C:\WINDOWS\SYSTEM\MSDXM.OCX=
+C:\WINDOWS\SYSTEM\SWFLASH.OCX=
+
+[Package|Smm 完全版|Out-of-Date Dependency Information]
+
+[Package|Smm 完全版|Files Added]
+e:\my documents\my softs\snowman media\snowman media  1.0\texts\about  snowman media.txt=
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\联系雪人.exe=
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\流动网络H2ont.exe=
+
+[Package|Smm 完全版|Files Removed]
+
+[Package|Smm 完全版|Files In Project]
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Smmmedia.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6CHS.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\Dao350.dll=Yes
+C:\WINDOWS\SYSTEM\Msjet35.dll=Yes
+C:\WINDOWS\SYSTEM\Msjter35.dll=Yes
+C:\WINDOWS\SYSTEM\Msjint35.dll=Yes
+C:\WINDOWS\SYSTEM\Vbajet32.dll=Yes
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=Yes
+C:\WINDOWS\SYSTEM\Msrd2x35.dll=Yes
+C:\WINDOWS\SYSTEM\Msrepl35.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINDOWS\SYSTEM\Vb5db.dll=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\CMDLGCHS.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDXM.OCX=Yes
+C:\WINDOWS\SYSTEM\MCI32.OCX=Yes
+C:\WINDOWS\SYSTEM\MCICHS.DLL=Yes
+C:\WINDOWS\SYSTEM\MSEXCL35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSEXCH35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSLTUS35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=Yes
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=Yes
+C:\WINDOWS\SYSTEM\RDO20CHS.DLL=Yes
+C:\WINDOWS\SYSTEM\MSPDOX35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=Yes
+C:\WINDOWS\SYSTEM\MSXBSE35.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Texts\About  Snowman Media.txt=Yes
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\SWFLASH.OCX=Yes
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\联系雪人.exe=Yes
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\流动网络H2ont.exe=Yes
+
+[Package|Smm 完全版|Configure Registry Files]
+Applicable=No
+
+[Package|Smm 完全版|Configure Remote Servers]
+Applicable=No
+
+[Package|Smm 完全版|Install Locations]
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Smmmedia.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6CHS.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\Dao350.dll=$(MSDAOPath)
+C:\WINDOWS\SYSTEM\Msjet35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msjter35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msjint35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Msrepl35.dll=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\Vb5db.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGCHS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDXM.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\SWFLASH.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MCICHS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSEXCH35.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDO20CHS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSXBSE35.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Texts\About  Snowman Media.txt=$(AppPath)
+C:\WINDOWS\SYSTEM\SWFLASH.OCX=$(WinSysPath)
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\联系雪人.exe=$(AppPath)
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\流动网络H2ont.exe=$(AppPath)
+
+[Package|Smm 完全版|Configure Shared Files]
+Applicable=Yes
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Smmmedia.exe=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Texts\About  Snowman Media.txt=No
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\联系雪人.exe=No
+E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\Links\流动网络H2ont.exe=No
+
+[Package|Smm 完全版|Distribution]
+Type=single
+Size=
+Title=Snowman Media  1.0
+
+[Package|Smm 完全版|Package]
+PackageFolder=E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\成品\完全版
+ProjectFolder=E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0
+ServerSideCab=
+File1=E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\成品\完全版\setup.exe
+File2=E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\成品\完全版\Setup.Lst
+File3=E:\My Documents\My Softs\Snowman Media\Snowman Media  1.0\成品\完全版\Smmmedia.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Smm 完全版|IconGroups]
+Group0=Snowman Media  1.0
+PrivateGroup0=True
+Parent0=$(Programs)
+Group1=$(Start Menu)
+PrivateGroup1=True
+Parent1=
+
+[Package|Smm 完全版|Snowman Media  1.0]
+Icon1=Smmmedia.exe
+Title1=Snowman Media
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2="About  Snowman Media.txt"
+Title2=About  Snowman Media
+StartIn2=$(AppPath)
+Key2=Icon3
+Icon3=联系雪人.exe
+Title3=联系雪人
+StartIn3=$(AppPath)
+Key3=Icon6
+Icon4=流动网络H2ont.exe
+Title4=流动网络H2ont
+StartIn4=$(AppPath)
+Key4=Icon7
+
+[Package|Smm 完全版|$(Start Menu)]
+Icon1=Smmmedia.exe
+Title1=Snowman Media
+StartIn1=$(AppPath)
+Key1=Icon5
