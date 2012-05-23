@@ -1,0 +1,226 @@
+title  = "Military"
+artist = "Leask"
+info   = "H2ont  Running Splendors!"
+
+
+
+
+<SkinObject CLASS="form"
+  kind=Border
+  backalign=tiled
+>
+        <SkinObject
+          left=20%+0
+          top=20%+0
+          right=80%+0
+          height=24
+          kind=Border
+          align=top
+          backalign=tiled
+          bgcolor=12820148
+        >
+                <SkinObject
+                  kind=TopLeft
+                  BackgroundRect=military.bmp 0 0 37 24
+                  OpacityMapRect=military-mask.bmp 0 0 37 24
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=8031880
+                >
+                </SkinObject>
+
+                <SkinObject
+                  width=17
+                  kind=TopRight
+                  BackgroundRect=military.bmp 240 0 258 24
+                  OpacityMapRect=military-mask.bmp 40 0 58 24
+                  align=right
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=5594004
+                >
+                </SkinObject>
+
+                <SkinObject
+                  width=25%+0
+                  kind=Border
+                  BackgroundRect=military.bmp 40 0 45 24
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=12853322
+                >
+                </SkinObject>
+
+                <SkinObject
+                  width=25%+0
+                  kind=Border
+                  BackgroundRect=military.bmp 225 0 235 24
+                  align=right
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=7818317
+                >
+                </SkinObject>
+
+                <SkinObject
+                  left=156
+                  top=1
+                  kind=Title
+                  BackgroundRect=military.bmp 109 0 114 24
+                  align=client
+                  backalign=tiled
+                  transparency=0%
+                  color=8445184
+                  bgcolor=6182342
+                >
+                </SkinObject>
+
+        </SkinObject>
+
+        <SkinObject
+          left=20%+0
+          top=20%+0
+          bottom=80%+0
+          width=27
+          kind=Border
+          align=left
+          backalign=tiled
+          bgcolor=11113987
+        >
+                <SkinObject
+                  kind=MinButton
+                  BackgroundRect=military.bmp 0 24 37 34
+                  align=top
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=13156034
+                  OnMouseIn = "stop object ; MorphToRect military-active.bmp 0 24 37 34 100  "
+                  OnMouseOut = "stop object ; MorphToRect military.bmp 0 24 37 34 100   "
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=MaxButton
+                  BackgroundRect=military.bmp 0 34 27 44
+                  align=top
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=7045840
+                  OnMouseOut = "stop object ; MorphToRect military.bmp 0 34 27 44 100   "
+                  OnMouseIn = "stop object ; MorphToRect military-active.bmp 0 34 27 44 100   "
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Close
+                  BackgroundRect=military.bmp 0 44 27 54
+                  align=top
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=8553397
+                  OnMouseIn = "stop object ; MorphToRect military-active.bmp 0 44 27 54 100   "
+                  OnMouseOut = "stop object ; MorphToRect military.bmp 0 44 27 54 100   "
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Border
+                  BackgroundRect=military.bmp 0 54 27 72
+                  OpacityMapRect=military-mask.bmp 0 54 27 72
+                  align=top
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=851561
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=BottomLeft
+                  BackgroundRect=military.bmp 0 137 27 147
+                  OpacityMapRect=military-mask.bmp 0 70 27 80
+                  align=bottom
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=10474716
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Left
+                  BackgroundRect=military.bmp 0 100 27 102
+                  OpacityMapRect=military-mask.bmp 0 75 27 80
+                  align=client
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=15097034
+                >
+                </SkinObject>
+
+        </SkinObject>
+
+        <SkinObject
+          left=430
+          top=20%+0
+          bottom=80%+0
+          width=10
+          kind=Border
+          align=right
+          backalign=tiled
+          bgcolor=1155167
+        >
+                <SkinObject
+                  kind=BottomRight
+                  BackgroundRect=military.bmp 247 137 257 147
+                  align=bottom
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=9454326
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Border
+                  BackgroundRect=military.bmp 247 24 257 37
+                  align=top
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=9069838
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Right
+                  BackgroundRect=military.bmp 247 85 257 95
+                  align=client
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=1251295
+                >
+                </SkinObject>
+
+        </SkinObject>
+
+        <SkinObject
+          kind=Bottom
+          BackgroundRect=military.bmp 40 141 50 147
+          align=bottom
+          backalign=tiled
+          transparency=0%
+          bgcolor=2430707
+        >
+        </SkinObject>
+
+        <SkinObject CLASS="client"
+          kind=Border
+          BackgroundRect=military.bmp 25 48 30 56
+          align=client
+          backalign=tiled
+          transparency=0%
+          bgcolor=5517405
+        >
+        </SkinObject>
+
+</SkinObject>
+

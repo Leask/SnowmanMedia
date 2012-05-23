@@ -1,0 +1,243 @@
+title = "Chromatic Techno"
+artist = "Leask"
+info   = "H2ont Running Splendors!"
+
+<SkinObject CLASS="form"
+>
+    <SkinObject CLASS="bottom_edge"
+      align=bottom
+      height=11
+    >
+        <SkinObject 
+          align=left
+          kind = "bottomleft"
+          BackgroundRect = "techno_chrome.bmp" 0 209 14 220
+          TransparencyMapRect = "techno_chrome_bg.bmp" 0 209 14 220
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=right
+          kind = "bottomright"
+          BackgroundRect = "techno_chrome.bmp" 431 209 449 220
+          TransparencyMapRect = "techno_chrome_bg.bmp" 431 209 449 220
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=client
+          kind = "bottom"
+          BackgroundRect = "techno_chrome.bmp" 18 209 200 220
+          >
+        </SkinObject>
+    </SkinObject>
+
+
+    <SkinObject CLASS="right_edge"
+      align=right
+      width=11
+    >
+        <SkinObject 
+          align=top
+          kind = "caption"
+          BackgroundRect = "techno_chrome.bmp" 439 0 450 52
+          TransparencyMapRect = "techno_chrome_bg.bmp" 439 0 450 52
+          OnMouseIn = "stop object ; MorphToRect techno_chrome_act.bmp 439 0 450 52 500"
+          OnMouseOut = "stop object ; MorphToRect techno_chrome.bmp 439 0 450 52 1000"
+          >
+        </SkinObject>
+
+        <SkinObject 
+          align=client
+          kind = "right"
+          BackgroundRect = "techno_chrome.bmp" 439 52 459 200
+          TransparencyMapRect = "techno_chrome_bg.bmp" 439 52 450 200
+          >
+        </SkinObject>
+    </SkinObject>
+
+
+    <SkinObject CLASS="top_edge"
+      align=top
+      height=32
+    >
+        <SkinObject CLASS="for_menu"
+          align=left
+          kind = "sysmenu"
+          BackgroundRect = "techno_chrome.bmp" 0 0 32 32
+          TransparencyMapRect = "techno_chrome_bg.bmp" 0 0 32 32
+          OnMouseIn = "stop object ; MorphToRect techno_chrome_act.bmp 0 0 32 32 500"
+          OnMouseOut = "stop object ; MorphToRect techno_chrome.bmp 0 0 32 32 1000"
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=right
+          kind = "close"
+          BackgroundRect = "techno_chrome.bmp" 421 0 438 32
+          OnMouseIn = "stop object ; MorphToRect techno_chrome_act.bmp 421 0 438 32 500"
+          OnMouseOut = "stop object ; MorphToRect techno_chrome.bmp 421 0 438 32 1000"
+          >
+        </SkinObject>
+
+        <SkinObject 
+          align=top
+          height=4
+        >
+            <SkinObject CLASS = "above title"
+              align=left
+              kind = "top"
+              BackgroundRect = "techno_chrome.bmp" 32 0 56 4
+              TransparencyMapRect = "techno_chrome_bg.bmp" 32 0 56 4
+              >
+            </SkinObject>
+
+            <SkinObject
+              align=client
+              kind = "top"
+              BackgroundRect = "techno_chrome.bmp" 56 0 200 4
+              >
+            </SkinObject>
+        </SkinObject>
+
+        <SkinObject class = "below title"
+          align=bottom
+          kind = "caption"
+          BackgroundRect = "techno_chrome.bmp" 56 22 200 32
+          >
+        </SkinObject>
+
+        <SkinObject class = "caption"
+          align=client
+          OnMouseIn = "goto caption_left OnMyMouseIn"
+          OnMouseOut = "goto caption_left OnMyMouseOut"
+        >
+            <SkinObject class = "caption_left"
+              align=left
+              kind = "caption"
+              BackgroundRect = "techno_chrome.bmp" 32 4 56 22
+              OnMyMouseIn = "stop object ; MorphToRect techno_chrome_act.bmp 32 4 56 22 500; goto caption_right OnMyMouseIn"
+              OnMyMouseOut = "stop object ; MorphToRect techno_chrome.bmp 32 4 56 22 1000; goto caption_right OnMyMouseOut"
+              >
+            </SkinObject>
+    
+            <SkinObject class = "caption_right"
+              align=right
+              kind = "caption"
+              BackgroundRect = "techno_chrome.bmp" 413 4 421 22
+              OnMyMouseIn = "stop object ; MorphToRect techno_chrome_act.bmp 413 4 421 22 500 ; goto caption_title OnMyMouseIn"
+              OnMyMouseOut = "stop object ; MorphToRect techno_chrome.bmp 413 4 421 22 1000 ; goto caption_title OnMyMouseOut"
+              >
+            </SkinObject>
+    
+            <SkinObject class = "caption_title"
+              align=client
+              kind = "title"
+              BackgroundRect = "techno_chrome.bmp" 56 4 60 22
+              OnMyMouseIn = "stop object ; MorphToRect techno_chrome_act.bmp 56 4 60 22 500 ; goto smart_line OnMyMouseIn"
+              OnMyMouseOut = "stop object ; MorphToRect techno_chrome.bmp 56 4 60 22 1000 ; goto smart_line OnMyMouseOut"
+              >
+            </SkinObject>
+
+            <SkinObject class = "smart_line"
+              align=bottom
+              backalign = stretch
+              kind = "caption"
+              BackgroundRect = "techno_chrome.bmp" 59 21 410 22
+              OnMyMouseIn = "stop object ; MorphToRect techno_chrome_act.bmp 59 21 410 22 500"
+              OnMyMouseOut = "stop object ; MorphToRect techno_chrome.bmp 59 21 410 22 1000"
+              >
+            </SkinObject>
+        </SkinObject>
+
+
+    </SkinObject>
+
+    <SkinObject CLASS="for_client"
+      align=client
+    >
+
+        <SkinObject
+          align=left
+          kind = "left"
+          BackgroundRect = "techno_chrome.bmp" 0 45 5 200
+          >
+        </SkinObject>
+
+        <SkinObject CLASS = "client"
+          align=client
+          kind = "client"
+          BackgroundRect = "techno_chrome.bmp" 56 52 202 158
+          >
+        </SkinObject>
+    </SkinObject>
+
+</SkinObject>
+
+
+
+
+
+
+<SkinObject CLASS="control"
+  OnMouseIn = "goto top_line OnMyActivate"
+  OnMouseOut = "goto top_line OnMyDeactivate"
+>
+
+    <SkinObject CLASS="top_line"
+      left = 2 right = 100%-2 top = 0 
+      kind = "caption"
+      backgroundRect = "techno_chrome.bmp" 58 166 63 172
+      OnMyActivate = "backgroundRect techno_chrome_act.bmp 58 166 63 172 ; goto bottom_line OnMyActivate"
+      OnMyDeactivate = "backgroundRect techno_chrome.bmp 58 166 63 172 ; goto bottom_line OnMyDeactivate"
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="bottom_line" 
+      left = 2 right = 100%-2 bottom = 100%
+      kind = "bottom"
+      backgroundRect = "techno_chrome.bmp" 58 185 63 191
+      OnMyActivate = "backgroundRect techno_chrome_act.bmp 58 185 63 191"
+      OnMyDeactivate = "backgroundRect techno_chrome.bmp 58 185 63 191"
+      >
+    </SkinObject>
+
+    <SkinObject 
+      left = 0 top = 5 bottom = 100%-6
+      kind = "left"
+      backgroundRect = "techno_chrome.bmp" 56 172 58 185
+      >
+    </SkinObject>
+
+    <SkinObject 
+      right = 100% top = 4 bottom=100%-4
+      kind = "right"
+      backgroundRect = "techno_chrome.bmp" 117 172 119 187
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="client"
+      kind=client
+      left = 2
+      top = 6
+      right = 100%-2
+      bottom = 100%-6
+      opacity=255
+    >
+    </SkinObject>
+
+</SkinObject>
+
+<SkinObject link="control" CLASS="TMemo" > </SkinObject>
+<SkinObject link="control" CLASS="TButton" > </SkinObject>
+<SkinObject link="control" CLASS="TEdit" > </SkinObject>
+<SkinObject link="control" CLASS="TListBox" > </SkinObject>
+<SkinObject link="control" CLASS="TTreeView" > </SkinObject>
+<SkinObject link="control" CLASS="TPanel" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderTextBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5TextBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderCommandButton" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5CommandButton" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderCheckBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5CheckBox" > </SkinObject>
+

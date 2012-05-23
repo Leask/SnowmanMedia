@@ -1,0 +1,26 @@
+[INFO]
+TITLE=Jurassic
+artist=Kevin
+con=H2ont
+copy=(C)2000-2001 H2ont
+web=www.h2ont.com
+time=9.13.2001
+info=嗷... 小心被我吃了!
+
+[VIDEO]
+x=1305
+y=945
+w=1770
+h=1200
+
+[LABEL]
+x=10000
+y=10000
+w=1
+
+[FORM]
+w=4350
+h=3720
+
+[USED]
+used=0

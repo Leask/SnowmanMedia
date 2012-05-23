@@ -1,0 +1,153 @@
+title  = "BeOS"
+artist = "Leask"
+info   = "简单就是美."
+
+<SkinObject CLASS="form"
+>
+    <SkinObject CLASS="top"
+      align=top
+      height=19
+      width=18
+    >
+      <SkinObject CLASS="titlebar"
+        align=left
+        width=60%
+      >
+          <SkinObject
+            align=left
+            height=19
+            kind = "sysmenu"
+            background = "btn-close.bmp"
+            onmousein="background=btn-close-press.bmp"
+            onmouseout="background=btn-close.bmp">
+          </SkinObject>
+          <SkinObject CLASS="max"
+            align=right
+            height=19
+            kind = "maxbutton"
+            background = "btn-max.bmp"
+            onmousein="background=btn-max-press.bmp"
+            onmouseout="background=btn-max.bmp">
+          </SkinObject>
+          <SkinObject CLASS="min"
+            align=right
+            height=19
+            kind="minbutton"
+            onmousein="background=btn-min-press.bmp"
+            onmouseout="background=btn-min.bmp"
+            background = "btn-min.bmp">
+          </SkinObject>
+          <SkinObject 
+            align=client
+            backalign=tiled
+            kind = title
+            background = "titlebar.bmp">
+          </SkinObject>
+      </SkinObject>
+    </SkinObject>
+
+    <SkinObject CLASS="top"
+      align=top kind = "top"
+      backalign = tiled
+      background = "fr-top-tile.bmp">
+    </SkinObject>
+
+    <SkinObject CLASS="bottom"
+      align=bottom kind = "bottom"
+      backalign = tiled
+      background = "fr-bottom-tile.bmp">
+    </SkinObject>
+
+    <SkinObject CLASS="left"
+      align=left kind = "left"
+      backalign = tiled
+      background = "fr-left-tile.bmp">
+    </SkinObject>
+
+    <SkinObject CLASS="right"
+      align=right kind = "right"
+      backalign=tiled
+      background = "fr-right-tile.bmp">
+    </SkinObject>
+
+    <SkinObject CLASS="client"
+      align=client
+      background = "background.bmp"
+      kind="client"
+      opacity=255
+      >
+    </SkinObject>
+</SkinObject>
+
+
+
+<SkinObject CLASS="control"
+  left=0 top=0 right=500 bottom=300
+  WindowType = ControlWindowless
+>
+    <SkinObject
+      align=top kind = "top"
+      background = "ct-top.bmp">
+    </SkinObject>
+
+    <SkinObject
+      align=bottom kind = "bottom"
+      background = "ct-bottom.bmp">
+    </SkinObject>
+
+    <SkinObject
+      align=left kind = "left"
+      background = "ct-left.bmp">
+    </SkinObject>
+
+    <SkinObject
+      align=right kind = "right"
+      background = "ct-right.bmp">
+    </SkinObject>
+
+    <SkinObject
+      kind = "topleft"
+      top = 0
+      left = 0
+      background = "ct-top-left.bmp">
+    </SkinObject>
+
+    <SkinObject
+      kind = "topright"
+      top = 0
+      right = 100%
+      background = "ct-top-right.bmp">
+    </SkinObject>
+
+    <SkinObject
+      kind = "bottomleft"
+      bottom= 100%
+      left = 0
+      background = "ct-bottom-left.bmp">
+    </SkinObject>
+
+    <SkinObject
+      kind = "bottomright"
+      bottom = 100%
+      right = 100%
+      background = "ct-bottom-right.bmp">
+    </SkinObject>
+
+    <SkinObject CLASS="client"
+      align=client
+      backalign=tiled
+      kind="client"
+      background="background.bmp">
+    </SkinObject>
+</SkinObject>
+
+
+<SkinObject link="control" CLASS="TMemo" > </SkinObject>
+<SkinObject link="control" CLASS="TEdit" > </SkinObject>
+<SkinObject link="control" CLASS="TListBox" > </SkinObject>
+<SkinObject link="control" CLASS="TTreeView" > </SkinObject>
+<SkinObject link="control" CLASS="TPanel" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderTextBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5TextBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderCheckBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5CheckBox" > </SkinObject>

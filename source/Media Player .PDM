@@ -1,0 +1,122 @@
+[Root]
+Most Recent Package=标准安装软件包 4
+
+[Package|A|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\临时文件\A
+
+[Package|A|Configure DAO ISAMs]
+Applicable=No
+
+[Package|A|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|A|Files Found]
+
+[Package|A|Files Released]
+
+[Package|A|Missing Dependency Information]
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=
+C:\WINDOWS\SYSTEM\MSDERUN.DLL=
+D:\Program Files\Snowman Media  3.0\Coolineprj.ocx=
+D:\Program Files\Snowman Media  3.0\lyftools.ocx=
+D:\Program Files\Snowman Media  3.0\ctlstbar.ocx=
+C:\WINDOWS\SYSTEM\ActiveSkin.ocx=
+C:\WINDOWS\SYSTEM\MSDXM.OCX=
+
+[Package|A|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=
+
+[Package|A|Files Added]
+
+[Package|A|Files Removed]
+
+[Package|A|Files In Project]
+E:\我的文档\Snowman Media\Snowman Media  3.0\源文件\源文件\SmM_MP.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6CHS.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\CMDLGCHS.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDXM.OCX=Yes
+C:\WINDOWS\SYSTEM\ActiveSkin.ocx=Yes
+D:\Program Files\Snowman Media  3.0\ctlstbar.ocx=Yes
+D:\Program Files\Snowman Media  3.0\lyftools.ocx=Yes
+D:\Program Files\Snowman Media  3.0\Coolineprj.ocx=Yes
+C:\WINDOWS\SYSTEM\rmoc3260.dll=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCMCCHS.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|A|Configure Registry Files]
+Applicable=No
+
+[Package|A|Configure Remote Servers]
+Applicable=No
+
+[Package|A|Install Locations]
+E:\我的文档\Snowman Media\Snowman Media  3.0\源文件\源文件\SmM_MP.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6CHS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGCHS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDXM.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ActiveSkin.ocx=$(WinSysPath)
+D:\Program Files\Snowman Media  3.0\ctlstbar.ocx=$(WinSysPath)
+D:\Program Files\Snowman Media  3.0\lyftools.ocx=$(WinSysPath)
+D:\Program Files\Snowman Media  3.0\Coolineprj.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\rmoc3260.dll=$(AppPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCMCCHS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDERUN.DLL=$(WinSysPath)
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|A|Configure Shared Files]
+Applicable=Yes
+E:\我的文档\Snowman Media\Snowman Media  3.0\源文件\源文件\SmM_MP.exe=No
+C:\WINDOWS\SYSTEM\rmoc3260.dll=No
+
+[Package|A|Distribution]
+Type=single
+Size=
+Title=Snowman Media  3.0
+
+[Package|A|IconGroups]
+Group0=Snowman Media  3.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|A|Snowman Media  3.0]
+Icon1=SmM_MP.exe
+Title1=Snowman Media  3.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|A|Package]
+PackageFolder=E:\临时文件\A
+ProjectFolder=E:\我的文档\Snowman Media\Snowman Media  3.0\源文件\源文件
+ServerSideCab=
+File1=E:\临时文件\A\setup.exe
+File2=E:\临时文件\A\Setup.Lst
+File3=E:\临时文件\A\SmM_MP.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

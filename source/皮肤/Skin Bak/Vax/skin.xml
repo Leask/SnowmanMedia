@@ -1,0 +1,289 @@
+title = "Vax"
+artist = "Leask"
+info   = "H2ont Running Splendors!"
+
+
+
+
+<SkinObject CLASS="form"
+  kind=Border
+  backalign=tiled
+>
+        <SkinObject
+          left=20%+0
+          top=20%+0
+          right=80%+0
+          height=31
+          kind=Border
+          align=top
+          backalign=tiled
+          bgcolor=12820148
+        >
+                <SkinObject
+                  kind=Border
+                  BackgroundRect=vax.bmp 0 0 23 31
+                  OpacityMapRect=vax.bmp 127 84 150 115
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=8031880
+                >
+                </SkinObject>
+
+                <SkinObject
+                  left=440
+                  width=31
+                  kind=Border
+                  BackgroundRect=vax.bmp 241 0 272 31
+                  OpacityMapRect=vax.bmp 228 84 259 115
+                  align=right
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=4037643
+                >
+                </SkinObject>
+
+                <SkinObject
+                  left=322
+                  width=18%+0
+                  kind=Caption
+                  BackgroundRect=vax.bmp 225 0 235 31
+                  align=right
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=851561
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=MinButton
+                  BackgroundRect=vax.bmp 23 0 33 31
+                  OpacityMapRect=vax.bmp 150 84 160 115
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=1155167
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=MaxButton
+                  BackgroundRect=vax.bmp 33 0 45 31
+                  OpacityMapRect=vax.bmp 150 84 162 115
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=9454326
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Close
+                  BackgroundRect=vax.bmp 44 0 55 31
+                  OpacityMapRect=vax.bmp 155 84 166 115
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=1251295
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Border
+                  BackgroundRect=vax.bmp 55 0 73 31
+                  OpacityMapRect=vax.bmp 181 84 199 115
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=9069838
+                >
+                </SkinObject>
+
+                <SkinObject
+                  width=18%+0
+                  kind=Caption
+                  BackgroundRect=vax.bmp 90 0 100 31
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=2430707
+                >
+                </SkinObject>
+
+                <SkinObject
+                  left=214
+                  top=1
+                  kind=Caption
+                  BackgroundRect=vax.bmp 173 0 180 31
+                  align=client
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=5517405
+                >
+                        <SkinObject
+                          kind=Title
+                          BackgroundRect=vax.bmp 125 0 130 23
+                          align=top
+                          backalign=tiled
+                          transparency=0%
+                          color=4259584
+                          bgcolor=7233988
+                        >
+                        </SkinObject>
+
+                </SkinObject>
+
+        </SkinObject>
+
+        <SkinObject
+          left=20%+0
+          top=424
+          right=80%+0
+          height=18
+          kind=Border
+          align=bottom
+          backalign=tiled
+          bgcolor=7818317
+        >
+                <SkinObject
+                  kind=BottomLeft
+                  BackgroundRect=vax.bmp 0 150 10 168
+                  OpacityMapRect=vax.bmp 127 124 137 142
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=6182342
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=BottomRight
+                  BackgroundRect=vax.bmp 262 150 272 168
+                  OpacityMapRect=vax.bmp 249 124 259 142
+                  align=right
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=8553397
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Bottom
+                  BackgroundRect=vax.bmp 50 150 60 168
+                  OpacityMapRect=vax.bmp 140 124 150 142
+                  align=client
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=7045840
+                >
+                </SkinObject>
+
+        </SkinObject>
+
+        <SkinObject
+          left=20%+0
+          top=20%+0
+          bottom=80%+0
+          width=8
+          kind=Left
+          BackgroundRect=vax.bmp 0 31 8 50
+          align=left
+          backalign=tiled
+          transparency=0%
+          bgcolor=5594004
+        >
+        </SkinObject>
+
+        <SkinObject
+          left=435
+          top=20%+0
+          bottom=80%+0
+          width=7
+          kind=Right
+          BackgroundRect=vax.bmp 265 36 272 54
+          align=right
+          backalign=tiled
+          transparency=0%
+          bgcolor=12853322
+        >
+        </SkinObject>
+
+        <SkinObject CLASS="client"
+          left=20%+0
+          top=20%+0
+          right=80%+0
+          bottom=80%+0
+          kind=Border
+          BackgroundRect=vax.bmp 8 31 28 41
+          align=client
+          backalign=tiled
+          transparency=0%
+          bgcolor=11113987
+        >
+        </SkinObject>
+
+        <SkinObject CLASS="window"
+          left=20
+          top=9
+          kind=Border
+          BackgroundRect=vax.bmp 20 9 58 19
+          backalign=tiled
+          transparency=0%
+          bgcolor=5594004
+          OnMouseOut = " goto black Out"
+          OnMouseIn = "goto black In"
+        >
+                <SkinObject CLASS="black"
+                  left=0
+                  top=1
+                  height=8
+                  kind=Border
+                  BackgroundRect=vax.bmp 150 109 188 119
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=7818317
+                  Out = "stop; moveto 0 - - - - - 1000 accel "
+                  In = "stop; moveto 60 - - - - - 1000 accel "
+                >
+                </SkinObject>
+
+                <SkinObject
+                  left=20%+0
+                  top=20%+0
+                  bottom=80%+0
+                  width=13
+                  kind=MinButton
+                  align=left
+                  backalign=tiled
+                  bgcolor=6182342
+                >
+                </SkinObject>
+
+                <SkinObject
+                  left=20%+0
+                  top=20%+0
+                  bottom=80%+0
+                  width=13
+                  kind=MaxButton
+                  align=left
+                  backalign=tiled
+                  bgcolor=11113987
+                >
+                </SkinObject>
+
+                <SkinObject
+                  left=20%+0
+                  top=20%+0
+                  bottom=80%+0
+                  width=13
+                  kind=Close
+                  align=left
+                  backalign=tiled
+                  bgcolor=13156034
+                >
+                </SkinObject>
+
+        </SkinObject>
+
+</SkinObject>
+

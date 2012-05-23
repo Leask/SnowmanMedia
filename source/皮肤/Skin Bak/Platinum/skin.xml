@@ -1,0 +1,189 @@
+title = "Platinum"
+artist = "Leask"
+info   = "H2ont Running Splendors!"
+
+<SkinObject CLASS="form"
+>
+    <SkinObject
+      align=left
+      width=22
+      kind = "caption"
+      >
+       <SkinObject
+         align=top
+         BackgroundRect = "platin.bmp" 0 0 22 20
+         >
+       </SkinObject>
+       <SkinObject
+         align=bottom
+         BackgroundRect = "platin.bmp" 0 200 22 214
+         >
+       </SkinObject>
+       <SkinObject
+         align=client
+         BackgroundRect = "platin.bmp" 0 20 22 30
+         >
+       </SkinObject>
+    </SkinObject>
+
+    <SkinObject
+      align=left width=2
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="top_edge"
+      align=top
+      height=24
+    >
+        <SkinObject 
+          align=left
+          kind = "sysmenu"
+          BackgroundRect = "platin.bmp" 24 1 53 25
+          OnMouseIn = "stop object ; Goto - OnMyMouseIn"
+          OnMyMouseIn = "MorphToRect platin-active.bmp 24 1 53 25 400"
+          OnMouseOut = "stop object ; MorphToRect platin.bmp 24 1 53 25 400"
+          >
+        </SkinObject>
+
+        <SkinObject 
+          align=right
+          kind = "topright"
+          BackgroundRect = "platin.bmp" 293 1 314 25
+          OpacityMapRect = "platin-mask.bmp" 293 1 314 25
+          >
+        </SkinObject>
+
+        <SkinObject 
+          align=right
+          kind = "close"
+          BackgroundRect = "platin.bmp" 269 1 293 25
+          OnMouseIn = "stop object ; MorphToRect platin-active.bmp 269 1 293 25 400"
+          OnMouseOut = "stop object ; MorphToRect platin.bmp 269 1 293 25 400"
+          >
+        </SkinObject>
+
+        <SkinObject 
+          align=client
+          kind = "title"
+          BackgroundRect = "platin.bmp" 60 1 80 25
+          >
+        </SkinObject>
+
+    </SkinObject>
+
+
+    <SkinObject CLASS="right_edge"
+      align=right
+      width=21
+    >
+        <SkinObject 
+          align=bottom
+          kind = "bottomright"
+          BackgroundRect = "platin.bmp" 293 204 314 212
+          >
+        </SkinObject>
+
+        <SkinObject 
+          align=top
+          kind = "right"
+          BackgroundRect = "platin.bmp" 293 25 314 35
+          >
+        </SkinObject>
+
+        <SkinObject 
+          align=client
+          kind = "right"
+          BackgroundRect = "platin.bmp" 293 35 314 55
+          >
+        </SkinObject>
+    </SkinObject>
+
+    <SkinObject CLASS="bottom_edge"
+      align=bottom
+      height=5
+    >
+        <SkinObject 
+          align=left
+          kind = "bottomleft"
+          BackgroundRect = "platin.bmp" 24 207 34 213
+          >
+        </SkinObject>
+
+        <SkinObject 
+          align=client
+          kind = "bottom"
+          BackgroundRect = "platin.bmp" 34 207 50 213
+          >
+        </SkinObject>
+
+    </SkinObject>
+
+    <SkinObject 
+      align=left
+      kind = "left"
+      BackgroundRect = "platin.bmp" 24 60 29 70
+      >
+    </SkinObject>
+
+    <SkinObject CLASS=client
+      align=client
+      kind = "client"
+      BackgroundRect = "platin.bmp" 40 40 44 44
+      >
+    </SkinObject>
+
+</SkinObject>
+
+
+
+
+
+
+<SkinObject CLASS="control"
+>
+
+    <SkinObject CLASS="caption"
+      width=8
+      align=left
+      >
+        <SkinObject 
+          align=top
+          kind = "caption"
+          backgroundRect = "platin.bmp" 74 69 82 72
+          >
+        </SkinObject>
+        <SkinObject 
+          align=bottom
+          kind = "caption"
+          backgroundRect = "platin.bmp" 74 134 82 137
+          >
+        </SkinObject>
+        <SkinObject 
+          align=client
+          kind = "caption"
+          backgroundRect = "platin.bmp" 74 72 82 134
+          >
+        </SkinObject>
+    </SkinObject>
+
+    <SkinObject CLASS="client"
+      kind=client
+      align=client
+      opacity=255
+    >
+    </SkinObject>
+
+</SkinObject>
+
+<SkinObject link="control" CLASS="TMemo" > </SkinObject>
+<SkinObject link="control" CLASS="TButton" > </SkinObject>
+<SkinObject link="control" CLASS="TEdit" > </SkinObject>
+<SkinObject link="control" CLASS="TListBox" > </SkinObject>
+<SkinObject link="control" CLASS="TTreeView" > </SkinObject>
+<SkinObject link="control" CLASS="TPanel" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderTextBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5TextBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderCommandButton" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5CommandButton" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderCheckBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5CheckBox" > </SkinObject>

@@ -1,0 +1,12 @@
+行 18: 控件 MP3Encode1 的类 MP3Encode20.MP3Encode 不是一个已加载的控件类。
+行 508: 控件 MP 的类 MPEGPLAYLib.Mp3Play 不是一个已加载的控件类。
+行 24: 属性名 Object.Visible 在 MP3Encode1 中是无效的。
+行 25: 属性名 Mode 在 MP3Encode1 中是无效的。
+行 26: 属性名 BladePath 在 MP3Encode1 中是无效的。
+行 27: 属性名 Bitrate 在 MP3Encode1 中是无效的。
+行 28: 属性名 InputFile 在 MP3Encode1 中是无效的。
+行 29: 属性名 Priority 在 MP3Encode1 中是无效的。
+行 515: 属性名 _Version 在 MP 中是无效的。
+行 516: 属性名 _ExtentX 在 MP 中是无效的。
+行 517: 属性名 _ExtentY 在 MP 中是无效的。
+行 518: 属性名 _StockProps 在 MP 中是无效的。

@@ -1,0 +1,5 @@
+行 51: 控件 Form_TaskBar 的类 TaskBar.Form_TaskBar 不是一个已加载的控件类。
+行 54: 属性名 _extentx 在 Form_TaskBar 中是无效的。
+行 55: 属性名 _extenty 在 Form_TaskBar 中是无效的。
+行 56: 属性名 numsteps 在 Form_TaskBar 中是无效的。
+行 57: 属性名 hangdown 在 Form_TaskBar 中是无效的。

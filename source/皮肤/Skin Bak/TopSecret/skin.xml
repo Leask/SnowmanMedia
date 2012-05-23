@@ -1,0 +1,228 @@
+title = "TopSecret"
+artist = "Leask"
+info   = "H2ont Running Splendors!"
+
+<SkinObject CLASS="form"
+>
+    <SkinObject CLASS="top_edge"
+      align=top
+      height=19
+    >
+        <SkinObject 
+          align=left
+          kind = "sysmenu"
+          BackgroundRect = "TopSecret.bmp" 3 6 45 25
+          TransparencyMapRect = "TopSecret-bg.bmp" 3 6 45 25
+          OnMouseIn = "stop object ; MorphToRect TopSecret-active.bmp 3 6 45 25 500"
+          OnMouseOut = "stop object ; MorphToRect TopSecret.bmp 3 6 45 25 1000"
+          >
+        </SkinObject>
+
+        <SkinObject 
+          align=left
+          kind = "caption"
+          BackgroundRect = "TopSecret.bmp" 57 6 61 25
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=right
+          kind = "close"
+          BackgroundRect = "TopSecret.bmp" 355 6 397 25
+          TransparencyMapRect = "TopSecret-bg.bmp" 355 6 397 25
+          OnMouseIn = "stop object ; MorphToRect TopSecret-active.bmp 355 6 397 25 500"
+          OnMouseOut = "stop object ; MorphToRect TopSecret.bmp 355 6 397 25 1000"
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=right
+          kind = "caption"
+          BackgroundRect = "TopSecret.bmp" 339 6 343 25
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=client 
+          kind=title color=65280
+          BackgroundRect = "TopSecret.bmp" 65 6 81 25
+          OnMouseIn = "stop object ; MorphToRect TopSecret-active.bmp 65 6 81 25 500"
+          OnMouseOut = "stop object ; MorphToRect TopSecret.bmp 65 6 81 25 1000"
+          >
+        </SkinObject>
+    </SkinObject>
+
+    <SkinObject CLASS="bottom_edge"
+      align=bottom
+      height=12
+    >
+        <SkinObject 
+          align=left
+          kind = "bottomleft"
+          BackgroundRect = "TopSecret.bmp" 3 282 32 294
+          TransparencyMapRect = "TopSecret-bg.bmp" 3 282 32 294
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=right
+          kind = "bottomright"
+          BackgroundRect = "TopSecret.bmp" 368 282 397 294
+          TransparencyMapRect = "TopSecret-bg.bmp" 368 282 397 294
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=client backalign=stretch
+          kind=bottom
+          BackgroundRect = "TopSecret.bmp" 32 282 368 294
+          TransparencyMapRect = "TopSecret-bg.bmp" 32 282 368 294
+          >
+        </SkinObject>
+
+    </SkinObject>
+
+    <SkinObject 
+      align=left backalign=stretch
+      kind = "left"
+      BackgroundRect = "TopSecret.bmp" 3 24 11 282
+      >
+    </SkinObject>
+
+    <SkinObject 
+      align=right backalign=stretch
+      kind = "right"
+      BackgroundRect = "TopSecret.bmp" 389 24 397 282
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="client"
+      align=client
+      kind = "client"
+      BackgroundRect = "TopSecret.bmp" 131 67 195 131
+      >
+        <SkinObject
+          left=50%-68 top=50%-103
+          BackgroundRect = "TopSecret.bmp" 253 25 389 229
+          TransparencyMapRect = "TopSecret-bg.bmp" 253 25 389 229
+          >
+        </SkinObject>
+        <SkinObject
+          left=1 top=1
+          BackgroundRect = "TopSecret.bmp" 11 25 96 109
+          TransparencyMapRect = "TopSecret-bg.bmp" 11 25 96 109
+          >
+        </SkinObject>
+        <SkinObject
+          left=1 bottom=100%-1
+          BackgroundRect = "TopSecret.bmp" 11 25 96 109
+          TransparencyMapRect = "TopSecret-bg.bmp" 11 25 96 109
+          >
+        </SkinObject>
+        <SkinObject
+          right=100%-1 top=1
+          BackgroundRect = "TopSecret.bmp" 11 25 96 109
+          TransparencyMapRect = "TopSecret-bg.bmp" 11 25 96 109
+          >
+        </SkinObject>
+        <SkinObject
+          right=100%-1 bottom=100%-1
+          BackgroundRect = "TopSecret.bmp" 11 25 96 109
+          TransparencyMapRect = "TopSecret-bg.bmp" 11 25 96 109
+          >
+        </SkinObject>
+    </SkinObject>
+
+</SkinObject>
+
+
+
+
+
+
+
+
+<SkinObject CLASS="control"
+  OnMouseIn = "goto top_left OnMyActivate"
+  OnMouseOut = "goto top_left OnMyDeactivate"
+>
+
+    <SkinObject CLASS="top_left"
+      left = 0 top = 0 
+      kind = "caption"
+      backgroundRect = "TopSecret.bmp" 164 28 167 31
+      OnMyActivate = "stop object ; MorphToRect TopSecret-active.bmp 164 28 167 31 500 ; goto top_line OnMyActivate"
+      OnMyDeactivate = "stop object ; MorphToRect TopSecret.bmp 164 28 167 31 1000 ; goto top_line OnMyDeactivate"
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="top_line"
+      left = 3 right = 100% top = 0 backalign=stretch
+      kind = "caption"
+      backgroundRect = "TopSecret.bmp" 167 28 201 31
+      OnMyActivate = "stop object ; MorphToRect TopSecret-active.bmp 167 28 201 31 500 ; goto left_line OnMyActivate"
+      OnMyDeactivate = "stop object ; MorphToRect TopSecret.bmp 167 28 201 31 1000 ; goto left_line OnMyDeactivate"
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="left_line" 
+      left = 0 top = 3 bottom = 100% backalign=stretch
+      kind = "left"
+      backgroundRect = "TopSecret.bmp" 164 31 167 67
+      OnMyActivate = "stop object ; MorphToRect TopSecret-active.bmp 164 31 167 67 500 ; goto right_line OnMyActivate"
+      OnMyDeactivate = "stop object ; MorphToRect TopSecret.bmp 164 31 167 67 1000 ; goto right_line OnMyDeactivate"
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="right_line" 
+      right = 100% top = 0 bottom = 100%-3 backalign=stretch
+      kind = "right"
+      backgroundRect = "TopSecret.bmp" 198 28 201 64
+      OnMyActivate = "stop object ; MorphToRect TopSecret-active.bmp 198 28 201 64 500 ; goto bottom_line OnMyActivate"
+      OnMyDeactivate = "stop object ; MorphToRect TopSecret.bmp 198 28 201 64 1000 ; goto bottom_line OnMyDeactivate"
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="bottom_line" 
+      left = 0 bottom = 100% right = 100%-3 backalign=stretch
+      kind = "bottom"
+      backgroundRect = "TopSecret.bmp" 164 64 198 67
+      OnMyActivate = "stop object ; MorphToRect TopSecret-active.bmp 164 64 198 67 500 ; goto bottom_right OnMyActivate"
+      OnMyDeactivate = "stop object ; MorphToRect TopSecret.bmp 164 64 198 67 1000 ; goto bottom_right OnMyDeactivate"
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="bottom_right" 
+      right = 100% bottom = 100% 
+      kind = "bottomright"
+      backgroundRect = "TopSecret.bmp" 198 64 201 67
+      OnMyActivate = "stop object ; MorphToRect TopSecret-active.bmp 198 64 201 67 500 "
+      OnMyDeactivate = "stop object ; MorphToRect TopSecret.bmp 198 64 201 67 1000 "
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="client"
+      kind=client
+      left = 3
+      top = 3
+      right = 100%-3
+      bottom = 100%-3
+      opacity=255
+    >
+    </SkinObject>
+
+</SkinObject>
+
+<SkinObject link="control" CLASS="TMemo" > </SkinObject>
+<SkinObject link="control" CLASS="TButton" > </SkinObject>
+<SkinObject link="control" CLASS="TEdit" > </SkinObject>
+<SkinObject link="control" CLASS="TListBox" > </SkinObject>
+<SkinObject link="control" CLASS="TTreeView" > </SkinObject>
+<SkinObject link="control" CLASS="TPanel" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderTextBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5TextBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderCommandButton" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5CommandButton" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderCheckBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5CheckBox" > </SkinObject>
+

@@ -1,0 +1,6 @@
+行 2: 不能创建引用: '{5F260409-A192-11D3-9333-384F0AC10000}#18.0#0'。
+行 28: 控件 CoolPgBar1 的类 CoolProgressBar.CoolPgBar 不是一个已加载的控件类。
+行 34: 属性名 _ExtentX 在 CoolPgBar1 中是无效的。
+行 35: 属性名 _ExtentY 在 CoolPgBar1 中是无效的。
+行 36: 属性名 Value 在 CoolPgBar1 中是无效的。
+行 37: 属性名 Max 在 CoolPgBar1 中是无效的。

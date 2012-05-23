@@ -1,0 +1,26 @@
+[INFO]
+TITLE=Egg
+artist=Leask
+con=H2ont
+copy=(C)2000-2001 H2ont
+web=www.h2ont.com
+time=7.13.2001
+info=H2ont Running Splendors!
+
+[VIDEO]
+x=1125
+y=270
+w=1590
+h=1140
+
+[LABEL]
+x=10000
+y=10000
+w=1
+
+[FORM]
+w=5000
+h=5000
+
+[USED]
+used=0

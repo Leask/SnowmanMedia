@@ -1,0 +1,240 @@
+title = "Wooden"
+artist = "Leask"
+info   = "H2ont Running Splendors!"
+
+<SkinObject CLASS="form"
+>
+    <SkinObject CLASS="top_edge"
+      align=top
+      height=30
+    >
+        <SkinObject 
+          align=left
+          kind = "topleft"
+          BackgroundRect = "Woodie.bmp" 15 4 64 34
+          TransparencyMapRect = "Woodie-mask.bmp" 15 4 64 34
+          >
+        </SkinObject>
+
+        <SkinObject 
+          align=left
+          kind = "sysmenu"
+          BackgroundRect = "Woodie.bmp" 64 4 80 34
+          OnMouseIn = "stop object ; MorphToRect Woodie-active.bmp 64 4 80 34 500"
+          OnMouseOut = "stop object ; MorphToRect Woodie.bmp 64 4 80 34 1000"
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=right
+          kind = "topright"
+          BackgroundRect = "Woodie.bmp" 357 4 409 34
+          TransparencyMapRect = "Woodie-mask.bmp" 357 4 409 34
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=right
+          kind = "close"
+          BackgroundRect = "Woodie.bmp" 338 4 357 34
+          TransparencyMapRect = "Woodie-mask.bmp" 338 4 357 34
+          OnMouseIn = "stop object ; MorphToRect Woodie-active.bmp 338 4 357 34 500"
+          OnMouseOut = "stop object ; MorphToRect Woodie.bmp 338 4 357 34 1000"
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=right
+          kind = "maxbutton"
+          BackgroundRect = "Woodie.bmp" 316 4 338 34
+          TransparencyMapRect = "Woodie-mask.bmp" 316 4 338 34
+          OnMouseIn = "stop object ; MorphToRect Woodie-active.bmp 316 4 338 34 500"
+          OnMouseOut = "stop object ; MorphToRect Woodie.bmp 316 4 338 34 1000"
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=right
+          kind = "minbutton"
+          BackgroundRect = "Woodie.bmp" 297 4 316 34
+          TransparencyMapRect = "Woodie-mask.bmp" 297 4 316 34
+          OnMouseIn = "stop object ; MorphToRect Woodie-active.bmp 297 4 316 34 500"
+          OnMouseOut = "stop object ; MorphToRect Woodie.bmp 297 4 316 34 1000"
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=bottom
+          kind=caption
+          BackgroundRect = "Woodie.bmp" 84 32 104 34
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=client
+          kind=title color=65380
+          BackgroundRect = "Woodie.bmp" 84 4 104 32
+          >
+        </SkinObject>
+
+    </SkinObject>
+
+    <SkinObject CLASS="bottom_edge"
+      align=bottom
+      height=16
+    >
+        <SkinObject 
+          align=left
+          kind = "bottomleft"
+          BackgroundRect = "Woodie.bmp" 15 197 32 213
+          TransparencyMapRect = "Woodie-mask.bmp" 15 197 32 213
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=right
+          kind = "bottomright"
+          BackgroundRect = "Woodie.bmp" 390 197 409 213
+          TransparencyMapRect = "Woodie-mask.bmp" 390 197 409 213
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=client
+          kind=bottom
+          BackgroundRect = "Woodie.bmp" 40 197 70 213
+          >
+        </SkinObject>
+
+    </SkinObject>
+
+    <SkinObject 
+      align=left
+      kind = "left"
+      BackgroundRect = "Woodie.bmp" 15 34 27 80
+      >
+    </SkinObject>
+
+    <SkinObject 
+      align=right
+      kind = "right"
+      BackgroundRect = "Woodie.bmp" 398 34 409 80
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="client"
+      align=client
+      kind = "client"
+      BackgroundRect = "Woodie.bmp" 27 34 36 80
+      >
+    </SkinObject>
+
+</SkinObject>
+
+
+
+
+
+
+
+
+<SkinObject CLASS="control"
+>
+
+    <SkinObject CLASS="top_left"
+      left = 0 top = 0 
+      kind = "caption"
+      backgroundRect = "Woodie.bmp" 41 45 46 49
+      OnMyActivate = "stop object ; MorphToRect Woodie-active.bmp 164 28 167 31 500 ; goto top_line OnMyActivate"
+      OnMyDeactivate = "stop object ; MorphToRect Woodie.bmp 164 28 167 31 1000 ; goto top_line OnMyDeactivate"
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="top_line"
+      left = 4 right = 100%-4 top = 0
+      kind = "caption"
+      backgroundRect = "Woodie.bmp" 46 45 50 48
+      OnMyActivate = "stop object ; MorphToRect Woodie-active.bmp 167 28 201 31 500 ; goto left_line OnMyActivate"
+      OnMyDeactivate = "stop object ; MorphToRect Woodie.bmp 167 28 201 31 1000 ; goto left_line OnMyDeactivate"
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="top_right"
+      right = 100% top = 0
+      kind = "caption"
+      backgroundRect = "Woodie.bmp" 142 45 146 48
+      OnMyActivate = "stop object ; MorphToRect Woodie-active.bmp 167 28 201 31 500 ; goto left_line OnMyActivate"
+      OnMyDeactivate = "stop object ; MorphToRect Woodie.bmp 167 28 201 31 1000 ; goto left_line OnMyDeactivate"
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="left_line" 
+      left = 0 top = 4 bottom = 100%-4
+      kind = "left"
+      backgroundRect = "Woodie.bmp" 41 50 46 54
+      OnMyActivate = "stop object ; MorphToRect Woodie-active.bmp 164 31 167 67 500 ; goto right_line OnMyActivate"
+      OnMyDeactivate = "stop object ; MorphToRect Woodie.bmp 164 31 167 67 1000 ; goto right_line OnMyDeactivate"
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="right_line" 
+      right = 100% top = 4 bottom = 100%-4
+      kind = "right"
+      backgroundRect = "Woodie.bmp" 142 50 146 54
+      OnMyActivate = "stop object ; MorphToRect Woodie-active.bmp 198 28 201 64 500 ; goto bottom_line OnMyActivate"
+      OnMyDeactivate = "stop object ; MorphToRect Woodie.bmp 198 28 201 64 1000 ; goto bottom_line OnMyDeactivate"
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="bottom_left"
+      left = 0 bottom = 100%
+      kind = "bottomleft"
+      backgroundRect = "Woodie.bmp" 41 70 45 74
+      OnMyActivate = "stop object ; MorphToRect Woodie-active.bmp 198 64 201 67 500 "
+      OnMyDeactivate = "stop object ; MorphToRect Woodie.bmp 198 64 201 67 1000 "
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="bottom_line" 
+      left = 4 bottom = 100% right = 100%-4
+      kind = "bottom"
+      backgroundRect = "Woodie.bmp" 45 70 50 74
+      OnMyActivate = "stop object ; MorphToRect Woodie-active.bmp 164 64 198 67 500 ; goto bottom_right OnMyActivate"
+      OnMyDeactivate = "stop object ; MorphToRect Woodie.bmp 164 64 198 67 1000 ; goto bottom_right OnMyDeactivate"
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="bottom_right" 
+      right = 100% bottom = 100% 
+      kind = "bottomright"
+      backgroundRect = "Woodie.bmp" 142 70 146 74
+      OnMyActivate = "stop object ; MorphToRect Woodie-active.bmp 198 64 201 67 500 "
+      OnMyDeactivate = "stop object ; MorphToRect Woodie.bmp 198 64 201 67 1000 "
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="client"
+      kind=client
+      left = 3
+      top = 3
+      right = 100%-3
+      bottom = 100%-3
+      opacity=255
+    >
+    </SkinObject>
+
+</SkinObject>
+
+<SkinObject link="control" CLASS="TMemo" > </SkinObject>
+<SkinObject link="control" CLASS="TButton" > </SkinObject>
+<SkinObject link="control" CLASS="TEdit" > </SkinObject>
+<SkinObject link="control" CLASS="TListBox" > </SkinObject>
+<SkinObject link="control" CLASS="TTreeView" > </SkinObject>
+<SkinObject link="control" CLASS="TPanel" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderTextBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5TextBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderCommandButton" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5CommandButton" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderCheckBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5CheckBox" > </SkinObject>
+

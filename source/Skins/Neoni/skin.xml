@@ -1,0 +1,229 @@
+title  = "Neoin"
+artist = "Leask"
+info   = "带少许金属质感."
+
+
+
+
+
+
+<SkinObject CLASS="form"
+  kind=Border
+  backalign=tiled
+>
+        <SkinObject
+          left=20%+0
+          top=20%+0
+          right=80%+0
+          height=23
+          kind=Border
+          align=top
+          backalign=tiled
+          bgcolor=12820148
+        >
+                <SkinObject
+                  kind=Border
+                  BackgroundRect=neoni.bmp 0 0 8 23
+                  OpacityMapRect=neoni.bmp 119 32 127 55
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=11113987
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=SysMenu
+                  BackgroundRect=neoni.bmp 8 0 24 23
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=13156034
+                  OnMouseOut = "stop object ; MorphToRect neoni.bmp 8 0 24 23 200 "
+                  OnMouseIn = "stop object ; MorphToRect neoni.bmp 234 0 250 23 200 "
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Border
+                  BackgroundRect=neoni.bmp 24 0 50 23
+                  OpacityMapRect=neoni.bmp 143 32 169 55
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=7045840
+                >
+                </SkinObject>
+
+                <SkinObject
+                  width=8
+                  kind=Border
+                  BackgroundRect=neoni.bmp 272 0 280 23
+                  OpacityMapRect=neoni.bmp 261 32 269 55
+                  align=right
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=8031880
+                >
+                </SkinObject>
+
+                <SkinObject
+                  width=18
+                  kind=Close
+                  BackgroundRect=neoni.bmp 255 0 273 23
+                  align=right
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=4037643
+                  OnMouseIn = "stop object ; MorphToRect neoni.bmp 233 0 249 23 200 "
+                  OnMouseOut = "stop object ; MorphToRect neoni.bmp 255 0 273 23 200 "
+                >
+                </SkinObject>
+
+                <SkinObject
+                  left=415
+                  kind=MaxButton
+                  BackgroundRect=neoni.bmp 211 0 234 23
+                  OpacityMapRect=neoni.bmp 222 32 244 55
+                  align=right
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=851561
+                  OnMouseIn = "stop object ; MorphToRect neoni.bmp 233 0 256 23 200 "
+                  OnMouseOut = "stop object ; MorphToRect neoni.bmp 211 0 234 23 200 "
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=MinButton
+                  BackgroundRect=neoni.bmp 211 0 234 23
+                  OpacityMapRect=neoni.bmp 200 32 223 55
+                  align=right
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=10474716
+                  OnMouseIn = "stop object ; MorphToRect neoni.bmp 233 0 256 23 200"
+                  OnMouseOut = "stop object ; MorphToRect neoni.bmp 211 0 234 23 200 "
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Border
+                  BackgroundRect=neoni.bmp 188 0 212 23
+                  OpacityMapRect=neoni.bmp 177 32 201 55
+                  align=right
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=15097034
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Title
+                  BackgroundRect=neoni.bmp 50 0 55 23
+                  align=client
+                  backalign=tiled
+                  transparency=0%
+                  color=16777215
+                  bgcolor=1155167
+                >
+                </SkinObject>
+
+        </SkinObject>
+
+        <SkinObject
+          left=20%+0
+          top=20%+0
+          bottom=80%+0
+          width=6
+          kind=Border
+          align=left
+          backalign=tiled
+          transparency=0%
+          bgcolor=8031880
+        >
+                <SkinObject
+                  kind=BottomLeft
+                  BackgroundRect=neoni.bmp 0 138 6 148
+                  align=bottom
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=9454326
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Left
+                  BackgroundRect=neoni.bmp 0 40 6 50
+                  align=client
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=1251295
+                >
+                </SkinObject>
+
+        </SkinObject>
+
+        <SkinObject
+          left=432
+          top=20%+0
+          bottom=80%+0
+          width=6
+          kind=Border
+          align=right
+          backalign=tiled
+          transparency=0%
+          bgcolor=12853322
+        >
+                <SkinObject
+                  kind=BottomRight
+                  BackgroundRect=neoni.bmp 274 138 280 148
+                  align=bottom
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=9069838
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Right
+                  BackgroundRect=neoni.bmp 274 40 280 50
+                  align=client
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=2430707
+                >
+                </SkinObject>
+
+        </SkinObject>
+
+        <SkinObject
+          left=20%+0
+          top=425
+          right=80%+0
+          height=6
+          kind=Bottom
+          BackgroundRect=neoni.bmp 40 142 50 148
+          align=bottom
+          backalign=tiled
+          transparency=0%
+          bgcolor=7818317
+        >
+        </SkinObject>
+
+        <SkinObject CLASS="client"
+          left=20%+0
+          top=20%+0
+          right=80%+0
+          bottom=80%+0
+          kind=Border
+          BackgroundRect=neoni.bmp 6 23 67 83
+          align=client
+          backalign=tiled
+          transparency=0%
+          bgcolor=6182342
+        >
+        </SkinObject>
+
+</SkinObject>
+

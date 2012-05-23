@@ -1,0 +1,143 @@
+title = "Navigator"
+artist = "Leask"
+info="H2ont  Running Splendors!"
+
+
+<SkinObject CLASS="form"
+>
+    <SkinObject CLASS="top_edge"
+      align=top
+      height=24
+    >
+
+        <SkinObject CLASS="for_menu"
+          align=left
+          BackgroundRect = "SpaceCruiser.bmp" 0 0 5 24
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=right
+          BackgroundRect = "SpaceCruiser.bmp" 290 0 294 24
+        >
+        </SkinObject>
+
+        <SkinObject
+          align=client
+          kind = "title"
+          color=16777215
+          BackgroundRect = "SpaceCruiser.bmp" 25 0 38 24
+          >
+        </SkinObject>
+
+        <SkinObject
+          left = 6 top = 5
+          kind=sysmenu
+          BackgroundRect = "SpaceCruiser.bmp" 6 5 23 18
+          OnMouseIn = "BackgroundRect = SpaceCruiser-active.bmp 6 5 23 18"
+          OnMouseOut = "BackgroundRect = SpaceCruiser.bmp 6 5 23 18"
+        >
+        </SkinObject>
+
+        <SkinObject
+          right = 100%-6 top=5
+          kind=close
+          BackgroundRect = "SpaceCruiser.bmp" 272 5 289 18
+          OnMouseIn = "BackgroundRect = SpaceCruiser-active.bmp 272 5 289 18"
+          OnMouseOut = "BackgroundRect = SpaceCruiser.bmp 272 5 289 18"
+        >
+        </SkinObject>
+
+        <SkinObject
+          right = 100%-23 top=5
+          kind=maxbutton
+          BackgroundRect = "SpaceCruiser.bmp" 255 5 272 18
+          OnMouseIn = "BackgroundRect = SpaceCruiser-active.bmp 255 5 272 18"
+          OnMouseOut = "BackgroundRect = SpaceCruiser.bmp 255 5 272 18"
+        >
+        </SkinObject>
+
+        <SkinObject
+          right = 100%-40 top=5
+          kind=minbutton
+          BackgroundRect = "SpaceCruiser.bmp" 238 5 255 18
+          OnMouseIn = "BackgroundRect = SpaceCruiser-active.bmp 238 5 255 18"
+          OnMouseOut = "BackgroundRect = SpaceCruiser.bmp 238 5 255 18"
+        >
+        </SkinObject>
+
+
+    </SkinObject>
+
+
+    <SkinObject CLASS="bottom_edge"
+      align=bottom
+      height=2
+    >
+        <SkinObject 
+          align=left
+          kind = "bottomleft"
+          BackgroundRect = "SpaceCruiser.bmp" 0 315 5 317
+          >
+        </SkinObject>
+
+        <SkinObject 
+          align=right
+          kind = "bottomright"
+          BackgroundRect = "SpaceCruiser.bmp" 287 315 294 317
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=client
+          kind = "bottom"
+          BackgroundRect = "SpaceCruiser.bmp" 4 315 8 317
+          >
+        </SkinObject>
+    </SkinObject>
+
+    <SkinObject 
+      align=left 
+      kind = "left"
+      BackgroundRect = "SpaceCruiser.bmp" 0 40 2 44
+      >
+    </SkinObject>
+
+    <SkinObject 
+      align=right
+      kind = "right"
+      BackgroundRect = "SpaceCruiser.bmp" 292 40 294 44
+      >
+    </SkinObject>
+
+    <SkinObject CLASS = "client"
+      align=client
+      kind = "client"
+      opacity=100%
+      bgcolor=0
+      >
+        <SkinObject 
+          left=50%-108 top=50%-141
+	      BackgroundRect = "SpaceCruiser.bmp" 48 27 263 308
+          >
+        </SkinObject>
+
+        <SkinObject 
+          left=30 top=5 bottom=100%-5
+          backalign=stretch
+	      BackgroundRect = "SpaceCruiser.bmp" 33 54 36 289
+          >
+        </SkinObject>
+
+        <SkinObject 
+          left=5 right=100%-5 bottom=100%-30
+          backalign=stretch
+	      BackgroundRect = "SpaceCruiser.bmp" 11 307 254 312
+          >
+        </SkinObject>
+
+    </SkinObject>
+
+</SkinObject>
+
+

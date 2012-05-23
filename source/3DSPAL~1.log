@@ -1,0 +1,11 @@
+行 18: 控件 LyfTools1 的类 API控制大全.LyfTools 不是一个已加载的控件类。
+行 24: 控件 CommonDialog1 的类 MSComDlg.CommonDialog 不是一个已加载的控件类。
+行 31: 控件 SkinForm1 的类 ACTIVESKINLibCtl.SkinForm 不是一个已加载的控件类。
+行 39: 控件 MFCI1 的类 MASFLCLibCtl.MasFLCPlayer 不是一个已加载的控件类。
+行 21: 属性名 _ExtentX 在 LyfTools1 中是无效的。
+行 22: 属性名 _ExtentY 在 LyfTools1 中是无效的。
+行 27: 属性名 _ExtentX 在 CommonDialog1 中是无效的。
+行 28: 属性名 _ExtentY 在 CommonDialog1 中是无效的。
+行 29: 属性名 _Version 在 CommonDialog1 中是无效的。
+行 34: 属性名 OleObjectBlob 在 SkinForm1 中是无效的。
+行 42: 属性名 OleObjectBlob 在 MFCI1 中是无效的。
