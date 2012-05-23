@@ -1,0 +1,5 @@
+行 32: 控件 ST 的类 SysTray.SystemTray 不是一个已加载的控件类。
+行 35: 属性名 _ExtentX 在 ST 中是无效的。
+行 36: 属性名 _ExtentY 在 ST 中是无效的。
+行 37: 属性名 SysTrayText 在 ST 中是无效的。
+行 38: 属性名 IconFile 在 ST 中是无效的。

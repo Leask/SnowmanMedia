@@ -1,0 +1,225 @@
+行 24: 控件 ST1 的类 SysTray.SystemTray 不是一个已加载的控件类。
+行 32: 控件 HB 的类 HYZ声音控制控件.HYZVolBan 不是一个已加载的控件类。
+行 76: 控件 Ly 的类 API控制大全.LyfTools 不是一个已加载的控件类。
+行 176: 控件 cLT1 的类 CTLISTBARLibCtl.ctListBar 不是一个已加载的控件类。
+行 440: 控件 Cl0 的类 CooLinePrj.CooLine 不是一个已加载的控件类。
+行 547: 控件 MP1 的类 MediaPlayerCtl.MediaPlayer 不是一个已加载的控件类。
+行 624: 控件 SF1 的类 ACTIVESKINLibCtl.SkinForm 不是一个已加载的控件类。
+行 632: 控件 CommonDialog1 的类 MSComDlg.CommonDialog 不是一个已加载的控件类。
+行 27: 属性名 _ExtentX 在 ST1 中是无效的。
+行 28: 属性名 _ExtentY 在 ST1 中是无效的。
+行 29: 属性名 SysTrayText 在 ST1 中是无效的。
+行 30: 属性名 IconFile 在 ST1 中是无效的。
+行 39: 属性名 _ExtentX 在 HB 中是无效的。
+行 40: 属性名 _ExtentY 在 HB 中是无效的。
+行 60: 属性 List 在 TrackSelection 中不能被设置。
+行 60: 属性 ItemData 在 TrackSelection 中不能被设置。
+行 75:属性 MouseIcon 在 TrackSelection 中的文件引用无效。
+行 79: 属性名 _ExtentX 在 Ly 中是无效的。
+行 80: 属性名 _ExtentY 在 Ly 中是无效的。
+行 174:属性 Picture 在 Image1 中的文件引用无效。
+行 183: 属性名 _Version 在 cLT1 中是无效的。
+行 184: 属性名 _ExtentX 在 cLT1 中是无效的。
+行 185: 属性名 _ExtentY 在 cLT1 中是无效的。
+行 186: 属性名 _StockProps 在 cLT1 中是无效的。
+行 204: 属性名 ListFont 在 cLT1 中是无效的。
+行 205: 属性名 BackImage 在 cLT1 中是无效的。
+行 206: 属性名 BorderColor 在 cLT1 中是无效的。
+行 207: 属性名 ButtonBackColor 在 cLT1 中是无效的。
+行 208: 属性名 ButtonForeColor 在 cLT1 中是无效的。
+行 209: 属性名 ListBackColor 在 cLT1 中是无效的。
+行 210: 属性名 ListForeColor 在 cLT1 中是无效的。
+行 211: 属性名 BarBackColor 在 cLT1 中是无效的。
+行 212: 属性名 BarForeColor 在 cLT1 中是无效的。
+行 213: 属性名 BorderType 在 cLT1 中是无效的。
+行 214: 属性名 ListBarStyle 在 cLT1 中是无效的。
+行 215: 属性名 BarHeight 在 cLT1 中是无效的。
+行 216: 属性名 WordWrap 在 cLT1 中是无效的。
+行 217: 属性名 Caption 在 cLT1 中是无效的。
+行 218: 属性名 PicArray0 在 cLT1 中是无效的。
+行 219: 属性名 PicArray1 在 cLT1 中是无效的。
+行 220: 属性名 PicArray2 在 cLT1 中是无效的。
+行 221: 属性名 PicArray3 在 cLT1 中是无效的。
+行 222: 属性名 PicArray4 在 cLT1 中是无效的。
+行 223: 属性名 PicArray5 在 cLT1 中是无效的。
+行 224: 属性名 PicArray6 在 cLT1 中是无效的。
+行 225: 属性名 PicArray7 在 cLT1 中是无效的。
+行 226: 属性名 PicArray8 在 cLT1 中是无效的。
+行 227: 属性名 PicArray9 在 cLT1 中是无效的。
+行 228: 属性名 PicArray10 在 cLT1 中是无效的。
+行 229: 属性名 PicArray11 在 cLT1 中是无效的。
+行 230: 属性名 PicArray12 在 cLT1 中是无效的。
+行 231: 属性名 PicArray13 在 cLT1 中是无效的。
+行 232: 属性名 PicArray14 在 cLT1 中是无效的。
+行 233: 属性名 PicArray15 在 cLT1 中是无效的。
+行 234: 属性名 PicArray16 在 cLT1 中是无效的。
+行 235: 属性名 PicArray17 在 cLT1 中是无效的。
+行 236: 属性名 PicArray18 在 cLT1 中是无效的。
+行 237: 属性名 PicArray19 在 cLT1 中是无效的。
+行 238: 属性名 PicArray20 在 cLT1 中是无效的。
+行 239: 属性名 PicArray21 在 cLT1 中是无效的。
+行 240: 属性名 PicArray22 在 cLT1 中是无效的。
+行 241: 属性名 PicArray23 在 cLT1 中是无效的。
+行 242: 属性名 PicArray24 在 cLT1 中是无效的。
+行 243: 属性名 PicArray25 在 cLT1 中是无效的。
+行 244: 属性名 PicArray26 在 cLT1 中是无效的。
+行 245: 属性名 PicArray27 在 cLT1 中是无效的。
+行 246: 属性名 PicArray28 在 cLT1 中是无效的。
+行 247: 属性名 PicArray29 在 cLT1 中是无效的。
+行 248: 属性名 PicArray30 在 cLT1 中是无效的。
+行 249: 属性名 PicArray31 在 cLT1 中是无效的。
+行 250: 属性名 PicArray32 在 cLT1 中是无效的。
+行 251: 属性名 PicArray33 在 cLT1 中是无效的。
+行 252: 属性名 PicArray34 在 cLT1 中是无效的。
+行 253: 属性名 PicArray35 在 cLT1 中是无效的。
+行 254: 属性名 PicArray36 在 cLT1 中是无效的。
+行 255: 属性名 PicArray37 在 cLT1 中是无效的。
+行 256: 属性名 PicArray38 在 cLT1 中是无效的。
+行 257: 属性名 PicArray39 在 cLT1 中是无效的。
+行 258: 属性名 PicArray40 在 cLT1 中是无效的。
+行 259: 属性名 PicArray41 在 cLT1 中是无效的。
+行 260: 属性名 PicArray42 在 cLT1 中是无效的。
+行 261: 属性名 PicArray43 在 cLT1 中是无效的。
+行 262: 属性名 PicArray44 在 cLT1 中是无效的。
+行 263: 属性名 PicArray45 在 cLT1 中是无效的。
+行 264: 属性名 PicArray46 在 cLT1 中是无效的。
+行 265: 属性名 PicArray47 在 cLT1 中是无效的。
+行 266: 属性名 PicArray48 在 cLT1 中是无效的。
+行 267: 属性名 PicArray49 在 cLT1 中是无效的。
+行 268: 属性名 PicArray50 在 cLT1 中是无效的。
+行 269: 属性名 PicArray51 在 cLT1 中是无效的。
+行 270: 属性名 PicArray52 在 cLT1 中是无效的。
+行 271: 属性名 PicArray53 在 cLT1 中是无效的。
+行 272: 属性名 PicArray54 在 cLT1 中是无效的。
+行 273: 属性名 PicArray55 在 cLT1 中是无效的。
+行 274: 属性名 PicArray56 在 cLT1 中是无效的。
+行 275: 属性名 PicArray57 在 cLT1 中是无效的。
+行 276: 属性名 PicArray58 在 cLT1 中是无效的。
+行 277: 属性名 PicArray59 在 cLT1 中是无效的。
+行 278: 属性名 PicArray60 在 cLT1 中是无效的。
+行 279: 属性名 PicArray61 在 cLT1 中是无效的。
+行 280: 属性名 PicArray62 在 cLT1 中是无效的。
+行 281: 属性名 PicArray63 在 cLT1 中是无效的。
+行 282: 属性名 PicArray64 在 cLT1 中是无效的。
+行 283: 属性名 PicArray65 在 cLT1 中是无效的。
+行 284: 属性名 PicArray66 在 cLT1 中是无效的。
+行 285: 属性名 PicArray67 在 cLT1 中是无效的。
+行 286: 属性名 PicArray68 在 cLT1 中是无效的。
+行 287: 属性名 PicArray69 在 cLT1 中是无效的。
+行 288: 属性名 PicArray70 在 cLT1 中是无效的。
+行 289: 属性名 PicArray71 在 cLT1 中是无效的。
+行 290: 属性名 PicArray72 在 cLT1 中是无效的。
+行 291: 属性名 PicArray73 在 cLT1 中是无效的。
+行 292: 属性名 PicArray74 在 cLT1 中是无效的。
+行 293: 属性名 PicArray75 在 cLT1 中是无效的。
+行 294: 属性名 PicArray76 在 cLT1 中是无效的。
+行 295: 属性名 PicArray77 在 cLT1 中是无效的。
+行 296: 属性名 PicArray78 在 cLT1 中是无效的。
+行 297: 属性名 PicArray79 在 cLT1 中是无效的。
+行 298: 属性名 PicArray80 在 cLT1 中是无效的。
+行 299: 属性名 PicArray81 在 cLT1 中是无效的。
+行 300: 属性名 PicArray82 在 cLT1 中是无效的。
+行 301: 属性名 PicArray83 在 cLT1 中是无效的。
+行 302: 属性名 PicArray84 在 cLT1 中是无效的。
+行 303: 属性名 PicArray85 在 cLT1 中是无效的。
+行 304: 属性名 PicArray86 在 cLT1 中是无效的。
+行 305: 属性名 PicArray87 在 cLT1 中是无效的。
+行 306: 属性名 PicArray88 在 cLT1 中是无效的。
+行 307: 属性名 PicArray89 在 cLT1 中是无效的。
+行 308: 属性名 PicArray90 在 cLT1 中是无效的。
+行 309: 属性名 PicArray91 在 cLT1 中是无效的。
+行 310: 属性名 PicArray92 在 cLT1 中是无效的。
+行 311: 属性名 PicArray93 在 cLT1 中是无效的。
+行 312: 属性名 PicArray94 在 cLT1 中是无效的。
+行 313: 属性名 PicArray95 在 cLT1 中是无效的。
+行 314: 属性名 PicArray96 在 cLT1 中是无效的。
+行 315: 属性名 PicArray97 在 cLT1 中是无效的。
+行 316: 属性名 PicArray98 在 cLT1 中是无效的。
+行 317: 属性名 PicArray99 在 cLT1 中是无效的。
+行 341:属性 Picture 在 Image10 中的文件引用无效。
+行 352:属性 Picture 在 Image3 中的文件引用无效。
+行 363:属性 Picture 在 Image9 中的文件引用无效。
+行 374:属性 Picture 在 Image8 中的文件引用无效。
+行 385:属性 Picture 在 Image7 中的文件引用无效。
+行 396:属性 Picture 在 Image6 中的文件引用无效。
+行 407:属性 Picture 在 Image5 中的文件引用无效。
+行 418:属性 Picture 在 Image4 中的文件引用无效。
+行 429:属性 Picture 在 Image2 中的文件引用无效。
+行 438:属性 Picture 在 Ig4 中的文件引用无效。
+行 447: 属性名 _ExtentX 在 Cl0 中是无效的。
+行 448: 属性名 _ExtentY 在 Cl0 中是无效的。
+行 449: 属性名 InsChr 在 Cl0 中是无效的。
+行 450: 属性名 Speed 在 Cl0 中是无效的。
+行 451: 属性名 Display 在 Cl0 中是无效的。
+行 463: 属性 List 在 LF1 中不能被设置。
+行 463: 属性 ItemData 在 LF1 中不能被设置。
+行 487:属性 Picture 在 Ig13 中的文件引用无效。
+行 497:属性 Picture 在 Ig12 中的文件引用无效。
+行 507:属性 Picture 在 Ig11 中的文件引用无效。
+行 516:属性 Picture 在 Ig8 中的文件引用无效。
+行 526:属性 Picture 在 Ig7 中的文件引用无效。
+行 536:属性 Picture 在 Ig2 中的文件引用无效。
+行 546:属性 Picture 在 Ig0 中的文件引用无效。
+行 554: 属性名 AudioStream 在 MP1 中是无效的。
+行 556: 属性名 AutoStart 在 MP1 中是无效的。
+行 557: 属性名 AnimationAtStart 在 MP1 中是无效的。
+行 558: 属性名 AllowScan 在 MP1 中是无效的。
+行 559: 属性名 AllowChangeDisplaySize 在 MP1 中是无效的。
+行 560: 属性名 AutoRewind 在 MP1 中是无效的。
+行 561: 属性名 Balance 在 MP1 中是无效的。
+行 562: 属性名 BaseURL 在 MP1 中是无效的。
+行 563: 属性名 BufferingTime 在 MP1 中是无效的。
+行 564: 属性名 CaptioningID 在 MP1 中是无效的。
+行 565: 属性名 ClickToPlay 在 MP1 中是无效的。
+行 566: 属性名 CursorType 在 MP1 中是无效的。
+行 567: 属性名 CurrentPosition 在 MP1 中是无效的。
+行 568: 属性名 CurrentMarker 在 MP1 中是无效的。
+行 569: 属性名 DefaultFrame 在 MP1 中是无效的。
+行 570: 属性名 DisplayBackColor 在 MP1 中是无效的。
+行 571: 属性名 DisplayForeColor 在 MP1 中是无效的。
+行 572: 属性名 DisplayMode 在 MP1 中是无效的。
+行 573: 属性名 DisplaySize 在 MP1 中是无效的。
+行 575: 属性名 EnableContextMenu 在 MP1 中是无效的。
+行 576: 属性名 EnablePositionControls 在 MP1 中是无效的。
+行 577: 属性名 EnableFullScreenControls 在 MP1 中是无效的。
+行 578: 属性名 EnableTracker 在 MP1 中是无效的。
+行 579: 属性名 Filename 在 MP1 中是无效的。
+行 580: 属性名 InvokeURLs 在 MP1 中是无效的。
+行 581: 属性名 Language 在 MP1 中是无效的。
+行 582: 属性名 Mute 在 MP1 中是无效的。
+行 583: 属性名 PlayCount 在 MP1 中是无效的。
+行 584: 属性名 PreviewMode 在 MP1 中是无效的。
+行 585: 属性名 Rate 在 MP1 中是无效的。
+行 586: 属性名 SAMILang 在 MP1 中是无效的。
+行 587: 属性名 SAMIStyle 在 MP1 中是无效的。
+行 588: 属性名 SAMIFileName 在 MP1 中是无效的。
+行 589: 属性名 SelectionStart 在 MP1 中是无效的。
+行 590: 属性名 SelectionEnd 在 MP1 中是无效的。
+行 591: 属性名 SendOpenStateChangeEvents 在 MP1 中是无效的。
+行 592: 属性名 SendWarningEvents 在 MP1 中是无效的。
+行 593: 属性名 SendErrorEvents 在 MP1 中是无效的。
+行 594: 属性名 SendKeyboardEvents 在 MP1 中是无效的。
+行 595: 属性名 SendMouseClickEvents 在 MP1 中是无效的。
+行 596: 属性名 SendMouseMoveEvents 在 MP1 中是无效的。
+行 597: 属性名 SendPlayStateChangeEvents 在 MP1 中是无效的。
+行 598: 属性名 ShowCaptioning 在 MP1 中是无效的。
+行 599: 属性名 ShowControls 在 MP1 中是无效的。
+行 600: 属性名 ShowAudioControls 在 MP1 中是无效的。
+行 601: 属性名 ShowDisplay 在 MP1 中是无效的。
+行 602: 属性名 ShowGotoBar 在 MP1 中是无效的。
+行 603: 属性名 ShowPositionControls 在 MP1 中是无效的。
+行 604: 属性名 ShowStatusBar 在 MP1 中是无效的。
+行 605: 属性名 ShowTracker 在 MP1 中是无效的。
+行 606: 属性名 TransparentAtStart 在 MP1 中是无效的。
+行 607: 属性名 VideoBorderWidth 在 MP1 中是无效的。
+行 608: 属性名 VideoBorderColor 在 MP1 中是无效的。
+行 609: 属性名 VideoBorder3D 在 MP1 中是无效的。
+行 610: 属性名 Volume 在 MP1 中是无效的。
+行 611: 属性名 WindowlessVideo 在 MP1 中是无效的。
+行 612:属性 DragIcon 在 MP1 中的文件引用无效。
+行 622:属性 Picture 在 Ig1 中的文件引用无效。
+行 627: 属性名 OleObjectBlob 在 SF1 中是无效的。
+行 635: 属性名 _ExtentX 在 CommonDialog1 中是无效的。
+行 636: 属性名 _ExtentY 在 CommonDialog1 中是无效的。
+行 637: 属性名 _Version 在 CommonDialog1 中是无效的。
+行 638: 属性名 DialogTitle 在 CommonDialog1 中是无效的。

@@ -1,0 +1,12 @@
+
+Snowman Media 4se
+          Final Edition Build 4.5.3102003
+          By H2O Networks Leask
+
+
+欢迎使用 Snowman Media 4se 安装程序。此程序将安装 Snowman Media 4se 到你的计算机上。
+
+
+
+注意：
+强烈建议在继续运行 Snowman Media 4se 安装程序之前关闭其他正在运行的应用程序以便安全更新系统文件。

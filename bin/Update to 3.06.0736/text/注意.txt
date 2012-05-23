@@ -1,8 +1,0 @@
-欢迎使用 Snowman Media  3.0 Lxis Basic 智能升级程序。此程序将升级 你的 Snowman Media  3.0 Lxis Basic 到 3.06.0736(10.1.2001)版本。
-
-
-
-
-
-注意：
-请在继续升级 Snowman Media  3.0 Lxis Basic 之前关闭其他正在运行的 Windows 应用程序以便安全更新系统文件。

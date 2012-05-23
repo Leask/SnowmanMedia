@@ -1,0 +1,99 @@
+[Root]
+Most Recent Package=标准安装软件包 1
+
+
+[Package|标准安装软件包 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=Z:\
+
+[Package|标准安装软件包 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|标准安装软件包 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|标准安装软件包 1|Files Found]
+
+[Package|标准安装软件包 1|Files Released]
+
+[Package|标准安装软件包 1|Missing Dependency Information]
+Z:\思夏的文档\Snowman Media\Snowman Media  3.0\源文件\源文件\SmM_Tray.ocx=
+E:\Program Files\Snowman Media ilxz\SmM_CDCheck.ocx=
+E:\Program Files\Snowman Media ilxz\SmM_Tools.ocx=
+
+[Package|标准安装软件包 1|Out-of-Date Dependency Information]
+
+[Package|标准安装软件包 1|Files Added]
+
+[Package|标准安装软件包 1|Files Removed]
+
+[Package|标准安装软件包 1|Files In Project]
+Z:\思夏的文档\Snowman Media\Snowman Media  3.0\源文件\源文件\SmM_Helper.exe=Yes
+D:\WINDOWS\system32\msvbvm60.dll=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\VB6CHS.DLL=Yes
+E:\Program Files\Snowman Media ilxz\SmM_Tools.ocx=Yes
+E:\Program Files\Snowman Media ilxz\SmM_CDCheck.ocx=Yes
+Z:\思夏的文档\Snowman Media\Snowman Media  3.0\源文件\源文件\SmM_Tray.ocx=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|标准安装软件包 1|Configure Registry Files]
+Applicable=No
+
+[Package|标准安装软件包 1|Configure Remote Servers]
+Applicable=No
+
+[Package|标准安装软件包 1|Install Locations]
+Z:\思夏的文档\Snowman Media\Snowman Media  3.0\源文件\源文件\SmM_Helper.exe=$(AppPath)
+D:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\VB6CHS.DLL=$(WinSysPath)
+E:\Program Files\Snowman Media ilxz\SmM_Tools.ocx=$(WinSysPath)
+E:\Program Files\Snowman Media ilxz\SmM_CDCheck.ocx=$(WinSysPath)
+Z:\思夏的文档\Snowman Media\Snowman Media  3.0\源文件\源文件\SmM_Tray.ocx=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|标准安装软件包 1|Configure Shared Files]
+Applicable=Yes
+Z:\思夏的文档\Snowman Media\Snowman Media  3.0\源文件\源文件\SmM_Helper.exe=No
+
+[Package|标准安装软件包 1|Distribution]
+Type=single
+Size=
+Title=Snowman Media ilxz
+
+[Package|标准安装软件包 1|IconGroups]
+Group0=Snowman Media ilxz
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|标准安装软件包 1|Snowman Media ilxz]
+Icon1=SmM_Helper.exe
+Title1=Snowman Media ilxz
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|标准安装软件包 1|Package]
+PackageFolder=Z:\
+ProjectFolder=Z:\思夏的文档\Snowman Media\Snowman Media  3.0\源文件\源文件
+ServerSideCab=
+File1=Z:\setup.exe
+File2=Z:\Setup.Lst
+File3=Z:\SmM_Helper.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

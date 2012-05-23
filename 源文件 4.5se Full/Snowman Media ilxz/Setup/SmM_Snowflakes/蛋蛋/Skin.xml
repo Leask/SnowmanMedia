@@ -1,0 +1,82 @@
+title  = "µ°µ°"
+artist = "Leask"
+info   = "Ô²Ô²µÄ..."
+
+<SkinObject CLASS="form"
+ kind=caption
+>
+    <SkinObject CLASS="body"
+       left=0 top=0
+       Background="Egg.bmp"
+       opacitymap="Egg-mask.bmp"
+    >
+    </SkinObject>
+
+    <SkinObject CLASS="all"
+       left=180 top=45
+       kind=border
+       BackgroundRect="Egg.bmp" 180 45 207 60
+       OnLButtonDown = "fireevent OnClickLogo"
+       OnMouseIn = "stop object ; MorphToRect Egg-active.bmp 180 45 207 60 3000 ;
+         spawn A OnMouseIn ; spawn B OnMouseIn ;
+         spawn C OnMouseIn ; spawn F OnMouseIn ;
+         wait 400;
+         spawn A OnMouseOut ; spawn B OnMouseOut ;
+         spawn C OnMouseOut ; spawn F OnMouseOut "
+       OnMouseOut = "stop object ; MorphToRect Egg.bmp 180 45 207 60 3000 ;
+         spawn A OnMouseOut ; spawn B OnMouseOut ;
+         spawn C OnMouseOut ; spawn F OnMouseOut "
+    >
+	</SkinObject>
+
+    <SkinObject CLASS="B"
+       kind=border
+       left=32 top=44
+       BackgroundRect="Egg.bmp" 32 44 45 58
+       OnLButtonDown = "fireevent OnClickA"
+       OnMouseIn = "stop object ; MorphToRect Egg-active.bmp 32 44 45 58 500 "
+       OnMouseOut = "stop object ; MorphToRect Egg.bmp 32 44 45 58 2000 "
+    >
+    </SkinObject>
+
+    <SkinObject CLASS="C"
+       kind=border
+       left=26 top=64
+       BackgroundRect="Egg.bmp" 26 64 39 76
+       OnLButtonDown = "fireevent OnClickB"
+       OnMouseIn = "stop object ; MorphToRect Egg-active.bmp 26 64 39 76 500"
+       OnMouseOut = "stop object ; MorphToRect Egg.bmp 26 64 39 76 2000"
+    >
+	</SkinObject>
+
+    <SkinObject CLASS="F"
+       kind=border
+       left=32 top=84
+       BackgroundRect="Egg.bmp" 32 84 45 98
+       OnLButtonDown = "fireevent OnClickC"
+       OnMouseIn = "stop object ; MorphToRect Egg-active.bmp 32 84 45 98 500"
+       OnMouseOut = "stop object ; MorphToRect Egg.bmp 32 84 45 98 2000"
+    >
+	</SkinObject>
+
+    <SkinObject CLASS="A"
+       kind=border
+       left=188 top=65
+       BackgroundRect="Egg.bmp" 188 65 208 77
+       OnLButtonDown = "fireevent OnClickD"
+       OnMouseIn = "stop object ; MorphToRect Egg-active.bmp 188 65 208 77 500"
+       OnMouseOut = "stop object ; MorphToRect Egg.bmp 188 65 208 77 2000"
+    >
+	</SkinObject>
+
+    <SkinObject CLASS="close"
+       left=45 top=22
+       kind = close
+       BackgroundRect="Egg.bmp" 45 22 59 36
+       OnMouseIn = "stop object ; MorphToRect Egg-active.bmp 45 22 59 36 500"
+       OnMouseOut = "stop object ; MorphToRect Egg.bmp 45 22 59 36 2000"
+    >
+	</SkinObject>
+
+</SkinObject>
+
