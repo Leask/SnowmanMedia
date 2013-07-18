@@ -1,0 +1,224 @@
+title = "Yellow"
+artist = "Leask"
+info   = "像小女孩的手拍."
+
+<SkinObject CLASS="form"
+>
+    <SkinObject CLASS="top_edge"
+      align=top
+      height=27
+    >
+        <SkinObject CLASS="for_menu"
+          align=left
+          kind = "sysmenu"
+          BackgroundRect = "paper.bmp" 0 0 25 27
+          OnMouseIn = "stop object ; Goto - OnMyMouseIn"
+          OnMyMouseIn = "MorphToRect paper-active.bmp 0 0 25 27 2000"
+          OnMouseOut = "stop object ; MorphToRect paper.bmp 0 0 25 27 400"
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=left
+          width=60%
+          kind = "caption"
+          BackgroundRect = "paper.bmp" 25 0 29 27
+          >
+             <SkinObject
+               left=0 top=4 right=100% bottom=20
+               kind=title
+               BackgroundRect = "paper.bmp" 25 4 29 20
+             >
+             </SkinObject>
+        </SkinObject>
+
+        <SkinObject 
+          align=left
+          kind=close
+          BackgroundRect = "paper.bmp" 218 0 243 27
+          OnMouseIn = "stop object ; MorphToRect paper-active.bmp 218 0 243 27 2000"
+          OnMouseOut = "stop object ; MorphToRect paper.bmp 218 0 243 27 400"
+        >
+        </SkinObject>
+
+        <SkinObject class = "right appendix"
+          align=bottom
+          height=7
+          >
+            <SkinObject class = "right corner"
+              align=right
+              kind = "topright"
+              BackgroundRect = "paper.bmp" 313 20 320 27
+              >
+            </SkinObject>
+            <SkinObject class = "top"
+              align=client
+              kind = "top"
+              BackgroundRect = "paper.bmp" 243 20 247 27
+              >
+            </SkinObject>
+        </SkinObject>
+    </SkinObject>
+
+
+    <SkinObject CLASS="bottom_edge"
+      align=bottom
+      height=7
+    >
+        <SkinObject 
+          align=left
+          kind = "bottomleft"
+          BackgroundRect = "paper.bmp" 0 193 8 200
+          >
+        </SkinObject>
+
+        <SkinObject 
+          align=right
+          kind = "bottomright"
+          BackgroundRect = "paper.bmp" 313 193 320 200
+          >
+        </SkinObject>
+
+        <SkinObject
+          align=client
+          kind = "bottom"
+          BackgroundRect = "paper.bmp" 8 193 12 200
+          >
+        </SkinObject>
+    </SkinObject>
+
+    <SkinObject 
+      align=left
+      kind = "left"
+      BackgroundRect = "paper.bmp" 0 28 7 32
+      >
+    </SkinObject>
+
+    <SkinObject 
+      align=right
+      kind = "right"
+      BackgroundRect = "paper.bmp" 313 28 320 32
+      >
+    </SkinObject>
+
+    <SkinObject CLASS = "client"
+      align=client
+      kind = "client"
+      BackgroundRect = "paper.bmp" 159 82 187 109
+      >
+    </SkinObject>
+
+</SkinObject>
+
+
+
+
+
+
+<SkinObject CLASS="control"
+>
+
+    <SkinObject CLASS="caption_left"
+      left = 0 top = 0
+      kind = "caption"
+      backgroundRect = "paper.bmp" 16 140 19 146
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="caption"
+      left = 3 top = 0 right = 50%
+      kind = "caption"
+      backgroundRect = "paper.bmp" 19 140 23 146
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="caption_right"
+      left = 50% top = 0 
+      kind = "caption"
+      backgroundRect = "paper.bmp" 48 140 52 146
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="top"
+      left = 50%+4 top = 3 right=100%-3
+      kind = "top"
+      backgroundRect = "paper.bmp" 52 143 56 146
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="top_right"
+      left = 100%-3 top = 3 right=100%
+      kind = "topright"
+      backgroundRect = "paper.bmp" 81 143 84 146
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="left"
+      left = 0 top = 6 bottom=100%-3
+      kind = "left"
+      backgroundRect = "paper.bmp" 16 147 19 150
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="right"
+      left = 100%-3 top = 6 bottom=100%-3
+      kind = "right"
+      backgroundRect = "paper.bmp" 16 147 19 150
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="bottom"
+      left = 3 right = 100%-3 top=100%-3
+      kind = "bottom"
+      backgroundRect = "paper.bmp" 23 169 26 172
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="bottom_left"
+      left = 0 top=100%-3
+      kind = "bottomleft"
+      backgroundRect = "paper.bmp" 16 169 19 172
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="bottom_right"
+      left = 100%-3 top=100%-3 
+      kind = "bottomright"
+      backgroundRect = "paper.bmp" 81 169 84 172
+      >
+    </SkinObject>
+
+    <SkinObject CLASS="client"
+      kind=client
+      left = 3
+      top = 6
+      right = 100%-3
+      bottom = 100%-3
+      opacity=255
+    >
+    </SkinObject>
+
+</SkinObject>
+
+<SkinObject link="control" CLASS="TMemo" > </SkinObject>
+<SkinObject link="control" CLASS="TButton" > </SkinObject>
+<SkinObject link="control" CLASS="TEdit" > </SkinObject>
+<SkinObject link="control" CLASS="TListBox" > </SkinObject>
+<SkinObject link="control" CLASS="TTreeView" > </SkinObject>
+<SkinObject link="control" CLASS="TPanel" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderTextBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5TextBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderCommandButton" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5CommandButton" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderCheckBox" > </SkinObject>
+<SkinObject link="control" CLASS="ThunderRT5CheckBox" > </SkinObject>
+
+<SkinObject link="control" CLASS="SysListView32" > </SkinObject>
+<SkinObject link="control" CLASS="SysTreeView32" > </SkinObject>
+<SkinObject link="control" CLASS="Button" > </SkinObject>
+<SkinObject link="control" CLASS="SysListView32" > </SkinObject>
+<SkinObject link="control" CLASS="Edit" > </SkinObject>
+<SkinObject link="control" CLASS="Static" > </SkinObject>
+<SkinObject link="control" CLASS="ListBox" > </SkinObject>
+
+

@@ -1,0 +1,59 @@
+Type=Exe
+Module=mVFW; VFW.bas
+Module=mCmnDlg; CmnDlg.bas
+Form=Main.frm
+Module=mCapApp; CapApp.bas
+Module=mApiDecs; ApiDecs.bas
+Module=mACM; ACM.bas
+Form=CapVid.frm
+Form=CapFrame.frm
+Form=Alloc.frm
+Form=Prefs.frm
+Form=CapPal.frm
+IconForm="frmMain"
+Startup="frmMain"
+HelpFile=""
+Title="S.m.M. Video Capturer"
+ExeName32="SmM_Capturer.exe"
+Command32=""
+Name="Snowman_Media_Video_Capturer"
+HelpContextID="0"
+Description="Snowman Media Video Capturer"
+CompatibleMode="0"
+MajorVer=2
+MinorVer=76
+RevisionVer=2019
+AutoIncrementVer=1
+ServerSupportFiles=0
+VersionComments="Snowman Media Video Capturer"
+VersionCompanyName="H2O Networks"
+VersionFileDescription="Snowman Media Video Capturer"
+VersionLegalCopyright="Copyright (C) 2000-2003 H2O Networks"
+VersionLegalTrademarks="Snowman Media"
+VersionProductName="Snowman Media Video Capturer"
+CondComp="USECALLBACKS = 1"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=-1
+BoundsCheck=-1
+OverflowCheck=-1
+FlPointCheck=-1
+FDIVCheck=-1
+UnroundedFP=-1
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+DebugStartupOption=0
+
+[RVB]
+DeleteClass1=frmMain
+DeleteClass2=MemCap
+DeleteClass3=frmAlloc
+DeleteClass4=Form2
+
+[MS Transaction Server]
+AutoRefresh=1

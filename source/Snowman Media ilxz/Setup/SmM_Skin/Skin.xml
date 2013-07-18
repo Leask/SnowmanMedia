@@ -1,0 +1,242 @@
+title = "Snowman Media ilxz"
+artist = "Leask"
+info   = "Wellcome to Snowman Media"
+
+
+
+
+
+<SkinObject CLASS="form"
+  kind=Border
+  backalign=tiled
+>
+        <SkinObject
+          left=20%+0
+          top=20%+0
+          width=7
+          height=25
+          kind=Border
+          align=top
+          backalign=tiled
+          bgcolor=12820148
+        >
+                <SkinObject
+                  width=9
+                  kind=TopLeft
+                  BackgroundRect=Snowman.bmp 0 0 9 25
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=7818317
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=MinButton
+                  BackgroundRect=Snowman.bmp 9 0 21 25
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=1251295
+                  OnMouseIn = "stop object ; MorphToRect Snowman-active.bmp 9 0 21 25 50 "
+                  OnMouseOut = "stop object ; MorphToRect Snowman.bmp 9 0 21 25 50 "
+                >
+                </SkinObject>
+
+                <SkinObject
+                  left=365
+                  width=35%+0
+                  kind=Border
+                  align=right
+                  backalign=tiled
+                  bgcolor=6182342
+                >
+                        <SkinObject
+                          kind=Left
+                          BackgroundRect=Snowman.bmp 110 0 140 25
+                          OpacityMapRect=Snowman-mask.bmp 31 0 61 25
+                          align=left
+                          backalign=tiled
+                          transparency=0%
+                          bgcolor=5517405
+                        >
+                        </SkinObject>
+
+                        <SkinObject
+                          kind=TopRight
+                          BackgroundRect=Snowman.bmp 190 0 200 25
+                          OpacityMapRect=Snowman-mask.bmp 111 0 121 25
+                          align=right
+                          backalign=tiled
+                          transparency=0%
+                          bgcolor=13065606
+                        >
+                        </SkinObject>
+
+                        <SkinObject
+                          kind=Border
+                          BackgroundRect=Snowman.bmp 180 0 185 25
+                          OpacityMapRect=Snowman-mask.bmp 80 0 85 25
+                          align=client
+                          backalign=tiled
+                          transparency=0%
+                          bgcolor=7233988
+                        >
+                        </SkinObject>
+
+                </SkinObject>
+
+                <SkinObject
+                  kind=MaxButton
+                  BackgroundRect=Snowman.bmp 21 0 31 25
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=9069838
+                  OnMouseIn = " stop object ; MorphToRect Snowman-active.bmp 21 0 31 25 50 "
+                  OnMouseOut = "stop object ; MorphToRect Snowman.bmp 21 0 31 25 50  "
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Close
+                  BackgroundRect=Snowman.bmp 31 0 46 25
+                  align=left
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=2430707
+                  OnMouseOut = "stop object ; MorphToRect Snowman.bmp 31 0 46 25 50  "
+                  OnMouseIn = "stop object ; MorphToRect Snowman-active.bmp 31 0 46 25 50  "
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Caption
+                  BackgroundRect=Snowman.bmp 53 0 58 25
+                  align=client
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=11113987
+                >
+                        <SkinObject
+                          left=20%+0
+                          top=2
+                          right=80%+0
+                          width=50%+0
+                          height=14
+                          kind=Title
+                          BackgroundRect=Snowman.bmp 59 2 65 16
+                          backalign=tiled
+                          transparency=0%
+                          color=12632256
+                          bgcolor=12820148
+                        >
+                        </SkinObject>
+
+                </SkinObject>
+
+        </SkinObject>
+
+        <SkinObject
+          left=20%+0
+          top=20%+0
+          bottom=80%+0
+          width=15
+          kind=Border
+          align=left
+          backalign=tiled
+          bgcolor=13156034
+        >
+                <SkinObject
+                  kind=Border
+                  BackgroundRect=Snowman.bmp 0 25 15 50
+                  OpacityMapRect=Snowman-mask.bmp 0 25 15 50
+                  align=top
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=7045840
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=BottomLeft
+                  BackgroundRect=Snowman.bmp 0 84 15 93
+                  OpacityMapRect=Snowman-mask.bmp 0 72 15 81
+                  align=bottom
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=4037643
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Left
+                  BackgroundRect=Snowman.bmp 0 48 15 58
+                  OpacityMapRect=Snowman-mask.bmp 0 50 15 60
+                  align=client
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=8553397
+                >
+                </SkinObject>
+
+        </SkinObject>
+
+        <SkinObject
+          left=423
+          top=20%+0
+          bottom=80%+0
+          width=7
+          kind=Border
+          align=right
+          backalign=tiled
+          bgcolor=851561
+        >
+                <SkinObject
+                  kind=BottomRight
+                  BackgroundRect=Snowman.bmp 193 83 200 93
+                  align=bottom
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=15097034
+                >
+                </SkinObject>
+
+                <SkinObject
+                  kind=Right
+                  BackgroundRect=Snowman.bmp 193 30 200 44
+                  align=client
+                  backalign=tiled
+                  transparency=0%
+                  bgcolor=10474716
+                >
+                </SkinObject>
+
+        </SkinObject>
+
+        <SkinObject CLASS="botom"
+          left=20%+0
+          top=430
+          right=80%+0
+          height=6
+          kind=Bottom
+          BackgroundRect=Snowman.bmp 25 87 33 93
+          align=bottom
+          backalign=tiled
+          transparency=0%
+          bgcolor=1155167
+        >
+        </SkinObject>
+
+        <SkinObject CLASS="client"
+          kind=Border
+          BackgroundRect=Snowman.bmp 59 27 70 32
+          align=client
+          backalign=tiled
+          transparency=0%
+          bgcolor=9454326
+        >
+        </SkinObject>
+
+</SkinObject>
+
